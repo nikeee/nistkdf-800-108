@@ -1,0 +1,33 @@
+{
+  "name": "nistkdf-800-108",
+  "version": "1.1.0",
+  "description": "A pure Node.js implementation of the NISTKDF-800-108.",
+  "main": "src/index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "ci": "biome ci ./src",
+    "lint": "biome lint ./src",
+    "format": "biome format --write ./src && biome lint --write ./src && biome check --write ./src"
+  },
+  "keywords": [
+    "nistkdf-800-108",
+    "hmac",
+    "nistkdf",
+    "kdf"
+  ],
+  "author": "Niklas Mollenhauer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikeee/nistkdf-800-108.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nikeee/nistkdf-800-108/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "expect": "^29.7.0"
+  }
+}

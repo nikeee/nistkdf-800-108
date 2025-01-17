@@ -1,0 +1,4246 @@
+[
+	{
+		"prf": "HMAC_SHA256",
+		"counterLocation": "BEFORE_FIXED",
+		"rLen": 8,
+		"tests": [
+			{
+				"COUNT": 0,
+				"L": 128,
+				"KI": "3edc6b5b8f7aadbd713732b482b8f979286e1ea3b8f8f99c30c884cfe3349b83",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "98e9988bb4cc8b34d7922e1c68ad692ba2a1d9ae15149571675f17a77ad49e80c8d2a85e831a26445b1f0ff44d7084a17206b4896c8112daad18605a",
+				"KO": "6c037652990674a07844732d0ad985f9"
+			},
+			{
+				"COUNT": 1,
+				"L": 128,
+				"KI": "7982197d3b7d7922071f586c943354f0589bb64ab3d9713b0b0f90372951868b",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "3adf1ca9c0ab28fdfd6ed974ea729354322e6e7e0713f38e4495ea698a7f0a77d2a6f98665830de2e3b2dcf84eba48d26dfedb8cede3a6f567882c58",
+				"KO": "fdf1846f881aadba8dc7b9c48f36e002"
+			},
+			{
+				"COUNT": 2,
+				"L": 128,
+				"KI": "33fbba401dbce7dfa1e5835150cc98d30a7b4214b3af63a8eb59facc85b09ef7",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "ba599c7d8a6dcea3657bbda3d332d368664a0d15a67c3484290a1fcc83af6affffb6053e88ddfd5a2aa3a03193814c402a6413e74bc26b0a167d9725",
+				"KO": "b3c2ab8bcd04bd9916b16b3b601915eb"
+			},
+			{
+				"COUNT": 3,
+				"L": 128,
+				"KI": "5ddd79f7b33f1f4a6dd57c34a8eec42e0c81eb9e5be40ad59db068709200b6d4",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "f8060afea468c356c3364ccca01fe157a4c4f01d89482c9a74a1e34bea77636f20965dc0e768a38e6b9dae0f8bddb6e0fe748736d849864acc0682c3",
+				"KO": "26f6540c428fc1f5c08c13a648d8e9a0"
+			},
+			{
+				"COUNT": 4,
+				"L": 128,
+				"KI": "223f9ba1d4885bc4a0df5549b28d26414c6bfe61e982a891ca5d6fbaae7b0108",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "e1aa268c16ba71dcc9447904eff798fe26ddf67874d1d22cb7a79046f285822787fb7cac02e07735c7e5a497707278c56465dda856bcfbbe39855f2e",
+				"KO": "1499b202edeb2c57dba902d9bd3ad206"
+			},
+			{
+				"COUNT": 5,
+				"L": 128,
+				"KI": "bf0d5b1963b78624083c26dfe35930429a01b48819ea6a4c7934ea07b74e8a5a",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "3f56ea9141ec5e93dcce40ea242dbb210ea3bff58170897e1077d1f9db0f799c1c5fc8ee533f69854be3da39088a7d2ea98934f48c143f89d004a158",
+				"KO": "7f14cacc1d0f1601ef12375b7ac5fa7f"
+			},
+			{
+				"COUNT": 6,
+				"L": 128,
+				"KI": "55515c8112c17184e8cf2b86c4b90d2215df43841314db60f36050024c7f74fe",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "63590aa2858ca602ef85a5fca1aa9f0ec2cc1a101bff6ef7e43fb65af555e7ba07ef2573d4eaad63d262f3208ed232e0b3bf8e3d993b62aea484947c",
+				"KO": "0e9e55e6087a34f814ed4eba8da8471b"
+			},
+			{
+				"COUNT": 7,
+				"L": 128,
+				"KI": "a3bd468ecb9bd6accff706aa863a280731ab0bf0cfce80c65dde279c2f4cef71",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "8c56ec74c2ef1943c5bf38300182a2ce8072704bd87b69c405227565d9f30f2198eee494200a0ebff1938657f26771e8e8debef74615ab52264286e8",
+				"KO": "9909445277d868b4e45461ec1204972e"
+			},
+			{
+				"COUNT": 8,
+				"L": 128,
+				"KI": "c98cfa6c8456b28dd5ac63940bc2872e54173e416ec28809a2c6d102fa3e1e7e",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "8de88bf1f5b9da1d871d6b0b46f974cf2c1892f79c4a9e3085bc79e2586d11a71d301226a05bbdc3872c4a9c3dda607d8523e00bdb20abc94d25f39d",
+				"KO": "341f9ada09b9fe32adfca709d0f61efd"
+			},
+			{
+				"COUNT": 9,
+				"L": 128,
+				"KI": "5d9375ee5d123f108e27e6ce0452fd5b574e2eea957b0a8e8907fc1e7d60485c",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "4f2926d1dc28912c81abfd186d182591a916665de583944938245ffd24891cca1fa747ad7efd8e0baf5381989bdd57a77f0327c7d9c45b2a2f7a4000",
+				"KO": "65decd51bf0b20ab6cf1b70efd46293d"
+			},
+			{
+				"COUNT": 10,
+				"L": 256,
+				"KI": "f109513435d72f14863660dfc027118e47e13995ad44a02415c9c8f63d38675c",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "53696208d6f42909136a575010e135e142e31f631d72386a631cc704e5ad4049a889422cd6da7f1805e59a273c6f4fa986bc3082952fca658979f1b0",
+				"KO": "1aaf080fd51b37585ea464a9c617bc3ab859cc78cbe1f2d5d557148ee36821a0"
+			},
+			{
+				"COUNT": 11,
+				"L": 256,
+				"KI": "402df5ada527a4ebc9383eae47731143b11db9111d6f4cc6bef4dc938f4ecf08",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "a7f721845426d006e4015615d29adba1a0386abe55975df4a529fe7309af306a929728fb04a43f73cfed90f8303a634c4b4a6f97a7d16cd727b8009e",
+				"KO": "d0a6a3248c693270008889c23743598973ef3835a271cb1b7e4950ac6b81ad91"
+			},
+			{
+				"COUNT": 12,
+				"L": 256,
+				"KI": "f528d971e7e27298f835cbd2b62a729ab026b93fc1c5e77aa5f154500e9462d6",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "b077ba8c197487949d6cf928082ea7d20038700cd8d7bfa7524f8996f8a889c8dd996387f3de2711f060501e38dff20456242f7c05b6fbafaedb77c7",
+				"KO": "4f0fd4d66edc6081562fe578937fd14b9585ea76e5fce6d4df4ea946af1e416e"
+			},
+			{
+				"COUNT": 13,
+				"L": 256,
+				"KI": "40e9bfe7dd439f13745dcf5bff42d98b827d3e85109c380f541e5b90d7cbcf83",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "76bf1d64b484d1c69056fdb5ab881b81292a6f78459ce2672a3d3b5b86e40aed2835a6df7434b6a775a01c4c125a3217a1131d8164c091733940300a",
+				"KO": "d5bb19daf9ffbf9329fe134c6c6fe1c42c0697ac1d7a3b355851507e1005834c"
+			},
+			{
+				"COUNT": 14,
+				"L": 256,
+				"KI": "4e7003b55b420fc8ab6f2f1a5d51c683c780d19ffba60e164a65614cf459e495",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "e2b135a011332857be52db19c019806888e200d2ccd7741770e4ecc8afbfeae24a4f2acb262ee5199e013302c09fbe98ad9729da9df4240493570f63",
+				"KO": "f2533a7e92895cd7b0dc1665a3d6f875fe42108d751d48255cdda310defc586f"
+			},
+			{
+				"COUNT": 15,
+				"L": 256,
+				"KI": "807c57d2adc3650deb3f72e1ca2a4f3f575538190892ff5f74fb21a4cedf4c76",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "05dc66c40f113a58802bdba0deac3523128762a547479657dfdf422de59fb17a4028f1a7c3c6a43ab7d73a2066e9bb67058c8ebeeb93e98be62acce6",
+				"KO": "cf2fdee7930ea946409426a9c160dd6835fdde43419245fe806a78b5f2f3b4b1"
+			},
+			{
+				"COUNT": 16,
+				"L": 256,
+				"KI": "2de94238cc93b59cef95cb13ef2f09e173dcfa09f24f0777dbd600a6acdf9b4d",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "306e0f0c7c6e7be07c95e38d938d97b518c41f8059ed02b2bf9f86c17b174020badfb3af10cdfda37228cd7def9c6c0ddb8a8c1c402aad098b813bcd",
+				"KO": "1a8c891da78ea36fdad196741fd6b905f89acaf5bfb501461dfc615019214b8c"
+			},
+			{
+				"COUNT": 17,
+				"L": 256,
+				"KI": "89509cf40223e3328c1c86d14d4c1752bf678611dd0d4207387bf3006677fc01",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "3ecab0500c948df54b16a53c2177b31667fe34a9f8ba4f172b6f6d25d19ce6d0bf7341dfae79997c3f9f378664092a3bdfa54d3c8788f494f9eaceda",
+				"KO": "861eec47694dfc349f0311a40453d8980f4fe8310b80e3c8a9144ed93c7620cc"
+			},
+			{
+				"COUNT": 18,
+				"L": 256,
+				"KI": "62af859a27267d13bce237b853588d4110853f831da53037dac30ed48f6f729a",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "150fd4507e4c0e105c67d530e9d7c2fb76ac4b29e91a127ce1e75200fc93bb40ae5b273cc1974067c21010a2f674a66f4f0d563837d9c004f44db2a5",
+				"KO": "ba34cd671ffa2a622814b6c503adbea00ab3db12121ccbeddac43e2bdd0babc7"
+			},
+			{
+				"COUNT": 19,
+				"L": 256,
+				"KI": "1128ccfb5a1f08f418e54030c9ddb893c022dacba92229acd3c829d27f610260",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "4cc11f9bb87f88a5dd2d9abc799f6068e5056ff0066c2fdda41295b75eb186181f4e80b5734dc4db8d518560dafd6a1b8c5bb57236f610f13a3c33df",
+				"KO": "1a146f7a59645207db96d3434f60bb4d73588ab0a66b49187e15376b5d9409a3"
+			},
+			{
+				"COUNT": 20,
+				"L": 160,
+				"KI": "6ed1b41a1fc2ca8c7e09d5bccc410661683ec29d41a0fd01dd820a2e824ff672",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "f6dc72adbd8ad4ea91259b61237a042a02546f37d58d933d3efadc54a5e1936a8faf70c33e707c473125bd5006b7dfa6883c04bf27cf53010e1d10bc",
+				"KO": "4090ee711fa361f03267a6ff2a5ace977c8c1db5"
+			},
+			{
+				"COUNT": 21,
+				"L": 160,
+				"KI": "caef88ff6fb2d6729a24545080b1ba83a6870d61c4fa578a27bd010016178f5f",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "2d4e1f49124a7d62ddfe711c08001b673ca548297ba67539b7bcaa6278011277432a05ca4cf98d94a5b40a07d8e533a543ad8290567089503cb77e9e",
+				"KO": "d4da3eb3b008f29006ae3abd47cde338ab9a9c69"
+			},
+			{
+				"COUNT": 22,
+				"L": 160,
+				"KI": "370fe5382769bf5ab91d32a4be37716065722bdee2f5f7f46d8211cb01b7acd7",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "9fbc97d807b1404f714aed194322369a2a05da2fc1ab4e710087f126666b1b2ef5a798305f5d53f3f88ad3677c29bd4ed339bd35825a83837ac9cbd5",
+				"KO": "f2e5266bf70bf7174b806c2315f837c9577a5a9a"
+			},
+			{
+				"COUNT": 23,
+				"L": 160,
+				"KI": "19c4948bc6a99d92d21df268833003ad89e7c09f080e6ed794bea5cfde9ff5f8",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "35efa4ccf19b3531f0d108baf79b4c623beed98b95c24af83789514a89620487189b42a37029ffd047c7a2d1b4acef48fe07d5fa493282fa62e86f1b",
+				"KO": "d0a0248c7950f142c5494e3be06e46ab00539538"
+			},
+			{
+				"COUNT": 24,
+				"L": 160,
+				"KI": "bead30a1b5ec7a947556b41c34f80739116637e167c8fefcb001ea60a49a6a7a",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "3d3465d35843c9c3dc08e9657abd739546d419eef32b385f515dadfb061e9ec4c995affd10c6ab84408a7751a9f93a1b7db260628f7042177271a8ef",
+				"KO": "19d09a3ac288016331842bc7cf529ceaed10140b"
+			},
+			{
+				"COUNT": 25,
+				"L": 160,
+				"KI": "ee69c3f72eed2643e885be762641e15b88c51f4717f3ccedfd44a59fab94a850",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "3b4740a48d5c4bd177aa2295ae9f52ff62ebdcefd698bc648103b06516a44b653b57870594fdc73631f14b5ebaeab59a948c1292f65615541e9a9d38",
+				"KO": "5c07fc0d6b7192afd1a330b10c5c79ab4a8f52be"
+			},
+			{
+				"COUNT": 26,
+				"L": 160,
+				"KI": "e072e8a43937693b6f8af83b212e312dac428b4d02573b430009e0830e27e0e2",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "9b62a8180c43ff8fc69cbef76e223c70dc7d74772f6d7da73a83e869b4c0d36605c0152c8a5219b467b27ac5ae41d2a504265179ff0ce5384166502a",
+				"KO": "ad2aa48c56632e95fe7f4a9b1fb5bb0cf873cf70"
+			},
+			{
+				"COUNT": 27,
+				"L": 160,
+				"KI": "3022afc567972acd8cd57d43a1bcb0b53b300266c0b44bcb9adf4f00d69d003b",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "ba6d0c8ee0e7e4a4381715e108ab196b18d97b76e87d7e2b66082fad1159d9268f86ab584ffd652ba17c69dd8d070426c0d0dd5cd32751b07b93321a",
+				"KO": "ec868014a2eb4ffa1cd0cc9f1028f4f5f350cb71"
+			},
+			{
+				"COUNT": 28,
+				"L": 160,
+				"KI": "6c1e524e527fa92a244ebb84a03d085b34ab0b3e4e6d9ffa239bbfb6c0ad5d34",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "391de11fd949d55240a4f28aafd1ec63c1daa13c1647d3bb49bc9220454c691522ad948b97e20e2fbc938d881807440edfe9f52e4374fa2234d0eec2",
+				"KO": "05750663576ec66ab75db56e60637496d0133b77"
+			},
+			{
+				"COUNT": 29,
+				"L": 160,
+				"KI": "1073b54befe0c7aa54384028312ab6da021464e95aecb7461f75f8a964287ffa",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "b47f38f411bc205b52c2dff30d289a8867a6559985fa671c6f3d22e8afc7a20ddf853ea34921872ed3d50d8ca41c1b1ef94019aaea84a57b7b6f82c1",
+				"KO": "023f207d524acbf215d84a09937a2ef5742ef6cd"
+			},
+			{
+				"COUNT": 30,
+				"L": 320,
+				"KI": "63a657fb6c5bacb9a124d3e7db8bbb7d42bfdfaf8f04cb6359cd888c70669652",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "2697b6ec112cab4d6f1714c991c17d44fb36a0b6ef0b0f5451619ab248950f56f403215c78711aa563683ced05be7246f32574fa294f162dbbeb3dee",
+				"KO": "1992e75756fa64734d5caecc5f6420fcb28b8b90421eee97dc8b6140ce18518405688bea489d2aaa"
+			},
+			{
+				"COUNT": 31,
+				"L": 320,
+				"KI": "a82ea287361e41bcd7083131cfc8ca366e27a01f848b7d191d9d86d7a30249b4",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "13182df18048514c71332208c7d1bbb3bc56c44e747864b6e7feb1c9508ec4c44ddd27b2c3d2e4b720f52dcda157a7505329e795136785b33f7ed9a3",
+				"KO": "9cc5fc3aafaa198f95ab83f031f8e5d681d9cb9dc6c3f7c9e436fc27dfda1a01da4789f611f8f988"
+			},
+			{
+				"COUNT": 32,
+				"L": 320,
+				"KI": "509d2d97f186fe96e911c2f0db4048f14417e696d3b03973e935dbb11b7239a8",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "fde5117995b72d66e6e061dc1dda0f6613741d4fb5815b1c6f369cd1dab7ac3eeb3608e9306082ac943a9963a2ba831f7a8877c5b95256eca45a088c",
+				"KO": "30aa29a438fdc5ac4bd13f3da575559522236e1426847538af4557a31152e5ffdc2372bc6dfd3584"
+			},
+			{
+				"COUNT": 33,
+				"L": 320,
+				"KI": "56ef41de36039c1e3a86d715277b174e86b7127df2ac626983df8e8f2956f844",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "5fcad512f905c0e9f37fe563d025def06827c56f42c07f31478d368d670af8fe6f522c90fa1e910fc596303256a2f0376a7f4ef5c26d432b48267e0a",
+				"KO": "3012e18cc022be588a38dc317d2794d7c06b38adacbfb3b45322d2969d7248d0a43310c014c846fc"
+			},
+			{
+				"COUNT": 34,
+				"L": 320,
+				"KI": "5f1b6bd91092ea8e28da671540862a395d5c790bbd04c42c55858628f72b8416",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "9f683f3527a5f679c2065560236f336e832164870b9ee194ad3cf9edccbb0123760bd1557423a206351990ac86e97edaa4dc27ec6d6bc7c95148860e",
+				"KO": "70be1f5fdfcca13983211e4aeeb4710ed37a6be19d38a36952102c3b7fcd97b79b361d258f460ff5"
+			},
+			{
+				"COUNT": 35,
+				"L": 320,
+				"KI": "e2cafd14af5226314d305c084938ea9475f07135b193a1166b0e9ba786d5ff83",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "d48ef8612530a5696df7e3f9397d80e68d2f49c370ba597672e4c85e02edd0d1b1cdff52f9fcbbab4f08eae629bc7d865509b28f3145f25a6669033a",
+				"KO": "39eeef5107456759284ad89376754e8ff886d461683bd89581ce4a0866731aef84ec94d7da2af70f"
+			},
+			{
+				"COUNT": 36,
+				"L": 320,
+				"KI": "a51e839e5645e2fbb1ddd71868703281701bf3ec08c27349fa0dcb0f5b7634e3",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "421c3b3077fcc400bf91933d67fa290bd023a160bb59aa8ba236b622155b6164bc517962a4e14d58c8ae4b542cee2b0e0126d11036585471ffd98150",
+				"KO": "34575b26e728c5082769fa3d9116e895bb51b3a416da62793bb11f5806813c52b704004b79dc3b52"
+			},
+			{
+				"COUNT": 37,
+				"L": 320,
+				"KI": "c0cf24b610d4c75bdfb01d27d9b5e75cdfec6337415d10b1f61b0713353314c2",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "3d14c41728d69ae367140d9d7f122db072106ff0bf3840970457cd6d995c580e5b9bf377540e10d7bf83b6fc4dadd6c65bd43b45073701df0cda1a5d",
+				"KO": "b25c54cd5302a85cfd3154fe2bef3c9d724da2e82cf44c1b2d873be7f695394f53d46e6f3cf93af5"
+			},
+			{
+				"COUNT": 38,
+				"L": 320,
+				"KI": "f57f1fb790c4987b25819791d2ba33bd02b958c7c815f53b69a8e17fa6fc6c39",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "fafcc559a0ae6368978714ab76f40b861d640f1c0975e8f7b5534a91aec1f26513a3dd15fdf786e7464a066d482eaa2a00a65768f07e88e196f37109",
+				"KO": "1b5dfbab05ac5afda465391f9211bad1f67474491e33e0196a88b23f5ce72d6f37c40d27cef969f8"
+			},
+			{
+				"COUNT": 39,
+				"L": 320,
+				"KI": "8c4539923a85f791959707de74637f8698edc930a0f4d501a359355b3ff284f8",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "ede788c1fa53a9dfe53cb74299fcfddc85985a00d9c1bd02e1017e5341cbf567cb3d2669f3e0244a013c8165cd0bb322eba9b5fca4418eee4e4366d2",
+				"KO": "7e0750a972bb472af32d3bc4981f4d40d7d7badb21ce618bafe049c5a4335b6a85e87bf8af4351f9"
+			}
+		]
+	},
+	{
+		"prf": "HMAC_SHA256",
+		"counterLocation": "BEFORE_FIXED",
+		"rLen": 16,
+		"tests": [
+			{
+				"COUNT": 0,
+				"L": 128,
+				"KI": "743434c930fe923c350ec202bef28b768cd6062cf233324e21a86c31f9406583",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "9bdb8a454bd55ab30ced3fd420fde6d946252c875bfe986ed34927c7f7f0b106dab9cc85b4c702804965eb24c37ad883a8f695587a7b6094d3335bbc",
+				"KO": "19c8a56db1d2a9afb793dc96fbde4c31"
+			},
+			{
+				"COUNT": 1,
+				"L": 128,
+				"KI": "a52b4b9386f3196e2de55ceb4602a67bf286f2327b7e98c1d06c97a60ded8286",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "01f0d5b353979ddaa19271c9c6a28ea2e89fbb90c11077a43356a288e996ff52e9e344d6bec9a23ba44d275d25726cef871f85475515f6dfe183cba5",
+				"KO": "f0f20a0746958420fe970532465cda52"
+			},
+			{
+				"COUNT": 2,
+				"L": 128,
+				"KI": "fa3022497f4a88fe26ce96c275396bf902c21cf00a48c8a4b5317e97f28c3356",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "9b5e56e4026ed08582a3da3fa50423256c5ed1f0f5cf739463913eb0035bb8ecb983bcb448f2aa6e1c179d6fb9bf9c2b577f88b16abb5a29e85591f2",
+				"KO": "ff4666c21248493338720ae6a53ba0f5"
+			},
+			{
+				"COUNT": 3,
+				"L": 128,
+				"KI": "e78ac5ed75f79a081b83bfe1acf2d6d7256cefd7c498fbec528759e9acd4863e",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "d22b86db0d6a6cd522cb06e64d01e833b5832b010723b9b092713cec7cb7e393dacf40826cabce2b65e7ee491bf0be2f4707065b39d34c4a450ae5d2",
+				"KO": "1b8fd3b094e88e2df070477d0cd7630c"
+			},
+			{
+				"COUNT": 4,
+				"L": 128,
+				"KI": "51cce174eb64d4a6743a3df3ecdf44455c99703f06c51807ef3ebd55a8652cd2",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "b802fee9b8de75d182bc323f07ed886130cf997eb3934166fe0991d028b8fa4c3ca3f3a612978d4a44161675abb2a6d2e37893ee6d28e308e40b7fa7",
+				"KO": "83fcd9445fd5d1be69ee34be23a6a90b"
+			},
+			{
+				"COUNT": 5,
+				"L": 128,
+				"KI": "1f179c078e8f055af27e40f7c97903142271dd02c577f6a0ea72a56a75570976",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "87b8aa19483b82a03e1b505942260861d74513f47662c97dfe349bfebcabc109bf2499bf93de067ab18f6facc8e3a7f5dd617092e1dab3f6885a9aa0",
+				"KO": "ad13fec463a16455aec8f79dce64b3db"
+			},
+			{
+				"COUNT": 6,
+				"L": 128,
+				"KI": "110b28e40668bd5e2760006d3025c286dbb339915d3ae06ad623f7aedba756bb",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "d0c83afbb54522c21dd29775715d6cbb74a0b34d7d143029602fe8507936f8bc3b7f12ca6005d1f9b513491f9f3d2dc8e0f4b7828f9367395db9dd85",
+				"KO": "84bc857a6fcfa1dbcb6f1840917d08fd"
+			},
+			{
+				"COUNT": 7,
+				"L": 128,
+				"KI": "84b5b450de2b6779557053d94a0423a5cd149bca2df969ecdc36086cce51e3b0",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "e9f57446bfabb4a3fb340b86df0f00d284c4b0519324978cfa73cb6c0d8f6a9d36ddc3a823d529b9827047530238c63d10c2a612ea411e1dd46ea392",
+				"KO": "e6f8b65a5279f4fca0f2af6537e34a5c"
+			},
+			{
+				"COUNT": 8,
+				"L": 128,
+				"KI": "0e991b892aa0bddf081037ff512f20aef48ab6b1a2cfbeeb8bc7ab52245fbf59",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "3a787fa102f9308ff634261dc71787322157366082061c2c0dd863c32ba2388f6e59a6dabc67e5e5990c0b926deb610c37dba5f6d5ec7abc0fae33c3",
+				"KO": "cfa9981b5639db908d06a47b12efd08e"
+			},
+			{
+				"COUNT": 9,
+				"L": 128,
+				"KI": "6846524dd4a9cf7f66bd4a7693284f737b8f4637e8c45466296da639e92ba806",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "b4e994fcbfee2f408707ca6d04dda26ca9eb69de26fa13740e3b2e74ca7e9210685be5fcf22e7a60bc959aed4c291656bf114d2a8110a5d899a50f23",
+				"KO": "5b6b9376400795746ee42392a8648faf"
+			},
+			{
+				"COUNT": 10,
+				"L": 256,
+				"KI": "365592398d23d31f2cac8bf6211f1ad5f52608efcdc5997b144ea6ded3866cf6",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "07dce524556d3f68d2d91d4c15c9c6212635e0df1aef54938490db46f98737064d6a5624d7f938c263af01e632c45d9fe7a871b67f7d4bf110796eb4",
+				"KO": "5624c6911dc1b08e090c8c95347adf17895b696aae211932cde3ec8227fcbea8"
+			},
+			{
+				"COUNT": 11,
+				"L": 256,
+				"KI": "1ad4c51db0a5797c9a6456b3ec74df7a3a66f53d2a7e8a42ed6f565ba45096b4",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "ff90b7427b0407929d569738eeb9a1fc270bb006703b441d8a4436bb55195967ec41aaae1fb27cb6cf986647a0cf541de7d74db3ef67c6557cdea5c8",
+				"KO": "21e890ea8691756cfc9f24f85b291b3aa3fea0761aa734d1677326eaf4e3705e"
+			},
+			{
+				"COUNT": 12,
+				"L": 256,
+				"KI": "6c7c786c426928bb6a2341228308a1d6ec7bf0a0ce71f75d529e6aa5b62e6ed3",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "68e6bc3f2181a56485d6d14d86f613c283fa236fad545ca7463f609583fbf962b70ecf38b3fe5ef3746a25b732dae4529f2ffd548e30087619a69a6e",
+				"KO": "07a1f6f87f70d34e8d850b0826a3c5f2d4dd1a7c9f5a32b2f833cd09eed19a73"
+			},
+			{
+				"COUNT": 13,
+				"L": 256,
+				"KI": "7eb113b127b910b38515d882feb0fcbc0690a312daa736002b0054b739f193bb",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "d0d4dd3404ffafba8499dfe98c51e56d550162144112db2db550730027886e0e8085c5617cfd3c100f250162899b7ebdbeeff92d32217a662dadf000",
+				"KO": "7efa2808a96d5fa5c23df5cc03dde4c4130600f5f6f9c2a52ffd751d8db0ffe9"
+			},
+			{
+				"COUNT": 14,
+				"L": 256,
+				"KI": "efd0b526e288e1c13f530f5f6339c15971cf61b3482c77a554d3e6ed3637e290",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "82157eb28fd02b7b50ec6fed7657a8e16ecb95812aec98212054f31662e3a33480ef28e27b08d97571a1e9866ee887f3534a540506d0f1b529dea293",
+				"KO": "c150d33ed29409dc73f2009ae50ee7eeeafa27616e379171014dc2960b112166"
+			},
+			{
+				"COUNT": 15,
+				"L": 256,
+				"KI": "2a78047a2afaf0d3293af30fab44d4eabe752569e3b02b2bf14099ae76bcd970",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "84aed945163d680f47da3998dd7e98d0f7a5a2179b894ae30737bf4277e9567b1e266731bdff49b3eaceca274716327199ee8f9d7348874dd238abb1",
+				"KO": "5688831b4b862cb1463579592ce9d8584cf2352ec64474a6df3832ed809c8238"
+			},
+			{
+				"COUNT": 16,
+				"L": 256,
+				"KI": "4e85b2b6a33f99322e081460c3d2b1fd04c8caaf99d99230adc10d6d036d7998",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "d78c6d89796a185997c1993282bc51fd05afcd58852f03f97569908cd54988cb1b072281ef1a4ee3c3d576a8f8572dcab61f952a937206178504d00e",
+				"KO": "9daafec47b051d3d81a81ade3899f721673dfdfee2e75d43010876f63a5c4793"
+			},
+			{
+				"COUNT": 17,
+				"L": 256,
+				"KI": "d07b869c018ba8ae13bdbec7d449aa5e3d4d3acb79df3d1ca5141469a0e0182d",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "9e29153ad1d3d37965182788b716e113205cef119e6ea3a61ac4588135021b5c57085943219da0f0b4c14598317d9d132eebe7c2473ed5bc9bad547d",
+				"KO": "7fac4784d624a95aa350384563d6a7f8bbd06ffb979eeac2eb9cf465d6a6c7e2"
+			},
+			{
+				"COUNT": 18,
+				"L": 256,
+				"KI": "f3006f94c2648f06b39c7af646a7706245d215d6160388f726e846e2748e0d74",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "77a290f51ff9be263073ce4c7b5cb5b22f3c244e6fa638684f5eedb090cf753b8935b06aa2b3a6cb451a54457efafefd7dc33b4b66ad7f6464f2be8e",
+				"KO": "8f3669e2cae77d6169cd9b8970875d822367161cc03e07a96b7f222989824dc1"
+			},
+			{
+				"COUNT": 19,
+				"L": 256,
+				"KI": "aef6ac7a4a69bf56578b1c90b23cff8a2c68ca0bc8610773006038e2a8e81ab5",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "adc9cc640346f20239faeb0df1a333da16e67b9eab21351126328eeb508c8000f9b7fcf196dc3b90673b4b9a481e81c3336266b16474e54026f1531f",
+				"KO": "bc2cd9ff0137e8d31a66b0b34e2bea38d7c516bebfa76a3d3d3a17cc5ed14124"
+			},
+			{
+				"COUNT": 20,
+				"L": 160,
+				"KI": "c104e187e344668997b7bd9c8cdf097320518dd7dbcb541c414418b55b58cbb2",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "32f6bd59840c61909f2f92f98f54bd238083577e33c3d071c1abe4c694bd87c1ad235eb9a2d272b3dc67c955574d5e6cad84615120476d6e7e04f51f",
+				"KO": "1b5d9e60aa909aeb973e76d9bf6be208327bb096"
+			},
+			{
+				"COUNT": 21,
+				"L": 160,
+				"KI": "bf39df63bf105a20852bc14e52cefcba02903c7ba6842e675f1b56a129dc7174",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "e66f8e413f1245d06ed104c3e6df82340917217509c6d107b18d347b3f9bdf9285d817970add72cefb7ff20d6413bd3c2acfe05b91d3ccc183269466",
+				"KO": "e4c622129cddef4365bc89b708beed26a0e28ea8"
+			},
+			{
+				"COUNT": 22,
+				"L": 160,
+				"KI": "d520263caede6ed618ddb25eb53006828f0e630a2fd50c917a5c8242571f41cb",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "9d81310777cfb61c2126b1ba97459d2a2c913794278f36c0852157983eb7daa90e969e5ae617d713d3e81563b174eba8085a9a115292b81298c67cb7",
+				"KO": "5f8730cda93bdf6d4302d14984005f74364b116a"
+			},
+			{
+				"COUNT": 23,
+				"L": 160,
+				"KI": "de701b40e8f2e2886ba9668e17129305cef98855ef685bf0f13332bd53d39d19",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "796bb563d1c1cf5bd795bd20e0ae1c524fc5740c7519eeec285f6a2e2c748e619d85ce263699eaaf1261f29afde077ea9046834bddb2e1720be4c777",
+				"KO": "788cfb6bea259ee9c151a39b285094e178d5a15e"
+			},
+			{
+				"COUNT": 24,
+				"L": 160,
+				"KI": "b0555c87cf6554e9f77e0007c3ea52442e9d3b5fc6e2699e6a85a2b67141e1c7",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "efe5bd1687523c299dd8eddfd1959744589f88766945ecabd1d3717c2035318c39123a81026701eab03ec5f528767b2359f6c2b02b25cf6dfc58d087",
+				"KO": "9cae8159af39a4b699e893e814c18005396e0371"
+			},
+			{
+				"COUNT": 25,
+				"L": 160,
+				"KI": "b6245c4e501740ab51469c5ddfbd5e3180392d6b4c2434eed923823c8f6502c3",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "70bde68aad6c3452457cfd740bc8e683b7d1fb91d328dc8a97afc8376eed89557819b0c003df68d142fc2eec4ee1e6745ad358ccf2b37b97e46309bc",
+				"KO": "d3a7d424e2bafcd39b0669e1d0e9561c12d6f1ca"
+			},
+			{
+				"COUNT": 26,
+				"L": 160,
+				"KI": "c7ed7c5f60e96f3bb89f8e9b532798568fde19fccee4fc7d00c391509af73492",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "948cf2208ef719c8de145741973303b09fb2c81e759de7d65af71abe18639819cc7e8afbe673b71f5d4fda164281dad8c382e5dd110cd8210e388531",
+				"KO": "bc7bae6f9d5923f1c9783d8fe5fd10c572fd1534"
+			},
+			{
+				"COUNT": 27,
+				"L": 160,
+				"KI": "22397ae61ce0a2b47adb47c71e824c8c4b931335542ac28ae3d3d2e6d34de330",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "e4bdfbe0a20bf4eb56665ed97fe68e5e500db048c1d344966d753f34ad8f2238c39549043a8cbd451d4c3610947506e74159383fbd4293f0c383fbb9",
+				"KO": "945ccf9cc84b02a98527f199e34d1e3c634ed683"
+			},
+			{
+				"COUNT": 28,
+				"L": 160,
+				"KI": "07b9d1e5455493accb68191007a801829533b632564365a841cbe80bc58ff505",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "374d91e05b98e466cdda4375e78cd371825f8d71aebed18909b372a1fcaa4066bc09a3a15a7a8d6d8c7e02358773a6292883ad053e0e029619218186",
+				"KO": "0fce01610c8284a3d780ea848138f85620ed22b9"
+			},
+			{
+				"COUNT": 29,
+				"L": 160,
+				"KI": "7b39f0df172d78f1d0bbf31ff28fffa5d5e50e4e03c836b06ed3f10fb7c6b47a",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "a16caf22bcdf57eae75b42969b39a494c7503835fd2438792794101bdeed9a6e9601f2adc6c49a88d446b4b615e2384504951e90320f2b341d140a41",
+				"KO": "1fa7fed540799f1d98f96ca2cb52eb37af262cae"
+			},
+			{
+				"COUNT": 30,
+				"L": 320,
+				"KI": "d4349c26108719debacc04e166a09063ffb5e17bcbaf8738dc2618aa7d1e97ae",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "da1f5ed45ead428689b0ecca9dbc2569e76953cda0df085499cca6d5949d8995e1e42bbdc94b0dd78c164867c364a64c894de85294ad89d267ff443d",
+				"KO": "00550ae0f29a2373269af175e7f829ec32c3d05099a39f8c0e02caa00b68afb7457669334383ffb2"
+			},
+			{
+				"COUNT": 31,
+				"L": 320,
+				"KI": "f46d4bca932eb43b1d9e209037191a88767aecedab010894b4dc9db05e2b0981",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "8ef0bb26a60e30612b1bd43b0b8cce651064c6607f5a0e8f20c78a885e81745fead75e2018e39903f2b021316e322fa6e097ad99109492d64889d248",
+				"KO": "12c944050e99922749013e1d4dda041b62b1733ad198b86fa8f6957bc8c8b011c6a95310a188a224"
+			},
+			{
+				"COUNT": 32,
+				"L": 320,
+				"KI": "0e3e4ce13bc1331d21d81dcd97f33bd7f4a4d3495eccd2b75edff8bf0fbf2509",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "368272d7b0cf59505a3fa75bef895f9b30f259ce3385f5694d94d08f5d2b57b443512bd64b7b1051bcf71e49c1f14597e36f37112977e56825ddcfed",
+				"KO": "b48179af3650a7fa6171e7a23cf52ea9bb3410f6e75b7dd4a2f7670a6fd77bb1fdc0c67c9cfbe254"
+			},
+			{
+				"COUNT": 33,
+				"L": 320,
+				"KI": "6725a4471b223ce0a0cf8067c180d55eeb9e124fa54e567014b7ae556391e027",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "81b2f965bc9aa0ca2a4242dee77e01a752718775f5bcad8c341cb8419500c3d56a9aeed27ffe2c80bc4a401c7f1381bae7cfb961140e69564b7bbd4e",
+				"KO": "36f37517576596ac4c2e87fad2da3136eb85b3dcef0b5a99bdd4978767736c509070ab2c9e7b70da"
+			},
+			{
+				"COUNT": 34,
+				"L": 320,
+				"KI": "011e3ea00431bcdf0e056ba7f69175dde167dd21dcae116c31cd8dc74120ba02",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "8cd6a6ce605f3b6e6019d330822207eac291cba108777f464c040fce18e68284894500b1f26fae3ba79d78b22531824da714fd6bd7d8958055c43950",
+				"KO": "8dd25d07ef60594f5278a4745c0612e96ead7a671d972db483faa2617c24e345644bc7ead5767170"
+			},
+			{
+				"COUNT": 35,
+				"L": 320,
+				"KI": "787d0e15c156080a060a7442cfd980739e13ed2e079bb215f9a9edfc5a5e0300",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "0dde401b2fb05977304dcb31edd5a665ec4f6c604f97aeb12d91688e72cbb4290bccaec16aeddb0daf52e33c75a54209cdfed755c8c52350cef1def0",
+				"KO": "409813cfebd7e1d556babff2029b8c2ca75de23bf34b37d525e02284106ca133727cba7971cd314d"
+			},
+			{
+				"COUNT": 36,
+				"L": 320,
+				"KI": "0f476c2e42b735e48f95e3f081acda6b49845ad4c24c4d14c388d4e910174a26",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "2a56090337c334468b60c0ea9ab2808c7d39feb75ea3ccdbfbbbe849b0b2361a0af9442c28ac285dfa276c0719e1e269d4c76bcfe47e3cf0983b2def",
+				"KO": "b40809337228a389c29a23d38fdf06292ee9892863d4700c4ed220b6c301d69da54410b51002c743"
+			},
+			{
+				"COUNT": 37,
+				"L": 320,
+				"KI": "d4c6855dfb4bbe15e75db603563856f181947397f6fb9727b3aed8478102af43",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "2d8e24b3381b1f7eefe00e08e0635ae5bb8f84cd09f76c7a7ed62c9faafa42e170df24e2964c67e454d773081a3bb9b0176e5536560f4b6ae95cd93e",
+				"KO": "bb10df0e244f61a6e9834f8980b3912e90e12cce83e24a22dc5bf37445af590cfef494bbd1e13d57"
+			},
+			{
+				"COUNT": 38,
+				"L": 320,
+				"KI": "43e99365f0affb0aee6ebd8f0eb9647fda48171b0996543a4ed61f57c079549c",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "8f3434580c06f4bdc036e5b28f7b23976d3b1ca32cfc89e76b146e76557f2f6d5af7f8aadac4501ba9b080d77e582cfe4b4e83780ec347c2062335a1",
+				"KO": "4642c673930da6a4dd4a2eb1cc0d240ce2b64965db16abf9dd00b11f75933f5f084103c9410bdda0"
+			},
+			{
+				"COUNT": 39,
+				"L": 320,
+				"KI": "2c0940c843d2f84663bbc19f70cd68fb351ed515c27abf2231769d91f8c58062",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "824e7d79b99d2892bda3bfbc3966f6d190cb3421c62f3c89c15aabe379415faa9b05cbec42b1b41e35272dbaedb72eeee3ab093765a4f275d8be2c75",
+				"KO": "a928995c329ad946ad308659d1567f64c62e4416e33f508264c13fc9cec19ecffd00ea882ab5f8eb"
+			}
+		]
+	},
+	{
+		"prf": "HMAC_SHA256",
+		"counterLocation": "BEFORE_FIXED",
+		"rLen": 24,
+		"tests": [
+			{
+				"COUNT": 0,
+				"L": 128,
+				"KI": "388e93e0273e62f086f52f6f5369d9e4626d143dce3b6afc7caf2c6e7344276b",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "697bb34b3fbe6853864cac3e1bc6c8c44a4335565479403d949fcbb5e2c1795f9a3849df743389d1a99fe75ef566e6227c591104122a6477dd8e8c8e",
+				"KO": "d697442b3dd51f96cae949586357b9a6"
+			},
+			{
+				"COUNT": 1,
+				"L": 128,
+				"KI": "18bdd277cc8b41f098ec00e82470afaead2900ac889331dc1de8d86adbcca57a",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "b5c075a898005e5dc2101b01b28f3483b867302b627251445374c0c303ffb3120379ad0f79f8a8396a22028a88c7ba30fb8d738e8fdc135c1c9eb20d",
+				"KO": "269afb85ece66e16d30bf602b8fa3b69"
+			},
+			{
+				"COUNT": 2,
+				"L": 128,
+				"KI": "1f9a79197a2542d3fb4d7e433119e0db6abec62828dd1bf82de3c231bbd8e265",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "e7726eecfd730a5bf48f7e0b148c6c281e4c8992bd55a1b20dab69a1486accbc4460e1e6fe7e7f58b671e9254c139a95593bf03af0faf8641d4b2ceb",
+				"KO": "081d1e3ee5161dfceec6696a265f4164"
+			},
+			{
+				"COUNT": 3,
+				"L": 128,
+				"KI": "06db32ac36241fe8c069f482736b7b2841012e0a2c8d9c04df51ef0c665f4575",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "637e6072317d35c7c9887539bd991db0656bf6888addb717e28cb3340166451c0d0cabc85a743efe634100ab95bcb576c5bffd8a5db44d148fb29efc",
+				"KO": "4032685e45f6541c2a3fcd0b96384835"
+			},
+			{
+				"COUNT": 4,
+				"L": 128,
+				"KI": "90eba637e61de24df166b36a1594238a2000abd08e36c97048d7f9a22ba2a9c8",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "83b9e3cba177f672d60eca3c45274526bed7f9b30e42158162c2658adedcf356fcfb95aaad6662f3c3adb66a0609b66d290488894b483230b13329e9",
+				"KO": "cecea4eb4fd377d87cabb29dcecf77b6"
+			},
+			{
+				"COUNT": 5,
+				"L": 128,
+				"KI": "5a75b65e687fd97a7c793cce9c76108eb77b283aaad0d36ed5e502639c564326",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "2fc4e04011455513aeb4968561a0731a1fc685b3d027a47d66814857d377c3b130da41a7f9807efa247aacc06bd0a2d8c99cfde4143366f07895443d",
+				"KO": "e8a2fd625642bfd1ed18fde7c83eca97"
+			},
+			{
+				"COUNT": 6,
+				"L": 128,
+				"KI": "e9a897469123f39c8f504750ee54b4ff01f47dc550ba8880e9999ce5826be7a8",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "edb376e4237e11e2f250688a0d325a3fd32d18ce32cb94c61b2a8ac56d653f61964460f575678036b34a10945fd9ba4537ce48b10649030ebb5cb5e5",
+				"KO": "425946b569e03adb00ed6935ceaf775d"
+			},
+			{
+				"COUNT": 7,
+				"L": 128,
+				"KI": "75dd89a5132358acc2d1ae6d08ef315646c76d951d44a644c32250b0566479fb",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "bd825b3bcb08203b81aba37b4582f1ef8ecf5bc39eac48931a2152ab2e01f2cc2951160e8bdac92ccdbf061ea08b8ff5071fe134921e1b4231125634",
+				"KO": "a25342227764d62d84546848e6a06dfe"
+			},
+			{
+				"COUNT": 8,
+				"L": 128,
+				"KI": "a74d68197ae14fd113c324197a16145be7de6fbfeba7c68daf1572c6244b7ae4",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "3cb9f6706a7bfd542888ac3b4ff8b8767b1cf7fbe8a5199db146768a60c44a640871107ada1b3912d75bd3185327d7d957e869d5c2e9cd355c956a19",
+				"KO": "64a59bc0e1456fddea1559608308f997"
+			},
+			{
+				"COUNT": 9,
+				"L": 128,
+				"KI": "5bbcaf83ebecc97a39349920b69660142af443789a2adb3a88d8782975316e80",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "4e6b9da7fba8a2247b184060cdc1ae1293a593a9eace6fa5e88e93538d82584a1c13922f4400d80f7ff0e27480be7ebfa3d0a96ed8748fb6542a6b6a",
+				"KO": "74ab41637d91b4a8624aa1dafefb54d3"
+			},
+			{
+				"COUNT": 10,
+				"L": 256,
+				"KI": "f5207566ad012002ae6f2b501f0c24180228345889c20616d043b868a76d015a",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "f36dbc8d1dfda60d4ba05214f8773aaa9f01944150bca68812d0d8deb5492f3f68f09809ba5e8b89e9dca86c70f6f353b3d5f49ef27e2fd01cfa911d",
+				"KO": "0faed440796a0685a24a1c5e1cacde566c7a1a4189885229251c6308a53c3f6e"
+			},
+			{
+				"COUNT": 11,
+				"L": 256,
+				"KI": "a75244b6ec380208eb02b0c645a47e4e2149afbda33e4d1f4aaca6e4b4b09b9e",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "96d7de7891b63787b9319c600a0ca43f67ab934b607cca457c24ef2b6c4f4c45ccfac299b2443f3880f00afb8963e93247d310d82eddc42a306a2dde",
+				"KO": "29138abf1ad0524bd4e170860567c6cc09891974bd7ca168fe55cda052134896"
+			},
+			{
+				"COUNT": 12,
+				"L": 256,
+				"KI": "0184c8db604eb8726d3018d32a32da4a5d0ff71dc91c81f69fc7f684bc224738",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "e6b506e331f7081902faffbaa589151fceedf00dfe48503173b3a32281d71f758dbdf975703046216b3de7b2dcd3203eec95749774007c6b807a7cea",
+				"KO": "4caa3aeda2405848bedfe8189e16e439cd13cda492a8dad458410c4d58f542c9"
+			},
+			{
+				"COUNT": 13,
+				"L": 256,
+				"KI": "cc4dc1f65ca9269b05a20f3f97874b3c17168f4d6bcb35c9f96d792bc928cb92",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "b3872ee7cdf8e2c3fd945b311d76d7ba53780e2a235e06af6268e825eff1860e83386f15367585fb5773e2be9bb0e714015eb795473e540394ab5a0b",
+				"KO": "c535b50bb6a6f9ab8d3de70671246d9c3ce1926e41ffeccf0fb2eab33740771f"
+			},
+			{
+				"COUNT": 14,
+				"L": 256,
+				"KI": "c77a3bdbb930854958905f3286b00fa4c2f1b2584560df926a8d87789fa82d89",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "6337bb226ec6dcdafd1b7b85c88a4da2ee0cf0a99569d1665d313fde8aaa1d54fba24bba7829d7e7de7e1dc3a543428cd970b5d8a37de101cdc18a8d",
+				"KO": "23902da141090db0691b57efc1e081b321c017aa462ec14748d8e1b60b92741f"
+			},
+			{
+				"COUNT": 15,
+				"L": 256,
+				"KI": "0b39b73b0070318d04daa78e561f21698ae38e60465d14b748a7f2275295becc",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "11168446c5622ba180fac53d2e4c2bf0fac8513e5f9e16b5bbebe9a1756c2609b1685b7066de54f567e4df08a4a3f403d73c1feb41209ddc1700bc91",
+				"KO": "502d9ddabb23411b9bdb88a8461018cf45a4cd04edd3df24e025d58a81431dcc"
+			},
+			{
+				"COUNT": 16,
+				"L": 256,
+				"KI": "934317a565bea18436c7e391f2a2de67d4407e7e9bcbb55fd4827f376379d617",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "d9a11aeee251c1fd9a14151dc0fd4e2ea05db8898951f03f4121ce10191c28cb5ee2a164117616df010b948308f85b7beaea8587bea9096c08134f71",
+				"KO": "25e1bcb994bf5b132c07368a5f2ab11694ccd31baccc87f9772feba4730714c1"
+			},
+			{
+				"COUNT": 17,
+				"L": 256,
+				"KI": "bdf3db0c319005aea65b4446d1474df6477b5c9656efaeaba05b7819b7635021",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "b7d71420640f3785c199714f953e7ae1f5d20c985183ab77df402d4c72c3f9d6c8ba37a4bddeb592886a244b0ddd0bfda48bfbf7b1101bae878fd4c8",
+				"KO": "9468b0feabb2960714e7bbea862dd6d3dacc31e11df9e81653af11fe7b36655f"
+			},
+			{
+				"COUNT": 18,
+				"L": 256,
+				"KI": "27ba64aaad2fa41140df04596e3dfacb87ed34f1760ce9740b2abbf3d2444910",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "f4def4c99f734e14d7ddce73afa31d3adf771fba0ec1c501a6e3517b0678cc9cc3802e5adaa331a7dc46e7ea1ac3421b67a9c89c2f7c87b812213266",
+				"KO": "5ef83f0031d6acb84352a89a6948360a08ec26877104bd27287e082f009c9fad"
+			},
+			{
+				"COUNT": 19,
+				"L": 256,
+				"KI": "5cd894bf16a5ec22bf0e53d7b5d94ef087badf9b25c9703fec49b586e8cbef81",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "6e95db78116d4d0b42b0a8f9a95e2c01cc184100de0205cb6666ac1328982939d71a10578a472a6a7753dc6da2146b319943115afbe9418bf303e2e0",
+				"KO": "7542e35f62cec725e81b5cc990cb794f67d82082807c0208793df148d1359dac"
+			},
+			{
+				"COUNT": 20,
+				"L": 160,
+				"KI": "e2758918edcf15d957a556055602d283dbdf9c95b6025a3cddf1eeac1e0ac889",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "eda2f792580d6129b43e7b89c661786a29ab502ec6198f4a2bec6d0ffca1a75b8807d4313e7bf769a94fbf4b41c4cc309358a211105312c05818d8f3",
+				"KO": "67e3273b2cfa4c663377f5841606679aee420dce"
+			},
+			{
+				"COUNT": 21,
+				"L": 160,
+				"KI": "504acb8e0090058d6a2a90153b938bbd3b2f6a4ea7fd5178d1c503421c9d66ef",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "a8fe02fdf39ded7b4b452706938bb4027fa0f347036a29b44b49f23e358f61802cbfde21cdcbe68e8852bd603bbf74bd6de599945a4562001a4e49c7",
+				"KO": "b1fb5d6a43fb49fea4b3c92d147bf3684659044c"
+			},
+			{
+				"COUNT": 22,
+				"L": 160,
+				"KI": "a4b22941eaad6d06d22620b289fb52d2e1a2f3b5b54ac82d899104eb024cc91e",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "ffd0877fd25778b5131988ee59f84dba7a48766739a74b80338571e11b31563d9269aafb62268b405ad223867996b5d6c76ea6bc2f366dd30f928079",
+				"KO": "1a38b0c8880cd344b8ccb9a020bfe628ebcccf81"
+			},
+			{
+				"COUNT": 23,
+				"L": 160,
+				"KI": "631822131e7016661b9d2bc5a81f7f63d379ee5867ecc65cf596457077610b46",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "0cd384ce46bcfdd0f70d9b1457daf9f337cc85c216ca3c2fb15ece498d5514886598ace09d02a5179e539f75e854a57efdd83aa3d0b09f49247bbe3e",
+				"KO": "6c7d00781b0f930563e3d055134470efb6902358"
+			},
+			{
+				"COUNT": 24,
+				"L": 160,
+				"KI": "1223d17a90c91d4fb15fa11cdb0b8192297df2fbb16c9082b2a831d163ef4fd6",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "95c1a121463ace7184e9b2ec2315ad239bd27c884e44319e257d2959fc2f7633409cc72c48dc3f669fcf51d24155102a73e496b2afa3f8a833a5e335",
+				"KO": "3e4a8d59e71b317666f897bd6040da9dff55a49f"
+			},
+			{
+				"COUNT": 25,
+				"L": 160,
+				"KI": "2005c14bbc374c1697076f26ab562a51a093111470116eb1df2a1e6becc4cda0",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "cce7d51a794209e070eb8f58ae87fb74a2746377375928356fe3c288cf03c856bb94e9b4546aa2afe78cbc905db897750885d86438c8ef1a6bc37c26",
+				"KO": "0cb52402498132c50a8f189140d4831fc3c5947c"
+			},
+			{
+				"COUNT": 26,
+				"L": 160,
+				"KI": "23cb1fc46e923102b454e86b59d7a0811664429a23941acfe679d993e5221674",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "931d6113e8bdda93a9e43dc4a035f00152f68903c64fd4837a2562416f93478d8201682b60904e5e909d181e97b5e6041d94bf35cccb490622216979",
+				"KO": "d4fa6c26717c7067d180a7e46e460987944883eb"
+			},
+			{
+				"COUNT": 27,
+				"L": 160,
+				"KI": "cc21eadcaadb23dad4d54d68115bb07f389198d64009ce0204c6fe361453a1f1",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "d384fd7ffdba22b6e67010819502a58b05903bfb5d11e2b7d0deab200fe518760ac2908ec439df6f0ddc8e2c784ad22f5c27dc957e612a1f152876d7",
+				"KO": "78645d9d40ad1cf870027e32d36d23d0e07ca304"
+			},
+			{
+				"COUNT": 28,
+				"L": 160,
+				"KI": "1c1b13a041d53c71bee91eb0c9d6eed23f434468b52de01e04a02e79589c32f7",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "16a130a5da1c6abed5224084f3fc4447866636160a3a4625110f05e16e37311b9b736295508ac953094f7a61dc14af07ab043aaea04da5046a8a0cd4",
+				"KO": "94c31a5e94552b94c903a51defdfc90333416df9"
+			},
+			{
+				"COUNT": 29,
+				"L": 160,
+				"KI": "88509750f05dcf6436ab308050b2516870166dd2f7dbf4594be4baf7629d18f6",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "732671c12d9b9adceb5145f78ead9afef070d93298269f4ed95799dad20a2f704159ea380e9fcd79363545628e545b4f82eed667c36243f58aff6c87",
+				"KO": "a53e9281f7f40167e25febeb0a6b3a0f2ba47bfa"
+			},
+			{
+				"COUNT": 30,
+				"L": 320,
+				"KI": "c9063598d6cf8660300073b5c25603baf3ade910c182deea15d8107d6f6be295",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "22d27eec90c2dd4ae5cf4a705abecfd781b9051ba512b048ea9499364b791e9cdf63215db43680dacffe6f19d77fc93f8a46d84dd52146389d9ec308",
+				"KO": "f3a5b521b435a8c83eaf2d264b5b1a6dcc32c21b4897511203f97f01f2a691eef080b4cd7ca4fc38"
+			},
+			{
+				"COUNT": 31,
+				"L": 320,
+				"KI": "a083d1d60d0c68fb83eb82dcb18f798e8f3cf67511809f7a4b3c6e8d3a591f8c",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "e5c680714caf672ccf094b89120ca4e2a41222597061d201608b0556a644e2d4974c045b9f686102a0427ea85c8f802b3418c96c8f59f045fee537fe",
+				"KO": "be97d733a184ad36c6c0c7ae8e79b1b0581aaf37687ff835c263d541c08bb1cad051fde6ba0e5244"
+			},
+			{
+				"COUNT": 32,
+				"L": 320,
+				"KI": "8241bdc82cd2924b5f7cda011636b578720952f04a229f6ee2eff1912490d565",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "c3a4c61c95fd9711ba094bf73c8ef50b36263f48ddf0d031b6158f70919129ea90b6bc8039879f6577ab45ed7df274fb89c15ab34431898be6dcc65e",
+				"KO": "e405e17496e5620d4ed7227a891499c15f718f81e2d3e2d126466fcfc50d5b6b2eb90ccd6886e999"
+			},
+			{
+				"COUNT": 33,
+				"L": 320,
+				"KI": "6b2eaf7af96a81132dd843603bfea56b60ea0fab362363bd63e0d5a6e9a01357",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "c35267196440abd48d423d2566e34b255b6c5f3c0b8592557c89e08f6b167bb7486ac8954e06969fd2855ce23e1cecec6a561d4d9bb1be0e06a85742",
+				"KO": "32a1c17a9e11f397af1e2608fe02d4d8172bc1ff66cec5d6e4ca9f986d2ac5cf35b8ce9d38509903"
+			},
+			{
+				"COUNT": 34,
+				"L": 320,
+				"KI": "abcd8f59154de68b80048351600948260f071f34244e14a68100bd64ca5f2c07",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "ff249a1e76c94919329cd032cf62495fca1be72c78dd2ce18dc0d8d787e2badfd700e429851fb5049e0fe97ea31994e1e7fa0e6f45d2a7e11400aa2c",
+				"KO": "d99bf29d498df7746ec98ca7908092ee90e93bfa1a8c62206bef61540028e5f3cb5f7a91882c3e42"
+			},
+			{
+				"COUNT": 35,
+				"L": 320,
+				"KI": "34435021c26336f4ef2a2eb268ed8972b55f1566545b87c7e9eb9ddb3b490a44",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "725ac8dd54f25c38fead95d8c20dbcbf55c79ee4d6e7969135accf2408194382664a8ff62295a97d526f0d1d0c2ee21bff42d4dc25070e3be35a2d01",
+				"KO": "a23a5c3e27123cd18cc4b2abea393eb1822eca819476c357b3b18505e786e24efe2664c59be304d3"
+			},
+			{
+				"COUNT": 36,
+				"L": 320,
+				"KI": "a88b503d5e60afde0a9c8a65ba45fd422e346f79456f223ef384aced52299a17",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "5510ff9e3df231cd991a12d5fa526d2152b52d73bb92446e0359584bb2d1c5b072e1c2a49959353fb42c7d6a8b83e28da11c95416b8b64972054bc86",
+				"KO": "31ba7e6ff16d70a385b5f004fb91e29f009303bffd1b86e3d5cc80c259ad3ca81fb546c21cfb713d"
+			},
+			{
+				"COUNT": 37,
+				"L": 320,
+				"KI": "f3bdacf711d9deea5371f14c6ba971691b314e2f1614787129bb208ab5d89322",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "2108f40fb5de356f40132b1cec5bf8f569188894bbf3781c2e0d86c6db7ace608afd433b1b8940b936d66efce425e29c66794c737385dd3ec461eb70",
+				"KO": "cabf8e03a3525b33cb4caea2e071a3d8a657b0aa2f46066525290c4eec87944c6aa59dd4d07ba21a"
+			},
+			{
+				"COUNT": 38,
+				"L": 320,
+				"KI": "44757aca74fbafef8e1a93537e6cf5839c59e2587a18cd2216b3228dc87f10f4",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "0d20dbb1a90d199e55d70a66e1d8486945056ff395afee7932d934bcb7a9a3c9bbf7a373d826d85bed93d43011e3f56dca3068eeac885028913e8b18",
+				"KO": "7a5921f774458954a3729def37f0238705f883b424b8d85cc0117e94be49b27d4a1885d98e6b7635"
+			},
+			{
+				"COUNT": 39,
+				"L": 320,
+				"KI": "27d7dfbc77816aedefd89fed77b0e103ee8be60bf418074cd9bfba2e91add7b7",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "93b6c738628db5369241d4af79b14ef1fd0a58242f8e64162c89134f42d812887af10be11b280b608e3ec32f3f95a7f62073f7bb58939a4ef8a2f618",
+				"KO": "2612d62453be79c7fd3bb94de95adefe1f87cf0b7dcb620aba96d5a17cde97cd392a62518e2371be"
+			}
+		]
+	},
+	{
+		"prf": "HMAC_SHA256",
+		"counterLocation": "BEFORE_FIXED",
+		"rLen": 32,
+		"tests": [
+			{
+				"COUNT": 0,
+				"L": 128,
+				"KI": "dd1d91b7d90b2bd3138533ce92b272fbf8a369316aefe242e659cc0ae238afe0",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "01322b96b30acd197979444e468e1c5c6859bf1b1cf951b7e725303e237e46b864a145fab25e517b08f8683d0315bb2911d80a0e8aba17f3b413faac",
+				"KO": "10621342bfb0fd40046c0e29f2cfdbf0"
+			},
+			{
+				"COUNT": 1,
+				"L": 128,
+				"KI": "32c4003872a146194023eac1bda74ddf2b66977dad8a554b974ca2a62f7e4f43",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "33d8cf6d0c759fb622d867ea8cf1285de4020af81cc287addf38cc2da4643e6db3b215ad3e33bfc47877c3620e336887c3c9ad4a1c6c0476b0f90a33",
+				"KO": "f593af0e1a492a7b904a2662897fa1c1"
+			},
+			{
+				"COUNT": 2,
+				"L": 128,
+				"KI": "3c87e9cc98579b2749ff92c8b823a2ad6b367ac26622e7b5b80a2ce6f450e361",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "777d66a24c2d3cc3299ca0718f4f6dcd1161ecbef6eb3c71f0bc145b4e765a6eece807a74ca7a698d55b2eb0d30d8d3e5cd71fd2a02b5608274c95c3",
+				"KO": "ea6425f03803f2f06c42d8ba11ce4ee9"
+			},
+			{
+				"COUNT": 3,
+				"L": 128,
+				"KI": "de1f4abfe78c4dd6f02331c057efa939ae2db1f1e7e7c650e07537d259b1ea72",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "4c1f00198d76f3630d3260f56d94f52507394f4a98cdc2937d4abaa76ebb3fd409a8769df074dc002917ef818a4852cf004f0225efc4663211a08c5d",
+				"KO": "74182ae81ee88c6a1634ff4991beb9ee"
+			},
+			{
+				"COUNT": 4,
+				"L": 128,
+				"KI": "8c299beeaea05f445d59f5c354dbd0c8b4cd009f197a35369fb3b8612b75026b",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "1a73fce114cb427dfaa6a699ab2751bf7136fa03d238da492d9a036143148334294d0bdbe4852c8ff37706bb27d722ddf909bc8bef91ac72e1841cad",
+				"KO": "16614f3e848515cbe526fd2b1b5a0bc3"
+			},
+			{
+				"COUNT": 5,
+				"L": 128,
+				"KI": "fa1f4c6ca4268480527b37cc1635b69d4a07118f720c60bd13cedc867dfc2754",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "464516d6f8bb6589928849b984bea6dc3a45a3e3cbe9b27a95e94801c718901764d78910e72e5fe69860e76e8f2bbba9298676e8a86b3d63563b45a2",
+				"KO": "67507b8fbc813d2387f69bc4d3bda44a"
+			},
+			{
+				"COUNT": 6,
+				"L": 128,
+				"KI": "ab12ca4709ca38350caf5602eee5218ec950353d19e65de9efc4dc2d19fe3017",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "a8da5b25e4f292c149c88f9203c5370822193cdac135fbcd6b03f42300b8c372f68520dd3b525c79aa25f250b786e6de7f5d73b5fb46c987671c7f76",
+				"KO": "a7f44187d4ebe759b9a37e484a844e2b"
+			},
+			{
+				"COUNT": 7,
+				"L": 128,
+				"KI": "12a9c4b3921b4ec2754e1cf093a38a98702acf0b8eb30f4bf654b8e3a10d3990",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "c5170e6e67ccefebe8415ee2fb6429df37d6c2ee8fbdd6b970c3a98d486e8718c2202f7fc09fe438d53dfdaeeb0874ef0fd7b4dfa209cc9c5c512baa",
+				"KO": "9d1a3121760b17ea787e0f64c90bf109"
+			},
+			{
+				"COUNT": 8,
+				"L": 128,
+				"KI": "218b0f76980954cc381f2646636907e702078f7902a1894952966547ace91b19",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "16cb8bedb363b4795153a105c6049291f1978e7b2aab01ab64e29c9bb562418cf3ab4f1ee6111d5ed2e58ebe3ad9665588e0e4d9deae8524b5b79ed8",
+				"KO": "80175fd5c9ca252c52bdcb5302de3db1"
+			},
+			{
+				"COUNT": 9,
+				"L": 128,
+				"KI": "3433f2c53824d6eebe11e11eb656da9740c5a342f5769df7fe17c4c4801132ca",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "07e3f8ff03e6af5aad503cacb1db119d3178bbd3e2377888d6f5e6b7bf7b8f7c563a88aa8a778848f4dc01b29caf85a3b2307e3cdfe3de1e7043ddef",
+				"KO": "ae81916cd3641c59897512649b657252"
+			},
+			{
+				"COUNT": 10,
+				"L": 256,
+				"KI": "e204d6d466aad507ffaf6d6dab0a5b26152c9e21e764370464e360c8fbc765c6",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "7b03b98d9f94b899e591f3ef264b71b193fba7043c7e953cde23bc5384bc1a6293580115fae3495fd845dadbd02bd6455cf48d0f62b33e62364a3a80",
+				"KO": "770dfab6a6a4a4bee0257ff335213f78d8287b4fd537d5c1fffa956910e7c779"
+			},
+			{
+				"COUNT": 11,
+				"L": 256,
+				"KI": "aeeeca60f689a441b13b0cbcd441d82df0cf87dac236290dece8931df8d70317",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "588ec041e5733b7031212c5538efe4f6aafa4cda8b925d261f5a2688f007b3ac240ee12991e77b8cb8538678615966164a81872bd1cfcbfb39a4f450",
+				"KO": "3e81d6113cee3c529ecedff89a6999ce25b618c15ee1d19d45cb376a1c8e2374"
+			},
+			{
+				"COUNT": 12,
+				"L": 256,
+				"KI": "95c8f76e11367eb55526a2b393ae906583d1cbdd47962146f506cc7cac12f464",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "cad60e904b9e9c8bfeb4a81a7f67d3bddcc05e64255870403770f3533ae6dd634ceaa56c53e688bd137ae6018935f34b9fb084ea48e4c688f6bbb388",
+				"KO": "cafa5ca03f5fbe2a242004abcbd3de1059c7407b1ee579255124af189be0b556"
+			},
+			{
+				"COUNT": 13,
+				"L": 256,
+				"KI": "4d05391fd6fb1e292e78ab9619b1b72a7d63ee59d7435dd71897b9ff7ee7ae70",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "f078e6f9b7f82d64554fa6b604c808f19b1f6ad6727db7aa6f1c86694e104b5256c8b4039919646481d7ea2452c72c17a3e8d7d3916285460aa5eb81",
+				"KO": "6b16e8f53b831aa5e86bf97a5c4fa37d089bc172da5a1e7f662dd4a595339ab7"
+			},
+			{
+				"COUNT": 14,
+				"L": 256,
+				"KI": "0f68a82ff1671634cc9136c564a9e02a767621dd74a1bf5c24129b808214b752",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "648599809c2c4e7c6a5e6c449f0031ebf55c3661a895b44db0572ee88083b1f4b12602aa55fc1df150a65a6d6eeda0aa79a434a1039b91b5a58fc7f1",
+				"KO": "e297640f7768485d4a6e7cfe245f8bfa84700d99762692ea1a425ccc0275e8f5"
+			},
+			{
+				"COUNT": 15,
+				"L": 256,
+				"KI": "43eef6d824fd820405626ab9b6d79f1fd04e126ab8e17729e3afc7cb5af794f8",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "5e269b5a7bdedcc3e875e2725693a257fc60011af7dcd68a3358507fe29b0659ca66951daa05a15032033650bc58a27840f8fbe9f4088b9030738f68",
+				"KO": "f0a339ecbcae6add1afb27da3ba40a1320c6427a58afb9dc366b219b7eb29ecf"
+			},
+			{
+				"COUNT": 16,
+				"L": 256,
+				"KI": "e5f31d98a13f2390b354dba08e1e85116f99a56c2e8761d386958a0d0a888a29",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "02113f45151b63f374cfcdb1bede41cef2226a42b6c02c9f090f9f3db39d4e98a8258c42e27224279cd45c2501ca45a008d8f38915e5b45b8b995f5b",
+				"KO": "98e7a023092a3064050902c8b90c749d72005626e0296e1dfb28c10e450b2dd3"
+			},
+			{
+				"COUNT": 17,
+				"L": 256,
+				"KI": "e6cfa4864d31fe09960fff968ac62f03b6f63b5a221cc95c3a1058b4b60fe9bc",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "4670a7c2c8f5643b75ea4ceed87e253e58ffaa87472299160d35240753f3164c0820374b1f4bedb2dc34692c8b7e06c7951ee73f1645b10e3f272d17",
+				"KO": "4f208e7306b076bf06133f439a6617a3d650253cf87775c3d6d7fede32139f4f"
+			},
+			{
+				"COUNT": 18,
+				"L": 256,
+				"KI": "2f180b1a10445d3d29683b3facb856807689c6de54c760f6050c3329a4a1de4e",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "4d48ca49a279a79bf9b3a9e346c3af74926fab6ad881027dee6a6f40dcf67add04efec4d86df31bbfc190d43e3a7aeea9babcebaead3b07b69dd3d6e",
+				"KO": "7765d245fdf143b6ca4359a2503ad1d8ea8caa7da8d556b1fe8e25c44c70dbe1"
+			},
+			{
+				"COUNT": 19,
+				"L": 256,
+				"KI": "2eb0a49fd3199a57264f746b1c8acbc76f7ce51223f72134590fbbeb3176264b",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "980a908ed38b6e699df3f44e651f0ad3a9d209d3867c495e52673855d09e4f1a58fb477067c400cacca9ab9260e205c4556905f2727925561280639c",
+				"KO": "06d5adc2d5c517bf40406cc6bb56553b222f70abf2bb505584000e88628baf17"
+			},
+			{
+				"COUNT": 20,
+				"L": 160,
+				"KI": "dc60338d884eecb72975c603c27b360605011756c697c4fc388f5176ef81efb1",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "44d7aa08feba26093c14979c122c2437c3117b63b78841cd10a4bc5ed55c56586ad8986d55307dca1d198edcffbc516a8fbe6152aa428cdd800c062d",
+				"KO": "29ac07dccf1f28d506cd623e6e3fc2fa255bd60b"
+			},
+			{
+				"COUNT": 21,
+				"L": 160,
+				"KI": "7a7ecee4f04c1f5453f29b8c65bee909f673c44f65e8f9cc18c31c32e9bcfc5a",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "0e2b53dd63008e0663962a25da9cd55fc2ea377148783da229ff7e3bd6142a43c854b6b5d06d87b535936f1edc7cd067e8dbba220a1f9a5932b32a64",
+				"KO": "96fb8ef9380ac9de2711ef5a83249e608dc7bffc"
+			},
+			{
+				"COUNT": 22,
+				"L": 160,
+				"KI": "de71295dc50ac76eb5579410869e918b7be757afa606c509be4378bd98eda686",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "33ca974f8a1a065b75090c34c948449910495611e28ecc62ced29e5b3ae76217e139267041ba40be235de130438c1b14aa833296eb8e4babe2101010",
+				"KO": "385d60538090a45a2b2544275905c4c16e9f23e2"
+			},
+			{
+				"COUNT": 23,
+				"L": 160,
+				"KI": "389de0b914661c8ac9aaf11d261f6261baf4652886cf20d2b13df67be2e3b185",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "92b3d47ea042591db5b531907e09a45a60a9c5c5fe0251806b7805b641c5b3ebcde14d6cb542b4cb242b04f5a9b60b2c66d1a24c66141fe0b818e93c",
+				"KO": "b12a4e200180d20da404b44c952639a955dd83d0"
+			},
+			{
+				"COUNT": 24,
+				"L": 160,
+				"KI": "311af73874e13a8acad981490113934065b3bd5d448e2bb8dfa68b70c69d7d45",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "ea20fc9d32cddc78dcbca2ead6c5c66744da85d95b643d3ffab2d0e2d5677dd3a27313153b019cfcd33b3e305ed66404042b2db0e3de2267cb557fd8",
+				"KO": "c6e86d1043333fb690ad23274a908204d6bcbbac"
+			},
+			{
+				"COUNT": 25,
+				"L": 160,
+				"KI": "756f9980cbefea398350b886ca4c1b2910708b5b8154a0ec4b9648ac77b9d7dc",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "3f09aa15d2fa769c6e8a3380bc55844827ba3ea64ccf177beb4bfbd5142b3963bf696803a89974aa7d5af0192cd525a83b71cd8ee7b0bc92f07b9515",
+				"KO": "e3bc62b38a7b3c7e7fcb9ef007aa4ad6a9bb519c"
+			},
+			{
+				"COUNT": 26,
+				"L": 160,
+				"KI": "ae815bfe220407bce6638f20aefa109b63c7382e91d7bb8b010ed7c6d8d3757d",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "a221f1a3623eca5f6385b57e7afe67d134011c6058e3977df977bdf0c7ab0e14b6d5c059f39948982912b047d00103dc4836e59b7a470222dbae72ca",
+				"KO": "ed5e876d76227d0a7f1acf5ca08c812995303fb2"
+			},
+			{
+				"COUNT": 27,
+				"L": 160,
+				"KI": "d5110c808a951c5fe36aa4852fbde7e0bc372a2c69a35acfc890cc9ff78e40fb",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "f45187072a7d78fe91282f5825daeb256a28a818c70a285262b080cd3ee2ec785125b27e4026ac9688a5eae657db578cd207956249f04a064870d677",
+				"KO": "0e7de25fc559969c08d973ab40795df74e51965d"
+			},
+			{
+				"COUNT": 28,
+				"L": 160,
+				"KI": "4aa25a61f8b31f061e0fc1d541deb20e097663cc57054e1f9a347989d8172d62",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "e473fe5877fa137c50beadc2295187f1b66e35c80b7864bf01c1c620fc09893991500e9a93851ae122170911562bf6ee3c75d5ddeaded27814623d2c",
+				"KO": "e235ff72d9c0a64a80cd86fdb26f1cd8740e2704"
+			},
+			{
+				"COUNT": 29,
+				"L": 160,
+				"KI": "26b29556106c06a85c6950aaf20b5e08a523e80e198a725b69e23fe93bd2e16d",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "bd973f9bc6ff0226b2acc682e0084b8c67b285ea9b8b838938d18f96de84521fe47d560337115f8232d765166751f1b7026e608d25ec6504346d106d",
+				"KO": "e23b197d4d5fd8081ca54dd86a1d459cca7c69b0"
+			},
+			{
+				"COUNT": 30,
+				"L": 320,
+				"KI": "c4bedbddb66493e7c7259a3bbbc25f8c7e0ca7fe284d92d431d9cd99a0d214ac",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "1c69c54766791e315c2cc5c47ecd3ffab87d0d273dd920e70955814c220eacace6a5946542da3dfe24ff626b4897898cafb7db83bdff3c14fa46fd4b",
+				"KO": "1da47638d6c9c4d04d74d4640bbd42ab814d9e8cc22f4326695239f96b0693f12d0dd1152cf44430"
+			},
+			{
+				"COUNT": 31,
+				"L": 320,
+				"KI": "22256ca571d5c896db80a8758ff81cf8631d2bc38c7e76f3bafb0c2af540a356",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "9dd2dcd97b926251b50c6111d988e2951b02accc143702c88920cf36848f7c731756ab0537cb26e22725f11de069e5335802b0cb56c158dd75014791",
+				"KO": "a11aa3b1a93d2ce117550866c28d6974cf626719385b8868101a71a5d2aa793bc23c3cfdebe52ec9"
+			},
+			{
+				"COUNT": 32,
+				"L": 320,
+				"KI": "8066e057e73296158ed5479848317ad5e64ee8fb2e54d4ef85b7792f57f6f887",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "16da06e7360e4c27419b5f697e4c8548925ce55b53ad9e5e85b94c7f8e57ad142a1a0a0384337b1adf6410edcecea921152b94d6b23a192ce6f602d7",
+				"KO": "6ebef64b358050edc3c841f52188c5e442cb69630fec0be5114816af616a333f0aac5153e9265aa6"
+			},
+			{
+				"COUNT": 33,
+				"L": 320,
+				"KI": "56f06cc0bc392ab108696c7df71495b5a5cd3638e0a92045af7cbd3076f6dd18",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "4fcae8f32b08b8fb746121a2db2bc99fbb24b9ff11c60a1dc91f14ad9a60c6bafe4adb4dc160e9901eeeeb212a147ee0a7e76d4aefa427f66a205c86",
+				"KO": "ccda8231fa5c0702ba282a8f18a0c1dec6baef308625fb8f504410522c3f3b6d647c177054317a07"
+			},
+			{
+				"COUNT": 34,
+				"L": 320,
+				"KI": "617f1b6810c551aa5c21878b00656351466069d41adc7fee1ced3f2f3432435c",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "2113f7005c580b77060990c2a3f9e8c8825f0d7e93a3f69f208ebb5b97c488dabd0de7c7f00e08b4515db2c02e1824f96e71c9a21a18079c4b649d81",
+				"KO": "0325b1c85f3d25ad5ebc2e7b380cfede6b3c8ada1af0d0d5bcd9d2b34c29083115168b8aef54c584"
+			},
+			{
+				"COUNT": 35,
+				"L": 320,
+				"KI": "659edb9a0df51a3867d4aa01f74f60b7b151b01a3437c2f774fd37b6881a9ca4",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "3fb60870a5813badfd7af948c3c924bec05c92d540140bf28f2546825c5fbd40f1571493a178467fda9793f2f7eed45b40ef68e0107b8d74c0cf32e4",
+				"KO": "5c12c7b6ec38f516f72e76689c3106ee00ee8c2f50862cbf7fcb74bf8798eb761a33838788e276a3"
+			},
+			{
+				"COUNT": 36,
+				"L": 320,
+				"KI": "5703c556e3a53b8d2bf3c5ca773d0c6ed2c1b66a84e6680475a8286941b246b3",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "119e37d64b5ad702ca59f7952e5822cdafb723c0f92cd70338a17e24d3af6267af792b189a01a8a3353acd7a85b4d63bf7e4b22f73d7992e8e4e7389",
+				"KO": "e302c1c1e5c8f688a7580997399433fbaae499400b8a48901d808839c1eb49dfdf6324145f1ef01e"
+			},
+			{
+				"COUNT": 37,
+				"L": 320,
+				"KI": "9a6e83b91bd999737e577e449142dae05968e774b223c1185dc574da785c93cc",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "4b5845c6737202632b2946c3579d9d4582b475dfa373945b0abc68c8f0daa36520179439086c6809aa182094453bc0bffef0dc2888b96295fcd6e442",
+				"KO": "e90e3ed902a8eb1fc67823af534a2b48466bf2c5877dad0aadc7d6ff741d8f437b2e6d0031846960"
+			},
+			{
+				"COUNT": 38,
+				"L": 320,
+				"KI": "9bebf465003a85bc25ed340c6095d963885504d3cf0266af252effd22ad32d6f",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "17506db459dca14840917dad23264303ab1c83e35018a72258099d20d4f8ab85c5227404b23aed6ae108bd1282e50a00d160e534264770a11b4fcc75",
+				"KO": "1a32ea308aa6dc6f1b7c77f1d9aae40672fcae22438bbb0528e280073b31797886b6a80036a00e19"
+			},
+			{
+				"COUNT": 39,
+				"L": 320,
+				"KI": "1d9209183e557d3aac7e2ab53d26ec659df2a745fe56a53818ef5853a42ce194",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "c01a431a32833930a22abee5c6ea34db459316def3b241529ece7e39e2069a1e6b942946132eebc9679801d2cefef4bbb6a1b84ef853325b7bc498fd",
+				"KO": "dabcffa16a7589deee6c768aaf01e0813de909005526da54700083ef068f854d49941279689a1726"
+			}
+		]
+	},
+	{
+		"prf": "HMAC_SHA256",
+		"counterLocation": "after-fixed",
+		"rLen": 8,
+		"tests": [
+			{
+				"COUNT": 0,
+				"L": 128,
+				"KI": "08d0a37d2e2fb84d44838efaeac28135d964b0daf154369783cfe007fa883966",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "80866d761e34084b45ea668a25deabffdbca446aa0bf793bccdf3790d584d26056315a4c060ac7b1b01cace96ba97e8fed81953c8b82ba5132dd1713",
+				"KO": "8f5b47d23d5d3ba632acdf6543509bd8"
+			},
+			{
+				"COUNT": 1,
+				"L": 128,
+				"KI": "1459748eb906fca5302cc1a3001aa0d7b46a388df307b5f97722b9ec11183647",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "b9aa060059fb751eb8901b474bedec054c568e6c87379338b04fa62c61f2f5981e9d5a36d25223b7cbc2ce2c3262dbfc002daa5302b5c9e0affea2b8",
+				"KO": "e228535445561ed3d900e6ee7b5e05b3"
+			},
+			{
+				"COUNT": 2,
+				"L": 128,
+				"KI": "1563064cb61109afad504acbcd2c49ac140283d73f7dc48ec593d694ce3e8ea6",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "cbba762e762c226abccd16ff3089a40fd4c06956b6e74e1863fd17ca344436334f06b5d20930a96eda5767d8cda4469de4b5dafc4738c801222249f7",
+				"KO": "7fc179cc3a3f299f426512bb61a23822"
+			},
+			{
+				"COUNT": 3,
+				"L": 128,
+				"KI": "949587f93ebbdda4fb43466990f8a6b0a72f1df354bafb57ae5181b9a19938b9",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "e79f0bcb7bfd741269d8640017f4940437043fda48488c13a1d0cf7e6ae91a4f8a034b1bb9ce315c8c196b9bfebacb89814b65ad1613345e3eec46d5",
+				"KO": "7c2fedd902bd7ffc1e8f4060af66bd0f"
+			},
+			{
+				"COUNT": 4,
+				"L": 128,
+				"KI": "c7980cf5774a1e382d46f5a4696d8b4e64003c6d30c68224951d1c6e8f0638ef",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "02f1f9e422b1a9917934b8188b98d7bea2a718409195c115ec0ed49628b92b228868e4fb9d2879e676955ffe5ef120f271c03ca64b450b565ea18d37",
+				"KO": "b2280dd693e463dbe92f874c160d0543"
+			},
+			{
+				"COUNT": 5,
+				"L": 128,
+				"KI": "78d2aee48f5c3987caeeb208f68e07cdc6432c62451ab0b3eed2e7c0bdb871a5",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "54a3c3c87c8fe5c5765faaf9014ab2e459757964d9538b91662ab810fbea8261b970a07bab3d0ca20e4adfe338b0ca963580fa0a01b7afa261fd46eb",
+				"KO": "4c2dc38294e540bcdc101c5d683f7d00"
+			},
+			{
+				"COUNT": 6,
+				"L": 128,
+				"KI": "b44fb39a3485c5c55816aff5aeddcd7b10f0101e4d9aab4f92ed67faf2893203",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "4e32059c44fedb5880e19f2af079957e296edf4ddd9bdc802ed935c007238deb7714657e58ee19886988d42e69be15c336c7518b1ff9f240342a361e",
+				"KO": "54f0afc91af83e0a5f011920464065eb"
+			},
+			{
+				"COUNT": 7,
+				"L": 128,
+				"KI": "8ffd03875ccd2021dcad3fdd64f62f1cb777d0d75345beacc641925501a10c76",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "0fa48001a8d33a98a8536889d27e4679b22f1d1fb549554f564a0e48f0fd9b5c84fefe5c5c1f884e403b80c866eaf9203ea757fa6fd8c3c8660ce7ce",
+				"KO": "5a5bf3f7b317cd5f4e78ee61d4754057"
+			},
+			{
+				"COUNT": 8,
+				"L": 128,
+				"KI": "f09c84851039212fa4e8955c1f610af35b6b4eb67d8953806646cbf47e876679",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "715ce5e0910a7e68b2120967699deec872f327b1d1ebabda8a39ff721878e904e63cad67aa70ee7fc4d3e99936a4edf81a34c464fac1d93cae961327",
+				"KO": "96d554288c687cb5b501dca460fbfcb9"
+			},
+			{
+				"COUNT": 9,
+				"L": 128,
+				"KI": "20f1de4b271cf1d46b09207a31dec8c5c0c2042b4e0357e89aa2627ace007544",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "834729fa7a0f2f0b844bc2abe4645b797d3ecdd42e02f178aaf72a81e1df68b89ea0cff83d9b7e016989924726d1295b6e634e6d72eeb2c044ebd8e2",
+				"KO": "ff5c8000bf282d4d341eb67cf42b1013"
+			},
+			{
+				"COUNT": 10,
+				"L": 256,
+				"KI": "46cac2fd0ae6dcc9f695725da9839b8d3fc563b6b1c648e5d614fe1a46aa24bb",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "d450f6a6c1b17494af2b5cd463ee7346ff3362c9bcd931fe95b54972c978c21361bea9249af538146e364867cbca6457b45ff89ae946184e398d7c0f",
+				"KO": "2f3e608132dcb830d5576f45aec43e5d624af2b6fc3bb831a209a4277934147b"
+			},
+			{
+				"COUNT": 11,
+				"L": 256,
+				"KI": "da40f2d502ef6c1a1c687d072cd64b4af1cd8f40fab35db9782be4022d8a8e46",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "1fd790bdaf2d5ff064434de3d9b29951970eab761e92a1af6255a493bf93c6002c7ff7d0e9dacc61f2c254c269e6dd323ac796b9b9d93d5022516bc1",
+				"KO": "62529d57d3d58f66cd9e013856bb7dae2fb00a9b09f97fabe59cafb9c53b9533"
+			},
+			{
+				"COUNT": 12,
+				"L": 256,
+				"KI": "f6d3e3f05590ef234f000b9636fe050a3aa35cfbc29544f9b4cb3efd4d0abe81",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "cc0426d2ab12a01d64456e8703eaa7295fdbc837d6c3c6e5d7fd645b77627eb8ef93e46e8701f546410c24ffdf98cf4bd834b62e1a2c20188d4ba904",
+				"KO": "6c612073fdc529ba74c7f15d61b422356d4cf78a7d1a1b00091fd10580ab95be"
+			},
+			{
+				"COUNT": 13,
+				"L": 256,
+				"KI": "548af1cf70f4d9fff5fe1742fa47ccdc03429cc078bd7b91cf18477ea562abaa",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "67a27b0675ade174716b2390e4c49c0db3ba10ac297c994dfdcdb73c254cf2374d707d818b75b06d0f5881c7157fc760fff7e3a31b5198e1b7e3446b",
+				"KO": "28f9b5cf4e4731d2e1fffbff66a3102f5187614ee426058f6f5abf9345f4399c"
+			},
+			{
+				"COUNT": 14,
+				"L": 256,
+				"KI": "c27c7f5bbd332472f5fc9438fcda8de1932024220be7039e5b5d1316944557c7",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "82a0dab7d06f6a6b464ef39d9e0d6e120ee0aa2c67ceb95b5351cc07376d7a155fed035eff84a86d23f119c7870c944444baf8b0d9ebb47e121cb6d4",
+				"KO": "2d5a8a28b275fe0d932710bf383977d255531805bf3bb36c39cce2aa1682c642"
+			},
+			{
+				"COUNT": 15,
+				"L": 256,
+				"KI": "0cbeda7334656438fefef4b6604d29de9974624130ef4682d154ae0e6ad15bb9",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "fa9a1aab6190084eb5476d186adde8cc67e58382db531c7f9c654f6c8faffe1ca34e74a51538cea45972060df5087fa2a5838b8d70def60ecd4bb234",
+				"KO": "5691e8718c82e622bbcad0116d9f1a1fdf9e8af285da64f5b3470c8d1f4835d1"
+			},
+			{
+				"COUNT": 16,
+				"L": 256,
+				"KI": "cd02e722b2e088921d259c28046bc045bbb930892dc102d9662191590cc6180a",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "b8ac73631e9b8e0f5e033f3706446afb8c978f1c98700851a4ebb196b1026a34d7a761e17cd41da21f978e90d65485a2134da63b0f63870c4241d3c3",
+				"KO": "9a8b4c20b5073c3e366c0fe3fc52f5e2835abbd5fcc54cac003169abb5840251"
+			},
+			{
+				"COUNT": 17,
+				"L": 256,
+				"KI": "f8d37b734561dd9b2d1976201fed87d6316c990313468250ce7ced88523b6240",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "3d9df1e9dfb989cfbd21adb734a04d734ad4d179a0f5589f3528e46e9f1217d2e15f31b0b35e22dbb510a38700befa7e64fd036903546da2cc10c894",
+				"KO": "8ef913a796fee852c1555c24254e2599cad2b8ec3c9b4a613c608c992df321be"
+			},
+			{
+				"COUNT": 18,
+				"L": 256,
+				"KI": "2e5f3700af84c65a32009ff206ca2a81a1df580584194dc070424e61aec0e078",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "a3db78b20d2b6864ba58e2e553fb5d676365d18ace396a293e83e494a83d2b461c46138911256b761c3b6fc93dd68c817563e760f18741ce4c820f40",
+				"KO": "599b9cb09ac4dda41925e909d2b04167038a2f2ec13f164f5be57354892ed345"
+			},
+			{
+				"COUNT": 19,
+				"L": 256,
+				"KI": "19dc5e4f042b6434a86828e4bc5bb0c841470c2aa8ddbb5004988d9af0d3c7da",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "27ad1bc93a5d43bcacdd186d4a63bd57ee5c613be4d11be08a1278d67b45f86959e03306e14d615964d4294253fe3196b0334d731edf96ce1e53bf08",
+				"KO": "2b8c9f7632875ec70467b5b038687ab69992c99b6b0052872f56f16fd4a6d102"
+			},
+			{
+				"COUNT": 20,
+				"L": 160,
+				"KI": "9682aa6504f1f788bd1565c0a26cfdb91794e77ee0047b3493a818888101ff4d",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "eeba134ff995e191f1032f6a39d8f344733c5b1dc60fe2f251d08c356ae02a3a9924af78ed4af19ce36eaf1282e916c6d659cce7df9b35fdd8da5f0f",
+				"KO": "79536c1da875f3a5bad350524520811d981a59c6"
+			},
+			{
+				"COUNT": 21,
+				"L": 160,
+				"KI": "6a983cc39aaf7358eb0ecdc576868f84b1c52acd815d76bec834fd1d786161ba",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "3458393b163b56457da8eb6175cd66f722e9a3db74eb54d4c5076cff9a851c1538dfd88e8b36ac155556545cd5adf4dd62c5934a7688262eb943db3d",
+				"KO": "a6e78d8f6ad7a1119292416986e3b235cf6a9135"
+			},
+			{
+				"COUNT": 22,
+				"L": 160,
+				"KI": "9757ede0182af11d6c02d07c2d769730432001f8b9dd6c518087a8ef3048b506",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "1d958ff1c9c9b75789bb03fe5435a0fc1e109bad7f54b8bf47e6c3a4332c98e538f0c0f69e43cd63731996ebb0b68c0aaf465f211e3858085dd0041d",
+				"KO": "76d41d7f9f78267fff7509fddc325ca6acad2bf1"
+			},
+			{
+				"COUNT": 23,
+				"L": 160,
+				"KI": "5f0aa18a4ec0ed1f4c82e68840a043eac71ec35d9756b39db35e30fb79910fcc",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "be7a581c9b15ff375095ab7625f7aa71f83016163b2b51b275c0a7d1fefcd051038192180e1b9d4fe610777f36cd6efa5031feaf7175b41ac3828292",
+				"KO": "07237186a4ed84eda81d5f7447fe2fb4e0432307"
+			},
+			{
+				"COUNT": 24,
+				"L": 160,
+				"KI": "5969063317f13ce5bbb68bacad2665ce895f4a69ce668da1e39b568eed4358a7",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "95601252b9fce097ac0002fe5ce847856148c5e9e964ddbe1bac7c87141d5e8cb7c174800a9d2c3829e9245d1a134a5ee3dc8065af4e39a81637ea4c",
+				"KO": "67c2503f4c68cee8574d6b713948f09bf6293490"
+			},
+			{
+				"COUNT": 25,
+				"L": 160,
+				"KI": "254b0452b8a0122f0aca5f611bdf5232cf662ce4ff667eb43a75b42a98c251ae",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "ac85dfae6fd374e02c5a31244caeb23f60c9e0bc1e26aa8ac1943d5903704045c82f9922da165c576ba56632833c256fabfafa4522adce037144a8d5",
+				"KO": "b6e539b67ad4eb9c4822c9d943c8d6c29d5cea33"
+			},
+			{
+				"COUNT": 26,
+				"L": 160,
+				"KI": "7cdd479bf8e1469569e680041c9aa58caed8b3a6fb2c2a25ecbe0ed78e3bd607",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "26d4a03e521e9c6e8c1bfa5529754e287ba9c9f4916f62ce7fa65d2b2463910c637ecf819720b3b97e51da90d645d1730329bfdb83ad081e874f376d",
+				"KO": "38926c616fd4a573b78ce57cc30553d5940c42b1"
+			},
+			{
+				"COUNT": 27,
+				"L": 160,
+				"KI": "b417ceeec129be924653230a5eb29e581d675cf677047b119f5d7ab3d28ff7dc",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "519f6767da3723d4e3da14054f30cac7315e806580a3b42ea4c1796a77dcf137e2887dd30123c166d13392b876860e1412ba1d2533e22912bff62106",
+				"KO": "be67d6286c90958bcaf8729df6c7deed59e99389"
+			},
+			{
+				"COUNT": 28,
+				"L": 160,
+				"KI": "141a35a568f097fe4ef84bf44967b2bf76b79a95b54d2912c3e6e47a77b63c2e",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "cb7055bbc49e87fdb393c539f39a9b491340e84928db6925bcaa85ae5105c38fd1479f8eeb71f9c658f408cae662791841de58d2d45fb3c40c327cbb",
+				"KO": "d4355352f158a9fdcdf89b70115b37501a08754e"
+			},
+			{
+				"COUNT": 29,
+				"L": 160,
+				"KI": "1bb99ad368feca95cc0dc2dc33ebb92be9f234f57425408b404c9664910e2cd8",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "06aeadbb59ebc11170ee858cc51357911ec912573d8dbbb1f874b110062b8671c336497d16e1728713f38596ab87558a11a5fb6b656af26f49d00982",
+				"KO": "a427cff8bc61a23abcb44c3a09db6942cced4307"
+			},
+			{
+				"COUNT": 30,
+				"L": 320,
+				"KI": "ae0efff255e127632fa3067a8f10deee47e4d7311340eb703abcefb80a950c08",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "b3b37f5f125f55f643bc35b2ce39ca60db5d107ad66ce3a48d85ae29eff58118712777c2cb286578cf786bf4190e16a0ac88fed2e226430d1d61a53b",
+				"KO": "7931b0132cf74d5c5d40eb5eb9f5f67ab7a7f4b95e141f7f511a16cca6c89b9034c7179e21d2d84f"
+			},
+			{
+				"COUNT": 31,
+				"L": 320,
+				"KI": "4d4ca69b619b5e495e4b4028456339cbae176317af33b9e043c20e608b2a5800",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "ed85ddfa779d2d201f1e5947cc606200eca2a5bd83caa1f8ba5915e89a05064c7aec61f576ba57e6acaeb0f35c73054216ab9a789258102726808468",
+				"KO": "fa0f5572b6aac4ca9edd2b697a234a11dca31e3945d01369129811ed50e8595f2ac0b2a5122d092e"
+			},
+			{
+				"COUNT": 32,
+				"L": 320,
+				"KI": "3036c0079c68518191250f1aeb753f375f2153a386e1327b7226d55d5f843cb2",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "c474ce4f51bf9af0851032074ef1c4ab1c0e07cfd0ffebb767421b5fcf2f125378babf99e76c28459ab50bf10371d07e8f2fcfea26f69f04166eee84",
+				"KO": "371284c4522edb35f3e73f0e501cd91caead727a33b775037cd86f5f443bb50131cf0f85fcf203cc"
+			},
+			{
+				"COUNT": 33,
+				"L": 320,
+				"KI": "d904d935b20497ce9247bb9445ce20e718653eb2e450084c5f553aed7f1c6e52",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "16d02ae03d57c6c1327e9f9bfb1d691b6c819bd97f532a5aeaea0de9f6a5a43a4778fb23330ff4ef520ab8a4c4b0b7ee191f86b62a36d03f80bf3545",
+				"KO": "ac42da4cfa21a4fa0fcc06c183e447686f7f916f088db391d94229efb4d1e0cc3048a449fdb8513d"
+			},
+			{
+				"COUNT": 34,
+				"L": 320,
+				"KI": "de1f421ae439332b36462999e2ceff3b358f5a40608c756badf5dee438efd3b5",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "fcb2879ebf527611d5c5dffed422f28e59bfc7435762e72eea7367f552bbcb63848cb225768d7e45d300bc940f97bae7228a7b252937b90cb8bee4f2",
+				"KO": "5ab27cec3b7e443923cc5773a0091f4481bd512a29638f0c8119a4cbf568553a1307e74e9a90693d"
+			},
+			{
+				"COUNT": 35,
+				"L": 320,
+				"KI": "73780cc68fc6f5badea83f3ad8603655714c7d08cf0d7b0e542ef007dc6c3969",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "041997e9e7131d7bd665b9a59b836d5cc48679cb3b9a8d0e6d381677dd4f845a39d555f691cd673bff238e6f60b9ba8d19cbf35e2ecf05541a6deadd",
+				"KO": "54a769773f4e4bdab94f4ede95ff87e52b0afc60b7aa2f3cf1d07d736ef5a13ce41c874d6c7348b6"
+			},
+			{
+				"COUNT": 36,
+				"L": 320,
+				"KI": "63e30c3fbd05c66970cca957f1cfc18239ae1cc3eaf75adc7ba916170759631c",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "b1a53d8c130f3cf2241cb300301c1933c76bfde95fc836093e15e2f01445fc2fc590b9f98056d8e8bf961d2afed3ae5deb16083c8ad71fb71d7e5b1f",
+				"KO": "a15528d30c489efa6136f25b3fa9eb65741dec4779d2fabc2bf8977650dfdabe1f337b52d64832fe"
+			},
+			{
+				"COUNT": 37,
+				"L": 320,
+				"KI": "6fe3723d8ddbb066fe9a3a4cb220c2b7ac9d3c8e6ffc61093cd20f6d4fe69417",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "6ba0796265df8115ad349b11179ca53bcd8cd2eb6dc9f298ea4da085424de524f72270edb35f46f6f7aa2a02af504f5101694b33faeda63e70b24f6a",
+				"KO": "83019b1a55a25162b9a4d4c07513813b1e8c8bc490d9dee838a0bcaf258a492544f5236b0f6d90e5"
+			},
+			{
+				"COUNT": 38,
+				"L": 320,
+				"KI": "d616414905683795df744764a4a84429cbff62a4c9ace9890df66f69c8de8a9a",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "05e74e6517473ab65a9a5db80a2c6d6864f17c66dd415150b78fed6ca341db5bdaccf6cbaf272a175c2e8b655a8d4f9187d10d6a9893f396a2389cfe",
+				"KO": "7cf0ae11bac9c8db8dc9b758743cb75e30d3ced564429ed06f393457f1fd2992aa9a9892917531bc"
+			},
+			{
+				"COUNT": 39,
+				"L": 320,
+				"KI": "8d90e60f58457241ae83d81e2e39043ee3f457462435dba9d08b4d4712ab74ed",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "a99d3607d8bd366f700efe87fbc9d2eb5c519f4ecda2fff9104fd38fca0f3d98b254e76131d4347fe89016090007fd19ec98d00d025bf57f0bbc74a4",
+				"KO": "b22576c20440cc4dda2eb86dc008c9c8ccbf998fa50b806e8b62a1dc2a250875c18958df8ce696c0"
+			}
+		]
+	},
+	{
+		"prf": "HMAC_SHA256",
+		"counterLocation": "after-fixed",
+		"rLen": 16,
+		"tests": [
+			{
+				"COUNT": 0,
+				"L": 128,
+				"KI": "3b11d0b6f1b49d1a41eecc7448766bbfee47d32a28a3f2be3d3b5f21c4d1e6c6",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "a6aca3725e8687268cd9cefcc4f3799090568e777a18e82569922463658c4e8fce319316edc172eae3c7e4f4224ffe7d72730ec2f8472f80122a5cc0",
+				"KO": "fffbde92bad6dbfc61953b78c47f7b93"
+			},
+			{
+				"COUNT": 1,
+				"L": 128,
+				"KI": "13452a3dd60ecae7e641c0689c37106465445162aa29677068cd44445a82f860",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "04b33e47d13d581b766107244adcf0a21fd3920c725bac9453b8c894517c15a5da7eae5b8ff6378ead2560f2ea2451d6eccb6d7d32b255cb45243405",
+				"KO": "e31648fd49628b685484a2fde405f942"
+			},
+			{
+				"COUNT": 2,
+				"L": 128,
+				"KI": "46716815007d728bbff8893682575d333a22b3886b2ab275cd0496ac97171a7b",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "ae7f70cf8cb31309c7bfef1908ea72e535de896d4a5fd491e02dda8cfcb176d15bcb18e2404ce49403678a7a92c9f04775f85249cbb0670d5c3fd5f4",
+				"KO": "3c2a59add3efe8a98a0cb0efb2b7c40f"
+			},
+			{
+				"COUNT": 3,
+				"L": 128,
+				"KI": "4c714493f3c9a5b267079f97e56ca64509364b6c62be80fb43b25a09520c5f5a",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "c954e76f84d5eda05fcc356d90a1672affd6b20330c767613e790d377b1ea8b7b345d48626fb535ed23947144be596eedc826b0aa7b7f3fb4799dc38",
+				"KO": "4b7b0d3eb74b374a9e98fea5da18a707"
+			},
+			{
+				"COUNT": 4,
+				"L": 128,
+				"KI": "1416f2324b597c7ef6768fa53c67e44cb13115d2c9488efb528efc5ab70d7087",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "854da9b71410fc51ffb499cc37d56125dd64c7bc1fd3aec2b014e1f0f945cb946f96f6691ce6daa5abc6bab33c6ab4fc49a0425ba5ed5312aaa2bee2",
+				"KO": "f7ab54c14f6bc2999bbc3eb9d7f37ab0"
+			},
+			{
+				"COUNT": 5,
+				"L": 128,
+				"KI": "942d31a4e5a16c512e7434d8e9b5ce13539001ae71e7de009e56b06f5b7e3589",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "77d68730222522a148ee52da1ddc43dfe7db0bfb6d1e141479bcd251377b141450eec1b0884f78e310cfdf71d1e52b616b8a75bd38407933e3c03a7b",
+				"KO": "04f5229c504e888a9df37d5c8c40670c"
+			},
+			{
+				"COUNT": 6,
+				"L": 128,
+				"KI": "7bee95e141ae47a2706526d0c9cd07b3a0bfcc558145e27c4a9b2443620766d3",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "7126311cad69c31b136589c59efe7693006eb88d51e8cc69bcf0169e195a085ceb2835358ab8f88a6a451e8ed7d5bded24f2676c1f131a2c6741bfd7",
+				"KO": "972faff0983655b4f11af1998b1a754a"
+			},
+			{
+				"COUNT": 7,
+				"L": 128,
+				"KI": "fa7c9be15e0c32d537112c015ec69e3a7b58e94fcfd862e30c8858652c70b3a8",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "392ff8d1af4dde6f91754a7e8729f16d50676522aad0af08067b02c255503aeed5c3e4826da09672e63990c30aaba481bb374989e05308e994690faf",
+				"KO": "844455ecc4983afe3b39ea58e0e44ee4"
+			},
+			{
+				"COUNT": 8,
+				"L": 128,
+				"KI": "a08950a1fb184962adc5942ee24910652d29f89c097defa5769f1870a4356676",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "469409ebffec11ec2d7727b232f358f88f23987bd3156b0fa5b384573231ee9dcc930dad79f9801d48a84073827620160f802458f1e88dbed03a7975",
+				"KO": "d24575f75c6ae19ad680f6014db94629"
+			},
+			{
+				"COUNT": 9,
+				"L": 128,
+				"KI": "dfe8ee7ea6aefe42aa00c8f01e0effa4cd8ce530d96d601929fc817235399788",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "6f0678de13c7546124194e0c5bf53c796df3653d95994c265f76ca09228f070b9113244712102993162e448f069d477e39de30cc3de0c5ece72e320c",
+				"KO": "aeb362e702753577749553285749699d"
+			},
+			{
+				"COUNT": 10,
+				"L": 256,
+				"KI": "ddc31690f2b9e18fb7ac80070a87d9f7690d6df6aca9a9e00c30926064693439",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "b0d0a6ff3e3a52578501162619d245dda7c9bdd946defb3cf58aca79d5a1891d014fe1b1ff70a9408c91f8e8b6cdcf4e758d1d509344b24a94ceffb0",
+				"KO": "2a2312ea806358a96aa5ab8b639175932da090b1b60ab70ce111ac8322cb673a"
+			},
+			{
+				"COUNT": 11,
+				"L": 256,
+				"KI": "b247781d441fef287eff60dae95f64f8eced8cae1c52e1bef577afef8eeb57a6",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "0619448b04a8271ba3898cddadcfec01f77e1b145685b3f019e2417b958df461b21e4064f9d1aa372d835b8810d68fb670421b4431bc34ee911527b6",
+				"KO": "32f2c0d7612ad48a655878092275e4d838b2270b4f678a836ab4b212e03a1eb8"
+			},
+			{
+				"COUNT": 12,
+				"L": 256,
+				"KI": "8ff6efda78114eedf0703f88d770ea002543733f7694e949030e7b04eefeb9be",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "c633f4df306b183ef59fbda17aad8c03093f7e6008dd0740d0d25b5f5370940ce33418635248ef2d1d37b1375ad5f00d2e3c58ea48cca0159f16e229",
+				"KO": "de17e2094739d6111bc773e155a8c0181460a9752707b9781c79d08b9aed35e7"
+			},
+			{
+				"COUNT": 13,
+				"L": 256,
+				"KI": "c8e0dfca6018a40efc697ba249cff917cce697ddec4577b8448d4c065019ad4c",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "0c213fb3f466b7d65fd1c5031dbd590c67d3f1b89089d1bb0fcda746e14a790aac769b88e5bdf98b571b519d5cd09544eb46aedfc1d9a6275009085e",
+				"KO": "948febb3d5dbaa2f25998a3869c332949a63625ba04976eac3a93bdc065dba61"
+			},
+			{
+				"COUNT": 14,
+				"L": 256,
+				"KI": "07eee2a1d2e317609528e3f59b7289b671bf305ba5ba8f7caf83d56ef9fbf492",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "5f528ac85484c00dcf9e5883ece8dfa4f9458cf76bbde2027ce739c3323a63ebdf17a77fd2ddfae6eb8840b352689650f90a81f41bd82a4ef60ad60e",
+				"KO": "2b17de3b11ebeb058255ddac6b234321d4a1e107153d33349ddde5c15b61d38f"
+			},
+			{
+				"COUNT": 15,
+				"L": 256,
+				"KI": "cdd716a69a2450a50a22554d35f7fee18fb85348966ca4dc24ec6c4d23f152c5",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "f8fee9836dceb3ab10c9d939e0ca657512ab070f8eb7d68700227c4a333030c6eecd9def19a5c070759ae67d9b2fd2a6c1f42f8bb439675b30ae44ae",
+				"KO": "437cf76c6f11b4e6b0e1091e8d673259a6a4167e6abd60e5cc442ec14ac7fdc8"
+			},
+			{
+				"COUNT": 16,
+				"L": 256,
+				"KI": "4a00b47f79e9df9f5d23d728c055454ec84401d169414bc19695a75b6b2752d0",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "a0d68ab9e8b9f0f10cd08cdfb8f2b5fb15acbb35a4ed1f5cf595482f138b2422a744fe621f11713f08c9902c47a0a27361cf70fffa3defd258e2a2a0",
+				"KO": "689245ca85a1971674155e8415fc019f6a2bcc3b6231b80036c94cd3bc328761"
+			},
+			{
+				"COUNT": 17,
+				"L": 256,
+				"KI": "d1cd8d8d04ab6e53cb0df8ddbb4e7c6705ede438dbbc3a4bbdc4157ae1e53660",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "5db0054cae644d70848305f0a7767f5a70649245f9816c393f4f30aab1fe17d169b4e3cc6c59a7200c73a25f3a67c69b4eb2ae45d56c54f624464b08",
+				"KO": "ac4da6ceb5c0b6f1c494cf34686969398b87a871caf17a2a0b62cdbcddac4f35"
+			},
+			{
+				"COUNT": 18,
+				"L": 256,
+				"KI": "16f6a22dfbf4d310d25bf4fd42f04d005cb67a04bcb39fe1731ff3dbfdf31969",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "8adfa21c6fe85048a50c395d37cc82e620ca0dcdf158b137ccfe5334dea122b6050356aef9b7ff6ade0e251ad71b6d2e321db0749a44d96569e60660",
+				"KO": "ff1d7b9ddbd6615c180bffe4321741b7d600cb9fc162c1b338f9af908494b56a"
+			},
+			{
+				"COUNT": 19,
+				"L": 256,
+				"KI": "5545d2d9a4d4336aecd65f97e9d031cb1e2f3141684cd68fe9ba343878c5016e",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "f38189d3586a94e1ea54d02136c1878de4abbf51712a81ce6ff5006db2cb8b338fb4c5d5b0b30c762e88e510af06b78d06d20c7158dd56316d5f8215",
+				"KO": "070654f6464c94523cb1eafb7c2af1cc2052f3a9186fd08d95f47e6e5c578c6f"
+			},
+			{
+				"COUNT": 20,
+				"L": 160,
+				"KI": "490c5b1e72d73571cddcc443f699b9e2ca1cce550ac6e083f8c479e0c564c900",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "27d8d803a40832e40e7d2dc24a6639b9e920e31db75d5e14364c5caf9e4b4462f98dd3f6664e499cbbb8168972c99cc2cbc58a3f163d0a5e86a007c2",
+				"KO": "44b3cabfb3cdbd4f5bb2984d78114b7745ceccb7"
+			},
+			{
+				"COUNT": 21,
+				"L": 160,
+				"KI": "283721d246919be7f985a7d80c8e30c0e78b302cbbedaec1a9b18d13a1ea87bc",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "f81c5a2bc895d0b34b05170f713451da3f06292cab7c49db4338402ffb20fdd1cef2c05ad637482275d49a86f77faf39e07a207bb71204974f9c08a0",
+				"KO": "48b919e403e3622e64fd68abc976ea3914624351"
+			},
+			{
+				"COUNT": 22,
+				"L": 160,
+				"KI": "9140b6d939858ce9b6cf111bf77194bdd075950fd41ccefe1d718ecc74a6ff26",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "69e22675310a296b569819c01f220d051a554faa384674be10dd5160d8052513a3b9ec7d73fd0d455a2d5ac68bad91b61cd3a116239148b5290f8265",
+				"KO": "b964e3e348ed04ac95eeeff0559e5b9f110823e7"
+			},
+			{
+				"COUNT": 23,
+				"L": 160,
+				"KI": "0e2bbef1449c6f9494667afb4a4bace3df689ba434bbcb337bfb7a6e8409d8e0",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "aa18b925a66880377e8c3aad7239f82e29d84767349940633306fca3330f5bda800aba4f335f96fa45588f0b30663b12bcccd4cca45ce99d4fb75c81",
+				"KO": "e51e1ae7852939db07adaca501c9bf4db25f0af1"
+			},
+			{
+				"COUNT": 24,
+				"L": 160,
+				"KI": "609602ebf0f3c08dfde66ee5c98fee0f9699fe3f75ae3fbcc4129d6fde126c38",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "bba2b5a8bf7cdb1d4c253dd404e54d05d15cff49668beaba97b360a8da38c1676a3748851dbee1a30e5ece0bff70a3a5e34e5b9e65b8a1cdf57ebe59",
+				"KO": "03ab109cf2b463974e9826a8f9eba94a3ade46c3"
+			},
+			{
+				"COUNT": 25,
+				"L": 160,
+				"KI": "4d12ec8d635e3787463ff40963d0bbae4316ba81cb32c62f98a1a56c0b031e26",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "ce8503939dfbf66afbc5aff001958adbd4fd9f6d32f5ac70a99e03fb80fc39f8f891ce85e5903df19eabc19dadf4d3c574d5cd84a4cac15fcd4232a1",
+				"KO": "69ed1baa8204e71d5c8b702ff5cca92b0f20d580"
+			},
+			{
+				"COUNT": 26,
+				"L": 160,
+				"KI": "5eea811b6038888e021092b439a9aaed94b6005d33572305760c5c728d33176b",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "fd2e916cf7004da9e4d16e1d4c9adbd2b28adc75b7ac3cd676cf907a8c8a41f8f7e8807f5a486645ee87e0b69cc7c6edfc6c9aec688ee5b27eed4a71",
+				"KO": "2f7d4c068efdf0b065bad87468d100b0977d8a45"
+			},
+			{
+				"COUNT": 27,
+				"L": 160,
+				"KI": "6ed82d2bd4eccd4c22ca430d91b6c7b0e6e38dd7a9ae341d6f461a23022636f2",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "cbb70db4bd60a4de8ebf09bd2e0673b810d2b6c2cbb476cdaa45c539ef218249524c015b3602dc3e123b6be13d5c18ee3fae06ac5bb6014a93976e7e",
+				"KO": "cae755f11240cb1e334997ca25c7ce6d830502f9"
+			},
+			{
+				"COUNT": 28,
+				"L": 160,
+				"KI": "25ea77fb96cb14dad484f3d16066804d0d24fc226ae6ac624aa4bea8b838b5af",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "2ad8189a43a37a4a7a0867c99eccc2d554caf19cb736794bd627f631bf440ae17e7e90e0cda7fa0ce56be25c0dff7fd77376d5c1d3d1080b7dbb9dc8",
+				"KO": "72685fa325d6b9c38fd4508aeb3f664327512a58"
+			},
+			{
+				"COUNT": 29,
+				"L": 160,
+				"KI": "b6e0c85e325b72299057f3acae8703ed21372eb012e4fb086f59b2c2fc117ca8",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "b2d3e3a8378bb2f00a109ad69a937eda0285112e439d8c94e60c15d88ec94ebff7bb598b7589e2b8991cf8e38adf36424cb448669b789bfb2f2f8e30",
+				"KO": "2a0f988ebe5d5556372c27a7486a4ee9d87bf6b2"
+			},
+			{
+				"COUNT": 30,
+				"L": 320,
+				"KI": "357e401a680c447f2fb0e25171d8784d25ce9a4400bbfe04710526e98c69d347",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "32d6f66942c9a7cb28be7a58edd6e7e59850cf813014735284c276f39f4cbdea20ecfc8fd4fdc1abe3f7df78dddadf33f5e822ab771b29d2d5d2d384",
+				"KO": "cc877a51b8bf6dca6c622822706732eb82cc4d666865f65cb797df896a3aae7d532f67670bead853"
+			},
+			{
+				"COUNT": 31,
+				"L": 320,
+				"KI": "6fa4e3709c2db92cb44cdb7d0118750bf2fd5860a29fbf2c02807c16e87a4b5f",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "da2a7132df97d5327ea0e88eaf1445c2a68d6771f1cc96718aff480e4b39fd991789e1afd089d04adae23af2f1b7ecc7626bae38dc307ac2c260f0ed",
+				"KO": "8999dfb4c20f7f311001d70c3a04443e8f4f2ce7c2ba1aa260dfe1784b390635652a3c6b9d6213df"
+			},
+			{
+				"COUNT": 32,
+				"L": 320,
+				"KI": "c0cc9655be12e9b26ad5801d4e3d5df751a60b6e9970ec867c3f505d2c9d4aaa",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "319c1ea9552e33299b624e594cef5f0571c03dc5369b6b903993ed85198be54016e4afb26e62ed0330ba53503538090659d17896240b80b10469b5d7",
+				"KO": "cc70784fdb6e9b4622bb8da9389f3385bee0959cd42331796f13c0f4eab8a3202ccd042aec63ea96"
+			},
+			{
+				"COUNT": 33,
+				"L": 320,
+				"KI": "c9614960ccb06502ce56ead4e0a90609e0e39d3d67fb36534b1f30a6e5c30977",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "7e58eacece5332b8c2070296adc115a48483cab4c92652c09df55b139beab1c2b0929a7820a45df0f64ac40503decafcfdd90cc586f2120c9c30f942",
+				"KO": "c4a333f345c15054a43c060fb4e6cda08706d24688d047032ebb1183a8b112a27d1fe5bc0f458222"
+			},
+			{
+				"COUNT": 34,
+				"L": 320,
+				"KI": "5a873411a03caf058d8b83f16cd4741e136ea46363b5f5bf7d5bafc915fd094c",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "e4fa942828a86ee179fb43a650eac99408a684e58a73a176fac01495085d19c51052d4e64a5044128652e70aa45eb342156913bd855aec2fdc841980",
+				"KO": "5b3dbe527d88f6197bc96d6c9a350bdb39ad4f1470dd74e370bd1d88244248acba488141ed56be7e"
+			},
+			{
+				"COUNT": 35,
+				"L": 320,
+				"KI": "3cdd950369574da12b554a0bdeb2294a1e26a08df7d3b473844ba4aff6011870",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "1479b662dd5e9de2abde53eada9b4d5e2f58db62adcabd4df680a266e86f2c51aef05eda36a41c286f8cf7110dab0a1be15b7dd79109cd22140fb75c",
+				"KO": "b4308a0d7852facd0438b3f50f788ec9ca7b86c3a41d03b40c5a03635c235f851324f20239a83925"
+			},
+			{
+				"COUNT": 36,
+				"L": 320,
+				"KI": "c8448f3c53b533474f509f3b53a58984bb1bc94ff72f645c2153d2066b28c45d",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "cc0931a08d3962a319d42869a967a3682c2e0efcb1a899b8d7e06844204ea02d1ec77630ab7bb8eb2a335039d25ee94ce170a8eb49b047da3e575e85",
+				"KO": "3065a5695f56a8ac897ad4c19594607aa92c8a0a5ad789a1ab57cd02f132fe0c22e99bf0ffab2fa1"
+			},
+			{
+				"COUNT": 37,
+				"L": 320,
+				"KI": "d7c04f0a0fd10726f1e7784a9aca63ec9ab9c70ad4d63040ece3fc1f949d302a",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "9e389b31ad915de833209bcfe3dc87701aabfeac4a7e3d6cdb8eed5f6b31a0e794a0c3fb145d4d3656fd2112faa817b8a084e02395da512f480adebd",
+				"KO": "22fd0b9d6ad9b9a2a3b5febbadddf2096dc5924b3cd4bb801e087335986d25b8123e7c9cab6e9e3c"
+			},
+			{
+				"COUNT": 38,
+				"L": 320,
+				"KI": "3a2161703d9dd3fdddc20f7c31ccb09f60197e43c0beaadea77ed9f7eb864ab2",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "f8abf69f8aeb066cd13ec1ec169c177680f7893bef039990882159c9f43f15a66582ced514a093cd5cc225e49ebd4ef4c49946976881e31083e2e3d6",
+				"KO": "cac8247007aa54912916ccf568918b5b420ff4a1b43013454e1c1dded8f08b0e5a0adf0c35ae73dd"
+			},
+			{
+				"COUNT": 39,
+				"L": 320,
+				"KI": "81ae151cb5d48e9b715e8b1210422aab32d8b0043991f09c0656c495638ce291",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "089ee43cc9e769b538c1b3a8ad0bbf04262ab1f03c7b68248dd50841c6cd5dabde5be5b5dd9a4e1711e57a369f1b18d6df6fca3b4cfcc064fd8c3ff3",
+				"KO": "224a3e01b44122f8009a7c835e58584343d52d2a9fd784a5c8f66feb670bf1eb96292f59fc177b80"
+			}
+		]
+	},
+	{
+		"prf": "HMAC_SHA256",
+		"counterLocation": "after-fixed",
+		"rLen": 24,
+		"tests": [
+			{
+				"COUNT": 0,
+				"L": 128,
+				"KI": "585245d11e0b69d10e2ea39c76c8625003aa775037e476009856ac8e3e9f9b48",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "1b8234e4a0c9f674fd6f29965bd03df4a8d30b17cf95b058ac46bc2fe9d8ec79a004a2e11165ae3131b9b9440abf9a6fded0d31af468aa56fee00158",
+				"KO": "73781a39ab0f3cdae0d8ea9649ecbe9b"
+			},
+			{
+				"COUNT": 1,
+				"L": 128,
+				"KI": "61d5ffd8d837c9a0ad08580d5e668bb1b07dfd8ebb2cd4766f9727aba8f24b04",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "2fd0464373ac9e1add0c4106879b1b7823d9d3aac0ca94ffe4a285ead66cb9b0fbf077e66524e8b98d28204d2cdd73790c9dc528e7c6cdd1c5378966",
+				"KO": "54d65976659f1b088b2431a98f3d8a6b"
+			},
+			{
+				"COUNT": 2,
+				"L": 128,
+				"KI": "1471c37f642863634e5bf267fe48f97a5fb56f581fce5f88b79dd864d7235980",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "ea787e2cee3fad5c2ab793d2f83968e1c4186e933f4044e46d9d7c46e4f4d9e6f694ecf2f3c3c53bd33bd216daa91e43a8d511e9ef1299f23e20bde9",
+				"KO": "c49455ea41a98ad6fa2ea29387430b73"
+			},
+			{
+				"COUNT": 3,
+				"L": 128,
+				"KI": "c377cf419a45ac9bd6359a5f5ac5f8867aef010e87ba644e344500f86329a485",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "e9662a784e7c66c72afeaeb7013e20413fa00118f8b0a7a7ae96559bb30e78c74f3f8d36c97ceb046e795cebe7c2979b0999bc55c399454934ab38f9",
+				"KO": "5453c800fc962e0a14d31f5b051bd857"
+			},
+			{
+				"COUNT": 4,
+				"L": 128,
+				"KI": "21b197eb6cdc764faa1c6402ffc717e35a92009c8aad97737e5e71c16585501d",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "e1e1e21979ef9c960b4b0b3d629d3ceaa2d5e354ae5737b574a76e4f4c69de54d19d83e871453fcb025b91a5c8acad2dc022d301c10b5e72986bff0f",
+				"KO": "a6ad6642206aaa2137c8ff4c5f87bf1e"
+			},
+			{
+				"COUNT": 5,
+				"L": 128,
+				"KI": "2045ca12ec642c2d8c62f326fce6856d2eee2b1038630569009f908eb20244b4",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "b74920887f4bf51d2062e1bc6df5d5f6048c90a90032fac4d0f7828c537a0c8ee53037d6125daaec06329a65a7b99b7df7c650f54220ef04b8e6eb81",
+				"KO": "7af3887cf1026d8cd266dfe810c4e317"
+			},
+			{
+				"COUNT": 6,
+				"L": 128,
+				"KI": "46fa99cba127b82e4b759451421206d6306103158baf078ae2c05538c43a9136",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "b8d9ffe2d6796d0ed515858a6a8dcc29e6c36b2f3c1c0ceea4e94f4f65a105f677147cd16f212e9e0127a83aacb9f086b7d93cbfa138c33b9b1e4193",
+				"KO": "c3e83084d2432763fe178babec396f66"
+			},
+			{
+				"COUNT": 7,
+				"L": 128,
+				"KI": "a28dc20454055062529bdda1be1dc5bad79dd654f43de97107ddf3bff7d8a0b3",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "a6e6ee8d6c349fa259c6113cd642b9a4f95af7bc04959f8bd76e773b05c80d8c2abed92c06eaeb9524349be9dbaed18e20e7eaef8494898b5f4c5cf2",
+				"KO": "b5ebbdbdbb5938958eeb0e45bad0bd78"
+			},
+			{
+				"COUNT": 8,
+				"L": 128,
+				"KI": "7df2cbeea00493bf6e2f37ab23c4ae11a26022bc30e661c2ffef03fedb1bf267",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "e770852148e51c7aec8fb8d368cf762b64db2c47de402f7d4aa3d9c1eb1c1213933764a224a30c74311bfeedc8c627caca6a2a5e461217c609f37a64",
+				"KO": "a9cc5aa89699248498d7d4252ceeff72"
+			},
+			{
+				"COUNT": 9,
+				"L": 128,
+				"KI": "599e9752d4ff8328ad1ff48c68dac8d5c25e114e541d84c1ffefaa0fbde1e8cb",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "a621e579b65c3617644bac9d281a7eac43059cb7fb7066063ae62fe164e2cd52912675ca1013e01559acb471bfa583a2129af398dbf93dc2f12ac29c",
+				"KO": "024dcd318ca4d8bdfe8493c23908fbd3"
+			},
+			{
+				"COUNT": 10,
+				"L": 256,
+				"KI": "8646bde150d4cd788788b1120851f809270a15be737adf3839c788fd5cce6f17",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "d2e4135ae1218113a4385b8d8cf24941ec4eef5cc6f84245ef0028ea8faf955bdc93d1cfd32d9afd063d29456b2f0deb363df28b8fdab6d227df7d6c",
+				"KO": "026e56334223324dca9b2f856c954b8083190cf243a9f7a7dfba301dc181cca9"
+			},
+			{
+				"COUNT": 11,
+				"L": 256,
+				"KI": "4d50400a101850426a0c3c118d71c7245a6ef68508c0152f05b1baf2175198ad",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "639857c6f758b79fbbf850920e4ce908cdb97e3bb1e92f400e557ec37c9189c0c2c761b72f6906c077878f7cc09d917c2fca41c5dac1c7766d18ff03",
+				"KO": "1bdea8da0016f4fc8ecdf4e9ff4bfd0ad2633d284e19488fd9fbaea48d7e9fc3"
+			},
+			{
+				"COUNT": 12,
+				"L": 256,
+				"KI": "e1ef0fb35952c285fd94e6c3abe2a68eb034ffd06b5bb0a52ef62294486d96fe",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "78c6c6a70f1ea438db2d8b68f9e374368835c2017fb4c83fc3a46a2263ac59abb9e9e891fbe90ef006fbaf167f60db9073d6f9de21608d53c7c1e957",
+				"KO": "f5378f5b837e71e61cb802cf2a07c17b375b88a1102518f73d72e768aac632bb"
+			},
+			{
+				"COUNT": 13,
+				"L": 256,
+				"KI": "0880928a00b2b845bb5148825d53ec928502bd93e8d477f6f2d3dcc5614d62b3",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "c310fdc16d36b607b0d07f85ace238fdd210a13e11178b78d3d1e2d352e9830c546c7556fe993c3914d47271d01c8c2d01d2ebbe3d2576e26817fcc2",
+				"KO": "24a418da78831aa58c2ef6094005736d846a2d47b464a09033bb83d51da75d54"
+			},
+			{
+				"COUNT": 14,
+				"L": 256,
+				"KI": "99e8d6a4faf993cb4300056ce88c7a670294ca2a3fde501ab592a85fec984ae6",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "83b6b5a37fcdadc614090e8a158825e9162bd94daaebc8222b77017bcc3661be85ee65591b65bd70b833f39e3c4515ea0ee303cad2a61be800e12e89",
+				"KO": "1dd6caac954b7363ceb94a7976861b076f06d7bfb0c3443559aed8694085c072"
+			},
+			{
+				"COUNT": 15,
+				"L": 256,
+				"KI": "afb3800814771c493500b8059eb69db5b6f625fe9fa6fc80248f1195065cee74",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "1ada1ed47620bc5419440300314a162f9a522134ac537f632fae497109d0860b00f39c4fd51d14a736d90ac30dfff942cc48cfefda5ab81daf6245da",
+				"KO": "017927eec0bd8b0ec2c4d7b84556d33058424c51e526043eaf36b4e522faa6ad"
+			},
+			{
+				"COUNT": 16,
+				"L": 256,
+				"KI": "d23e866ec0f9d4cc3991dd9b72da66bd540653888df5b99b86dc7bec24fa7ebe",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "d16319d9b910a82d3c658e07923e80805d01f9fc01cd232426aac4e3ef1226d3b702c99e34f61ae0826fa1fbefd7da34faf468c1f68258c605140a04",
+				"KO": "cfe47644b9fe6eb019d0ebfdf50fdde4c1a2d27e31fe90ef48a0d184a03078c4"
+			},
+			{
+				"COUNT": 17,
+				"L": 256,
+				"KI": "72f02871a9b04a37ff7c7a154c2b39f8db50e7987aa8743d596e1708b3d3d35d",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "0c372f60884e3d1383642ba8c687682059dea41419109dd82a5bf0bf02a2a6b349a8bc593b3c3a2f56dff8d2e097f65ad21219e365cdc38e49ad1f9e",
+				"KO": "30d6d55d2ca8ec41c3ed553670936f850c467ce1cd4abfb4a71f15d4199f9f88"
+			},
+			{
+				"COUNT": 18,
+				"L": 256,
+				"KI": "67864cc29597cfd6960e99b82689c75a8573beae052a6f978240707904bfb4c8",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "3e77e1d61f08f4e3d7f47e247420db03008d7552be41c85696e62adf67acf3b3262ea566c9fbf186fede192a4630239118cf2142d2c03d57f91b6200",
+				"KO": "ff8559b25e662bb4a12b6e62ab02065aca88cd318f3512e67f418fe18c8b2df9"
+			},
+			{
+				"COUNT": 19,
+				"L": 256,
+				"KI": "ffbb7131709b97586352475fbff6fa5e57e8be2cd6e888ae05bb70835d4b14de",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "45262d96fe923d6e0945da0928af73076ca2b71eecb24640865fd016ac6a6d2e8bec6d5f3b957bac4f2726d380670381e4fbc4858d406ebc9ffb81d6",
+				"KO": "7115b4182369ef6f07fd264964531f473e042c2cccd45cfcf7a37cc0e9742273"
+			},
+			{
+				"COUNT": 20,
+				"L": 160,
+				"KI": "4b8ba533e64d3404eb8bdc327c9380e03579bb5c7f041fac5e90991ebc6b810e",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "112d69591e9e7835bc613ab8bad233875c645f073df45a73860b2d10db304c983e5edb78bbca13b339c2c67f7ca60ccb99a8544ae6e107dfa2b6f6ea",
+				"KO": "edbcabbb462d13dba79fd0a79e82db8b825cc505"
+			},
+			{
+				"COUNT": 21,
+				"L": 160,
+				"KI": "da6f235e0a5a8907360d630cc765708215fe74b08eaa496ee14d0a2dd849e831",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "382baf473170b2e7c8f8743445b59afdcf4e83b8d8fb6b345406ebdc30d9d9205b1ec111735b9d53e4921386a2d0b2eb6ad7912c2de40a006ad43df8",
+				"KO": "68637dfb3f9908140ce4ec97faa1d72ff28f3542"
+			},
+			{
+				"COUNT": 22,
+				"L": 160,
+				"KI": "1298c26cd2a971df9f843c8fe62432b9fd48ddb2b775307ac975110eec78cd19",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "70c3a30a9b7628de108037114a7e05a8024ac09db288ca0f205de179553a96e748799a5b2ba7d3b186f46aa9996a9324a2cb812fd3a81c02f4879961",
+				"KO": "d9aa52fbd54e0ed5d6127f3afc23ef63273cd522"
+			},
+			{
+				"COUNT": 23,
+				"L": 160,
+				"KI": "70013e239c4c5151a5144dff54083fefd236e074f2f28b1b83503dee33d5ed22",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "2a146d1c2566dca5c5aa84bb67bb6feb798e7fde78a5d942941e073942fda798c4a8d8f61ab47e74cf20b55785d63fb58d04a800202f92d0873c2750",
+				"KO": "2e365e72a9bdd33fa36c7b4b2f4e8ef4a814701c"
+			},
+			{
+				"COUNT": 24,
+				"L": 160,
+				"KI": "b1e8f6a7fd6bf054d63414a1123cf154f0949c7f11a30d038a4c8dac388faa03",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "c99567e4ac16a3b56ce26ce4522dfdd51b7551e442d26bc2bba8f506ba437fac332f077e8e49e047518104fd92d1bdd5c81f4b98c2e2f2d087b42b78",
+				"KO": "e25fc9f095e3f4aae0ef5d2217143b0cf489c1c6"
+			},
+			{
+				"COUNT": 25,
+				"L": 160,
+				"KI": "b98e24bfde1aebdd7d56171ae1221c9348322ffbd25d7c81b8f2e856a3b59e61",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "5b7aa9a7a04a07c5f0cb526174ad7c2f476f2b1c7345686af4563e42c1c122d2bf64cbbb44e50e8976b0997af95ede8140f8efa52980a9ff56f972bb",
+				"KO": "97a9b4674bbbad1d8e38a8fca3bf432bedf1c634"
+			},
+			{
+				"COUNT": 26,
+				"L": 160,
+				"KI": "753712e3e3c0872ab4a1630b662910755874001a4ebf4777f6b944ec6b89643b",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "d21c4a8082c5e706bdc33bad080cb292759f26d23d97129149645ae77e439384239c66eef35fc754cbb2592463e81090ca9fb57ab4d6a47cc8602987",
+				"KO": "1093a3d79da8a734f2fc37b8be0666106df5e3c4"
+			},
+			{
+				"COUNT": 27,
+				"L": 160,
+				"KI": "206aec95c8de56af4ac8cfc6ef872a268eb2444228c80031297f5d04b9892e20",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "f3b4d58d7767ad762907cf6454de1d7fd36e794653abf1b8f6f941ed9913e8730c5a8d49d511c35a43ac202ede497ec3e0b07b94060e7b6d34591fc1",
+				"KO": "9defc6877188df822ebce950c718f1335392dd15"
+			},
+			{
+				"COUNT": 28,
+				"L": 160,
+				"KI": "8d69eb2c4a09fd9f7badd06f2914211dffb1cfeed8417ca1716307ec147a1e04",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "87bd230ae1646e37b5dfaf0f5a72ce5f5829baca952f52b2a9ebb06a1d241940bba13fd9747b4c7b019c2e96061afea66fc35e2009cd65a19ecc51d1",
+				"KO": "de97e78588049a10632e04edb5b6075bb77f08be"
+			},
+			{
+				"COUNT": 29,
+				"L": 160,
+				"KI": "08f102ee08e40e0db91bc7610cecfb93f6dc02f509b28758546aaafcaa7a79ef",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "72cbec04a3c6d7c1870064fac9f0536bbb2b3bb1455d606162090c197cf4912a612bd92ba2e5ff92f1151682ea6a1d85a6f9e7645a52065d1e14d18a",
+				"KO": "ec79cfc4d56f8a4a3c53bf91ecbabe7b47c1b55a"
+			},
+			{
+				"COUNT": 30,
+				"L": 320,
+				"KI": "33760c18afd71a888b99d1669f5c56389e1f12d258e5e889afaa8945b0a504df",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "3ee21c81ad64990284c2a52e96a90622f5b8c086bea4700790b6c650ee8e9f7f6ce3d7efef99acde50f9275196351dd3cc5113b05e0e7dda733e3b0a",
+				"KO": "46f5e3ae03ad1a0c4e53303692bfa1c6328f54463dbfd8b9435402d57ac22489a11e47ae7848794e"
+			},
+			{
+				"COUNT": 31,
+				"L": 320,
+				"KI": "fdd7ce4470305d15ea9e8d6511406a175808df1f016b35cf8545e5885e674aae",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "5f4b28235164b5444f98ed011c2ce2bddf7d6630863149c086674a57d113ccdddca4086645ce99237b304431f48e33eed0c297bc9e69550a02bd75e9",
+				"KO": "f2ad3f9a64b46ba7dd7cfb6f5d8d3fb4f0f04c6901f8d9858b27b67d3f2cbc105c094a75450966a2"
+			},
+			{
+				"COUNT": 32,
+				"L": 320,
+				"KI": "9bb1a5221e3b2b5ff6aa9aa08c430d87ff53594612d0709cb89baffc2df5a118",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "b44409a374f7f40fb25f2e7854c55bc09ca241a549079544dc9e629d079e8a231d8f0ec77b3c575cc89259bab1dc71a5e6ddfe6952b3d372a13b1d32",
+				"KO": "3aba7e409151ef934eac70f65358d47bdb8389fc1313572582c4c91715e1ed4238f79f32243fda11"
+			},
+			{
+				"COUNT": 33,
+				"L": 320,
+				"KI": "1cbdf00d38d421ccae540780b5b1ec460e6aa824227ef48b7ac37c845413e855",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "ae5ebfafd93de1f1f5746c6d4a3b3bedb99ace32fef0dd1403fcf7f9b1dd90d1ee7ae4153c93c21f925ed6f1deb6d61e892f4bc1cc8f2b2f65347dfb",
+				"KO": "eccb63730fbb26634276b6c62d1268d3a011a8528553e6162b566f2cd5c33af12a275c4017b102dc"
+			},
+			{
+				"COUNT": 34,
+				"L": 320,
+				"KI": "b147e46b790a3aa77010114555582ae786c74960abe28d7eb8842f92c543a768",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "6121194b371cd53ef1510df9e3b7e1e4d0b5a388b376c30c6d74d2d5fc67c66ae5dea82365abea3125912e47b589fbfa25f141238e3e2e5460fef4dc",
+				"KO": "fd8d97be860b1e42667a15373e5f0406e62118030fb7b5081d058e90e736bcdbbcf12ba386b1bc76"
+			},
+			{
+				"COUNT": 35,
+				"L": 320,
+				"KI": "6423e881ffae3b75cf773704c87dc582e3a78c285df770b5c0d08aafbc678861",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "9b25aa545f95d6555f8e79220fe922ddd6473c36952cb35743668a67c5299fe13c4fb5e907928b0128c8be10e1fa7bf471bc56ceb3d17573d52e5a11",
+				"KO": "b2a90f11da61734fa0c7ec7f1eb8e925594e8120ad00e664ac5b9efd2b095a215ff3d2b7053d1872"
+			},
+			{
+				"COUNT": 36,
+				"L": 320,
+				"KI": "cabda329bbc339dd28909decf3a9d852d72d999f9e7d5e09a8156f2412f0bf6e",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "cecd31d8c613eb7ce57b822d1ddbd6f2ecef439e9cf9c30017cf19b20fc4fa3d6ad050999977599edbcc375eb25e653d57d5024925054090d314d2d1",
+				"KO": "d8d2cdf7cf3481ddb598d02ed054de2200b035bb0b86326ae457c3e0877e30e89bf867952d6a4c9e"
+			},
+			{
+				"COUNT": 37,
+				"L": 320,
+				"KI": "f27b2b0202bb87a8d4894a185d6c8f9b494c72ecddbf5e87ca7dc9eb33d5e680",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "a921eaf7216d94750721ed1e07539c065e034bbf6bcc926c5dd241e0f2773a87746176fe3afc8d9cc13bb164a38882076fb60f0305607bb4be652fe5",
+				"KO": "cce97acea38ec469d74b0b51542541b65660cab83f226d0fb2bc4fa2470e22edb5b1215fca766f5b"
+			},
+			{
+				"COUNT": 38,
+				"L": 320,
+				"KI": "7b501c4009a52f9ae5168b08f21ab19cdbea347d3986d927d473691425050f80",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "ce3b474b63b744b22fefb9dea4edfd561d8ac8fd67aa3a047d6fe6c30db24acc784580549b9b3644823a038b7e0f318215f142773313f5ba25f97db1",
+				"KO": "cc0b1d8aa5f2a27c1826e531f586f1a4c3771dbfcbdd98dbb073fbcc90cb7e5050457781aa675f26"
+			},
+			{
+				"COUNT": 39,
+				"L": 320,
+				"KI": "a2cd7106beadf2ff883759761d744f197d3022e3cb01e9adb9a56249d97a3f44",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "802d64a026964fd1d7d8289c4b4a4bc1e184b7f4d66a1d09108679fd0d04686da14b7b723732775797b152601061e9d59ba0ad74ea5b6ab9d0d8c0bd",
+				"KO": "8733f11e9f8a9b34784b75bb2ea7fa3626e5e14f1b61d839f7f44fb32ec8171ea4eafda743b309c0"
+			}
+		]
+	},
+	{
+		"prf": "HMAC_SHA256",
+		"counterLocation": "after-fixed",
+		"rLen": 32,
+		"tests": [
+			{
+				"COUNT": 0,
+				"L": 128,
+				"KI": "ec8674a48a7baf28f865e63a3e8313fd55a09c8a46fb491916a871d1e65ab7f4",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "808772849ce4e97060618f8e510419a82d78a72ff265aa247335069fc73eca8df5276c850b5f052f0551da5319bb9e39318a820b167c6f999c67d4ae",
+				"KO": "9417ee14f9ebeb2e2c7bce18aa56a1a5"
+			},
+			{
+				"COUNT": 1,
+				"L": 128,
+				"KI": "9788eeabb789dadd9da58d266fbbeab6280c4ea93d1fe050be0cec8c1d15fb1d",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "d078a0c0a7d2c5c06a0560f95d25953542dbd985e0f7ff92f1003d92e82d0d01cb4e488eb441024a7d3759b27856393578da99078c1fcf972687baef",
+				"KO": "34e6798d00d9ed4608e8c0fabcda48ea"
+			},
+			{
+				"COUNT": 2,
+				"L": 128,
+				"KI": "c2f73ee6af2e4da587bf17df50ab3f07cf0e791e4e6e558ea77163fc4f43aa2d",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "0f52260b8c50e77460166bec8360cf2ee2ba9ad90a1845b22203a73afac875e42a5b5ee6a43ed373f5a5cf3c36f91b44bf57b15895e21b7534336bbf",
+				"KO": "a3e1f15340476f3299254e2223d0a668"
+			},
+			{
+				"COUNT": 3,
+				"L": 128,
+				"KI": "a4e8f5e8b71b65bbbe91a7b811bb8214c393aa091b24416a19ab1ba306ac1bb6",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "52d0f4f17ce4af12dd367e6958b7079521fbd407d4dca1b6cbbea8b12b13ee651fbb4e1bc9d8028e41956ce4d87b57388ba4176289dbd217324349cb",
+				"KO": "0939aba4f102c1a83c248ab61744ebcd"
+			},
+			{
+				"COUNT": 4,
+				"L": 128,
+				"KI": "2687796acb63e5fd2a5fc22a519cbc94a351945bb485177527201b9b91a5876f",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "73d8fdeed5b08d3c5dbce4dc157ee73a7af1095df5c494a40ef6f7f8038ab84d726f166e2344df564ab8ba7163e99ffaa80ef31a9240323df94bc867",
+				"KO": "fab9ed2961b175c0cdc65dfaa3fcddb6"
+			},
+			{
+				"COUNT": 5,
+				"L": 128,
+				"KI": "0fec110e7fdbd0c9aacf5e3347710c4101e397b3e6a7b9fdc31f909897ac773f",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "1950757aee55754ae4b1562513c42adca4cef8b527e423079e588b1ab5a5bdc21719b9871bba5f347f3f7fe5c0f1a7d5ae3a2a53581d56c9fe9f0832",
+				"KO": "a2cb23ec082317bc42671d4ad9077476"
+			},
+			{
+				"COUNT": 6,
+				"L": 128,
+				"KI": "ecfc7199fee4b0b788b6c3a20f7c04fdc1dc59dd0e47457fdc104a374b27e895",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "f7c443763a69954165c881e3cd8aa35d8d5329fef086838068cf5d41b0db140ff86a9010eef5e1da7d925561d03c8b5d550739ec7ad29aa021bab99f",
+				"KO": "0e30d20597ae1f58686274ce51a41df4"
+			},
+			{
+				"COUNT": 7,
+				"L": 128,
+				"KI": "2ea5375843d90ddce9224aa363769ed352a5d3fa34066e50a86888697d637cf7",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "0397c41bd1bdc941a02e9850fb5aa947dac9323d3b701e127c0c6a61e19680ac065186e1c9e35e4d83439f0bb4a276e552ec8d4be8b9a3bc1d0ca062",
+				"KO": "83b50fef77cd4efeb96c6c5199ebc77b"
+			},
+			{
+				"COUNT": 8,
+				"L": 128,
+				"KI": "84680022b03000a651c39382422cc7b9754ca49f254400107d2f8da2a1898637",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "7b079bc6a77ae030b06cb2ff1029d22741e9aa704a941582679d8b798057ba7c9ef8e23a44c93d6e3740888169e302b75be0137673e071e8344f87d1",
+				"KO": "f6fec65c3fc9ce070640058f84fe4afb"
+			},
+			{
+				"COUNT": 9,
+				"L": 128,
+				"KI": "24f28a3fab1002be13afdb66a72538cc03cb3fa353ae28246b9c2d1b10fda0b4",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "99fc61b12b05443120a581f2a446ec26f937e093c583bcbfc547cfada2132a58fd8a9ff828ea077ffa7223252348d581c9b6377d60d060f464f9124b",
+				"KO": "56d39aabd432877fcd1ff26c283608a1"
+			},
+			{
+				"COUNT": 10,
+				"L": 256,
+				"KI": "574b032de324113f4c7c6a5e9989d2f7461ae89183446c8fa17012de12a308d9",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "6f89285fcaa7820e23733ce6d0bc3902b7ed940b56b298a9daf3c8c2ade7c4bb7388c264e0bc5921bed6cb95201fadbad1ec3867dafb6a18f6bedf94",
+				"KO": "7d8eddc9e762e402edd0c159b4574394fe748d9b7d4600e5f343a21d2c9729ef"
+			},
+			{
+				"COUNT": 11,
+				"L": 256,
+				"KI": "2f1dbfc68abb7ec8268f95395d841ce8fd9fbb803114efe4c120e78cd240f592",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "6c96391193744a754e1c0a4506a93e14a40e008a7ce50f2d73efc765459cd30399606825f6b4ba859d449dfddfe20aab03128a8e448ab4d385f54d45",
+				"KO": "808d9f8571a615d4e5f517c9796cfaec2ca39ce84a56c95a504a897c315b1dde"
+			},
+			{
+				"COUNT": 12,
+				"L": 256,
+				"KI": "d044eb073b2d87320b4dd14de86d4145f7f92a05891b9bd44140b845c08dff21",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "e93abb889c87c031f75edfc88ff47f40566d7c57c4f04ac8b129771bbf11b2ac5f1182f614288bc95bb9c6f2d8f8852722a9a291927d5405d7d2b598",
+				"KO": "0b83e0b9607f0b3d4ad18c98d317758565ea8a39f791772b098768fedf107189"
+			},
+			{
+				"COUNT": 13,
+				"L": 256,
+				"KI": "ed1e25a08002ca795b91a883bdf3b2c616e6e63a6312ca498efcbfb5df30b2d3",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "34a59ed05d28a608092f0c84838fddd2a12b432bc9cde9698471f42e3e89e051d192cfb90648edd05ac29df0478a6fc35221b80d36995008e7e3413a",
+				"KO": "d21f4963a39661980d1fcd7ade8b2a3e025fd0f2c0826ab05763163de6efb5f6"
+			},
+			{
+				"COUNT": 14,
+				"L": 256,
+				"KI": "fea89c1795baca98a36a0886e5d66cfaad8fad9b304844b16f780aedb2ad8a22",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "d5c7b640fd3e53bdc405120e1df748706847ac1df41ab4d7723d9c00e1c48e2462d15cec08229c0fc01fcfb5baf009f7f0a1cda4404c61571c67c38c",
+				"KO": "e7db5a11cd6db4914c1740f685b4b55fcd938f95bfc1880ed4849731359544e2"
+			},
+			{
+				"COUNT": 15,
+				"L": 256,
+				"KI": "ccbcb6eba1d66ce44e61b1ccaf25a845a933576916fa7564ce9bcdf6071f4698",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "41e6cf9b62892f949379b5f759806cbf18a111fc6d99ad2f5133813efae5864b882980c2d354b35294c43726ed3bbc756e2e450c8df7f320eca94dc0",
+				"KO": "00e90a54dcba41c692a33868957d7f16992f6cf95be7cd7bed1bc95ad51ba8ca"
+			},
+			{
+				"COUNT": 16,
+				"L": 256,
+				"KI": "ed24cded448c5927a7a70da65d62d4d5fa719a60ddf8b38a639ac469c174db22",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "aafaabb38808364781ff5e1a3b3b70ede1a5454d6fd63df3f171234ed82ceb45eaebce82955ef0bc60cf9aae44a41e24250d21c3653aa5d1b888cc8e",
+				"KO": "59859f7b8c16ddce250e6b9bad6cb2befec266d0aac1618228ee71498895a627"
+			},
+			{
+				"COUNT": 17,
+				"L": 256,
+				"KI": "a88fc95f0abbad304583790cf6bcc0e48abcab117959e312869f01f93f362da7",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "4c901f00f98966860cf76f36fc18094a3f323edff4631561b8a3b4460d4d7f8b05b0147cd2339d3c0c0b803d527e4f8d136701c6681d00f80a73dc51",
+				"KO": "306e9e6f2f3659942a12de3d02b97e786493dcf7e71997441664fd3896724059"
+			},
+			{
+				"COUNT": 18,
+				"L": 256,
+				"KI": "06da6bc9cd5f0f4e0a786543152213eef981efc2af9360c099218a8407bba9b6",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "a34d8b65d0de4229d62d7ff829b97ea8c7ce1edb3801cc6306a65eeaf68818579741a70cf31cef68492d7fc3244feb1cd529939dac7d76b7f7b1fcc9",
+				"KO": "bb6811161c1010193d572d8cee008d18350d596ab50574169917deeecd38c003"
+			},
+			{
+				"COUNT": 19,
+				"L": 256,
+				"KI": "b5ba9e72c777557c5937e3f96c990420b5bd24715de92258f6317e7a3797cd54",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "e5dbc600e20a67d2028057e4ab2e0e0f81f9a51657042c2356d7693a37be9fc64eb13f1f4ae5a87db6afd265867bbccc655697d4906b12aac5774549",
+				"KO": "f3457b7cc69f5164481ab1c2e40fb8ce214c91326f95e5430a6960e80401fdf9"
+			},
+			{
+				"COUNT": 20,
+				"L": 160,
+				"KI": "9b0470cc8d256839d25fa4a64e79172ca8eeb3071978f21883b83c1d1ed7fdb4",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "2ce654b2fc2ab32acdd7d7ec55b31cdb1407503f17904a764f7586631400bd15397f648beea8c24033528f8ef3bdc83ef952e7ea4a407ff5e323b4a5",
+				"KO": "68c62ef806a630bd73bc3116a11fd24c9d86ef1d"
+			},
+			{
+				"COUNT": 21,
+				"L": 160,
+				"KI": "1412e6a0557aa982a43144b1a00b05fa4696f211e5dab6fb9b72b98898e18fac",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "0b27e69429b2f9f483df98124918e193e63c50ba078c1543a563ae0a7cbd390b45e20386321cf35892bd4380fd6151a587e9ef0a9a44bb8ba641cb98",
+				"KO": "f7633dcedcec6884383a734ee78564450be08735"
+			},
+			{
+				"COUNT": 22,
+				"L": 160,
+				"KI": "855c8bec9d444100d2869d7e2c87afcaf4b9267f99edfad5ddb64d956761c975",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "2526b82006b0003a0aaa43c31e91778aec2f6d160ac913cc70c151609b56e16f12555b68ac5e558ea658a0cdee5b658d0de495256cfdf4aa6400139a",
+				"KO": "35353178ba17f292c333a41c5944d0b6dd084afe"
+			},
+			{
+				"COUNT": 23,
+				"L": 160,
+				"KI": "3cd8c76a12dc0458956ee3956e9142027b9014f6c46805da2be346158c4b54e0",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "3d861620c5c983e73d6892de4b2ec83aadb16b172a21f3d5456d122da9a2fec409282fb25294872bc18b7ae53f76efa35b531d05f445a38e1195ed35",
+				"KO": "d98e69fd95dfb516ea840446788d307db3e2af23"
+			},
+			{
+				"COUNT": 24,
+				"L": 160,
+				"KI": "06c10b030585f75032896f9e734fc45fcb6d9964813e1dc090d883b942aef3c3",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "7e4e803a4ad571d5d926d48f5cf018f19d6431a437551c1bd856bcc4c7f133cac5573ec882c37300c88070124ccccebc86209a2ad7acaab4046512b8",
+				"KO": "86f1e61141d44e768bf830dc6c703b8069ccdb17"
+			},
+			{
+				"COUNT": 25,
+				"L": 160,
+				"KI": "00b8833689fbafb445c48b9f4e281560e1cb8afb1e5f2aba741b27b6fda5687b",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "033ea4595969adbacbaf2fc06d86f6aa933ac3c50a295ae786b5624011c371b1d583937f21d8c548d199160432ee99215dbe56329c6d71db83d00660",
+				"KO": "3e2a0ad1970f0d3d297a302adf2a97b130c6b66a"
+			},
+			{
+				"COUNT": 26,
+				"L": 160,
+				"KI": "e0d90cecbc61659a3f8a0774aec190c0499fd588d0119017f9e704987a7ba149",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "59c9d9a55cc4bf02f44d80e5c6041680e9de4fa5992ff621bd5e5212bb275a5736f6abeae4f3806ffca9a974534557afd5b51b3112215f225375eb6b",
+				"KO": "787b74a9daa4d3dc4d45cd2e9433fb4615819fe9"
+			},
+			{
+				"COUNT": 27,
+				"L": 160,
+				"KI": "4632e2f2e721a86817ea4124b35e288582d0bfb2afb06958a7241c07a6bebf55",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "05fe7fcc137120d7d4f2314a7e8a05b4efe78119805cfc26d9e342e59445da5fd8c605fb85ec30d2a0f436eb53899cc0aac908b8e965a2b5809122fd",
+				"KO": "dfe3935f04a9739de6c5359efea45b7e0d6e2afb"
+			},
+			{
+				"COUNT": 28,
+				"L": 160,
+				"KI": "6cd6d41417ab29148c43b92a22caeb4e421110dc4dc94b9c6b66fa9f3acd0bf7",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "e7e3af3b05b822e4a69d8fb31e7b9afbcbb48fd51956bee5cd06907ee440a502d71745bf67cc1855ebb2ebac0173a2089f3b2755e63bfee398f34f71",
+				"KO": "42902031e1793c0a6800d79e662377333b0e25fe"
+			},
+			{
+				"COUNT": 29,
+				"L": 160,
+				"KI": "94aee9c8e3eb18d3136170ff037e1cd02fb4bbe0c1586e1bf39f6d1a05b6316c",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "2ed1c81a01a3162956bf15a010494a197a4f09cc1449e402f03dd20b683d28aa78e08769eaf83e595ad478369d399829f319d4d6d13049f3b0eb26da",
+				"KO": "c1c1b7e41226af5c9f05b3efd2336eb02100e477"
+			},
+			{
+				"COUNT": 30,
+				"L": 320,
+				"KI": "9bf5b12f020f550bffeb3e20d5e59b8c6df5aca37156fbebd2ea98f38896d7ba",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "96987325eba124f7ecb4768d3b53f88d917f6e58f8eaec2b1f30cfd90c5d317687788a7156cdffb159e02c71010ce51e05635d83275b566fc0377ee6",
+				"KO": "3bd8c80796053099b32bacd01a6dadd4bb5aab62421532b381727708dee9ed6a54c150367ffbc353"
+			},
+			{
+				"COUNT": 31,
+				"L": 320,
+				"KI": "19d439cbece7b934794821a3f947646ebf760b8d3e04f68a8292719e1f3639e6",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "4d002ffaf2cf6ff1ccdf2ccf779a44a066fdb54762b9d25e286eb68adb1ab814a21a520d660b3387b0db0ec223eadc76f3395617704d024cdb6f1cfa",
+				"KO": "7c460fb26a0198960494477ca6946900c47a2cd59ed5128709434e3798ba61b470daf1d17e92b7c5"
+			},
+			{
+				"COUNT": 32,
+				"L": 320,
+				"KI": "1ad5d013cf876b2a3421a89d82b974ca9c33449d0a9cbe04633a8a8587608b26",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "ae0b252d508512cb17c821abf2738174b6e5b2a1f6d03669c39098378649e4ae1aae59b14020e81052640dc2d176ae5116478a069a0ba22533b40a4d",
+				"KO": "c66d3ec8ba42d46cc44370ac17e638fa64348d5ea6bb26c1e6d4d12e1c08cb45462a0b818cf0fa4c"
+			},
+			{
+				"COUNT": 33,
+				"L": 320,
+				"KI": "1ba014ddf5b02b3f112b722dcf6e2ffb989c72c99f0275fcc7d79039f9791472",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "06fa25bf75d110e7f14c780f8289edde9ac2fbc238144b263e647ddf59084d086343274fb24bb1094d55453ad13a85e07cfef7537bbc2baad0edf3fc",
+				"KO": "dde5f70c1acd30743d4d7d96409f248ca2406e2657a306530694441f6ad5c851429afcba15009796"
+			},
+			{
+				"COUNT": 34,
+				"L": 320,
+				"KI": "1ae9648bd3424de029c6140e2f94b0d70aa32e5240cf22858e9d030538765848",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "245d8be44207274a4862799d6007d750d04593ea6db821e02765a02669cd791359d763bdcab075f2a158539bdcd59cf5af22b1b649c040509f44e619",
+				"KO": "0d434c79c6c2acf447d4db8a51663a6764c5bc6c904c89677c19946c337aa3343a44813e94ffac53"
+			},
+			{
+				"COUNT": 35,
+				"L": 320,
+				"KI": "ef7481b7329165ee5116963c03b3d3566d2f7dc5921d638b515985e1b1566afd",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "e167fc6448908d68eea5e63e900a1224653093c9d05992cecd4f865b10336f79e4e983b211f425f4253b2df2f28c63c43314b65298283af53f47a64b",
+				"KO": "b59ec48d6ffd4a912e154b1f96b0c92b97402fd576e62fb1c16047ee238b98c4271477c46b4097ba"
+			},
+			{
+				"COUNT": 36,
+				"L": 320,
+				"KI": "41e99cf4c6bb2636dcbdbde11080e0502c4befab6d3aa9e2ad844653b45c730d",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "db1894d94d32162522c653730356f07f524408b4a192d58a3e37b8d35bddb50145d2b1535c72f96f06820456863621df0faef615e4a0803da0f76360",
+				"KO": "451068fd4725ca90d0f1cecbc05f6d082bfaddd3c01ad4584f3f1afd83bcbba40999e147c253a1aa"
+			},
+			{
+				"COUNT": 37,
+				"L": 320,
+				"KI": "95e280da468e1c73946f12736d24423b9868b5f18e83ca98b52b489d549a1ea6",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "2c54ae353bf6cceee43e5f945ebe5985b9b3dc290141d5bc77a24900fda6bdca0997d118e3d0063144d17215e6f25a71f0c6ed1cfedbfe814719309f",
+				"KO": "472e38f0e745ecab955929776ef091d1bc518608ffde72466d19c0679bafc463fdeca0880a8ef6c6"
+			},
+			{
+				"COUNT": 38,
+				"L": 320,
+				"KI": "82c6440cbe3902634967262a0c64316f4e9bcf3d5913286c967d0d41323ba81c",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "bbd4d212c23877d5d002d6ab6b2d20136389f3003690951c2ced2f5253fe2f41b01fa1900e5b969da6ad007f6ea039e8e50d194e1fd9758e316f5c81",
+				"KO": "23491c3b60e2c31f3eb7c11d09462cc114cd9b0901638feaf0804b32532ac7f7153273f7df7a323e"
+			},
+			{
+				"COUNT": 39,
+				"L": 320,
+				"KI": "ffbd32fd8b5552d2a068faf6f1f734673521756bc45e2c5dd467403aa3ed9147",
+				"FixedInputDataByteLen": 60,
+				"FixedInputData": "ffe6c5715d8abaf58f9744e25260ca95b81eb6ed997f636ef1189d7040210948de69f46ceec5147fca6ae36836091118f271cd18d0fb48ce503a7018",
+				"KO": "6220383d026a10db484b638a42b740c6375efd849a1c463215972aa3b24e50ec7ad99e93d15151e0"
+			}
+		]
+	},
+	{
+		"prf": "HMAC_SHA256",
+		"counterLocation": "middle-fixed",
+		"rLen": 8,
+		"tests": [
+			{
+				"COUNT": 0,
+				"L": 128,
+				"KI": "6fd0f7b67db5b9ef0fd21d4408dae15af5524b00e8d583e9872760ebf6d53397",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "fc67e8cd41dcb339fe376892b3c196ad4d70573e031cebac67bb32a00a878d0064446a98fcce9ccaa6d8d388e3cbdfb8dcc6",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "e9798604020da472f161",
+				"KO": "b24833fe4a28f84fb4341bc42abc4ae6"
+			},
+			{
+				"COUNT": 1,
+				"L": 128,
+				"KI": "1e78ab59f41552526e90b328eeb144ee937ccd985e0df7180ec528e273b597f5",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "a32347229680c9044d02ccda978e3a0eb8386483ae054c8dd4adeca152acdb2f06baa17fccb16a1c026ad2902d9cbaa4665a",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "3cf071b0ee4e662ee104",
+				"KO": "2b76681cd393641c56c1230e7f0562bc"
+			},
+			{
+				"COUNT": 2,
+				"L": 128,
+				"KI": "12b15e4f963627dd62b74fa30b0043c9723fa1effc9d168b2613b44c8145270e",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "2e3abc3b8dd7c19e115cc05e939eb364bf28e3fe85137986619ac415cd65d36c4bd5606630a229c06bd4aaa87b482e8176d0",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "c7c5b32f7a6cfa27971a",
+				"KO": "24c42cda1c1994ef8551c59bb0ce2bef"
+			},
+			{
+				"COUNT": 3,
+				"L": 128,
+				"KI": "07deda0b6e994fda2f27ea272fea7fc32edfaef7cc80236292ec8726b4e0874b",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "a4ab077d48311d2fa1a9555f9a177ca11b62ac27aafd238d1f5aec7123bf5b2554ba40c52a9333dedc0026049c4845891b3f",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "9594aaa6155066cfc1df",
+				"KO": "de358d9881ccfcee3a48c0fe67911ca0"
+			},
+			{
+				"COUNT": 4,
+				"L": 128,
+				"KI": "7e785f0661fa18c4c770fdc8431d31db2bf3ef359298b416c0276f87c7542d7f",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "deeaa35d8786be18c13a0213b3079ce3ebbfe96256e2fa05baf695cbc87f78a42f6d03f7775e03372b14145d7fb61cf8a49c",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "d0371b0ad14f01d8671f",
+				"KO": "173c62473bd266bd81a79f81dfc03741"
+			},
+			{
+				"COUNT": 5,
+				"L": 128,
+				"KI": "53b351220d494c0a4e3a5e27c65baacf8e71fff0653344df6e0bdbce609c4053",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "11b4a35cb650dbf36593f3d2000e6f40f19de4da241672f1cbef8c2641d0bc7b232814a752c3e57ea73914aedaf54c343cb0",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "b59590f22d7072177d9d",
+				"KO": "1127325173a170fdba123acc71c0cd91"
+			},
+			{
+				"COUNT": 6,
+				"L": 128,
+				"KI": "df544f35b60a8f5fe756a041e38ab76096ce1890ac959d9da6d12b08f7bb9802",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "b86dd7121224c14823909567603c73a2cd3aaad0bab9cfd2f5e66ffbb31d2ed5459363d36cce6eccd14d9d67c19af46b93bc",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "676d35c51245217f1f3b",
+				"KO": "0f4dea4d1af0d790c2cbdf30c01efa25"
+			},
+			{
+				"COUNT": 7,
+				"L": 128,
+				"KI": "f5533d36603f72870d1c0484f516f89f6859e84445e6a68c7674b862bee68692",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "54f5fb65dde7687669ef31aa9878fe67cacf5089bf640736ed69923d0d92815bef39a7a2927e5a8a28d2609654ce53c672b8",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "04874416a87f00fedaa0",
+				"KO": "ea8f0f6ae400c403b6c7c213fc73bf8d"
+			},
+			{
+				"COUNT": 8,
+				"L": 128,
+				"KI": "12cb697bea4ca0d3f3d8b49ef7979fe9dee3723370673e0c28eba2e7e2560ee3",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "08f394cc7f2feb3362357693f646fd6635c8f38f6a3a7b89be458e20849cc496a6ab1283d8f057500091933510ae6811c542",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "a06ca0dc273a3ae6d707",
+				"KO": "32bcef239dfa991186fdcfbab98abd84"
+			},
+			{
+				"COUNT": 9,
+				"L": 128,
+				"KI": "173bec3e22b585d406e4372ff1775553cbf1d7bd54807fc6d8ffb78b2fc9c8c6",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "1a23d124e9f1342deaecd484b7d8a9ed03447df42a1ac9fb409550e2d1cde12d757dd95a33ee48c185bb7df12d328022065f",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "7a73d41ae6d03cc53efa",
+				"KO": "151d6d0c2b82dcc68be28167712aff43"
+			},
+			{
+				"COUNT": 10,
+				"L": 256,
+				"KI": "ac61daae789b525500694370fbd83e23326c2786e427e2c22ac85e1629dabf6f",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "5cebddfd131f625b814b6fb0883eef1aacb1aa538c0283c6ea3ec58db9bf863dd16b76b8fd9bb052797dc76e367e75dec70e",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "da319b58b83d959a1687",
+				"KO": "8c38675f198f95e022f4d783f0964c361a02c934ced85d0decca009650d4b28a"
+			},
+			{
+				"COUNT": 11,
+				"L": 256,
+				"KI": "17d60161b5514a7d68071a19f0843ab690174c285a0bff07a4bc866c10065607",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "ad9f74e8d9dc6f0ea8c9178ec18f5ced45aa25d3c7110550d66e56b44deae56f363fb70454b62478e77be1ceeeb8f3bb00d1",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "3c05adfcb4a7895955f0",
+				"KO": "9b48f8027b21b9740eb02a0da33e3eda9ea76cb601538b373a9aae10b9036d88"
+			},
+			{
+				"COUNT": 12,
+				"L": 256,
+				"KI": "c0abdb06a9da3ce13496b573ccf654f875c6f6d8ee3d84fa73ff5a82550c7ca7",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "46ea0a094157f5bc37de97842324a208b0f8ef41f6e3919f96f6407f779fc873b04774c5da63587bbe9094293b484205e994",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "594fb254733d7700916b",
+				"KO": "462a6da5a03a700863584877ffc313a3c231fc681dd40503ba3c620351db5b49"
+			},
+			{
+				"COUNT": 13,
+				"L": 256,
+				"KI": "a9308418cd67adcc488170083496af8fd38397da9eb7242e86d8070e25440d07",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "e18f013df7ee806747538490131eb2b3008ef7ea64e9276cc971a383723e858102f52150aec113160ec1f8bcde7a4c41cf64",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "f06ded3bd7c4a860382a",
+				"KO": "c377040f5018931fe54c24888f14ac8be6f57b9976bf8c3d20452cd94566e4bf"
+			},
+			{
+				"COUNT": 14,
+				"L": 256,
+				"KI": "f8f64140275698cc318ce8b9a76572d4906b480354041019056ad75003ccb7df",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "739ce7d08685dddf1255c7cc5e9a29659ac1439e98d90b5c21135ddb127e739b192c8b27ae9dc1bb2001a7bda1c74c9e1631",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "f17a9c606016fb108727",
+				"KO": "15b4c26bf6b82b5ac00c9f35412ceacf401a203fb8e4eb6efa319877f98e5713"
+			},
+			{
+				"COUNT": 15,
+				"L": 256,
+				"KI": "f4c0743bc206480f4ff45809d1a01737f36f13ef79fa1554d368a23a7e4c48bc",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "98fd450b1fe007388038538d3bb7653583574c86417a6e8e301768a198b29834b45d021e1f780062f5b6ec482456d0136f69",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "7c6980de05580e8297c3",
+				"KO": "f3374b8e6ade64cc7830572c9612cf5a3091ba9197da4c328b2308503c4460ac"
+			},
+			{
+				"COUNT": 16,
+				"L": 256,
+				"KI": "bb735803165d78d23a116ae6409f8bf4a3dc6bf80bfb91834da209b31ef0b033",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "2d0ec5353603932e7f3c561f0ae82a275b236f07c9b1390232dd48787238d6894a1a073d3398df6671cc32b7b8adb1a34e08",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "7ad9ac46b712d5be1c54",
+				"KO": "d6e9f3139799c12baf5d475fcdf4e39dd4d2d51c255176795eda379a0059f553"
+			},
+			{
+				"COUNT": 17,
+				"L": 256,
+				"KI": "2c5d96526bdead85d4254d03275797285f37c0120720d9be1380e2c370117d4b",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "b42b073148859b093df28aca1f03a2fe01d90bf47168df902f4010f119e419b2288030b7dc9e284763bcc5cc33054b4f8a23",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "e1d89ce32a98eeb0747c",
+				"KO": "9f1ffe26af171cf5233d53fe11a8cd020748378ca20788571af0fede0c7b6b76"
+			},
+			{
+				"COUNT": 18,
+				"L": 256,
+				"KI": "a22034a38e192e52429b8a09e098b539030eb92a8ab9c2697378d9eb87229352",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "bd2458a077caefe8dbdf09dca89973eac429998281f27fc2246a6ff1fa18fafb87a4d1f494a8b6f03a50cf6cf3e8fff00476",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "cd426169f0431afa745c",
+				"KO": "96549698c18753d2c54d697467d1e3d604496b36a9ba0c3fc150d5a8f1ef9d4a"
+			},
+			{
+				"COUNT": 19,
+				"L": 256,
+				"KI": "f2531c904de6789c5713d7a42ae8ad279dc42adf84d178ffe87319455a90a623",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "641116df0ee2686f223ae00eb772563ffd179f53e1e399f664e3e6b56e2cafcef8b630c08abe484c2777b0aeef9ad3e87d3c",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "a9ced05a5cb20b7bfdb8",
+				"KO": "3d052cd4b3e1f678ea4cbd87aac5e3f0e5b3dbab0961515e2e09253ab11aeaa0"
+			},
+			{
+				"COUNT": 20,
+				"L": 160,
+				"KI": "437a62ec227e66ba091a548b3961616e710ed0da8a49d4c18605fc4a595fe7af",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "82ad3ddb4cb897d9e9007eb725d5c60b248e2aadeca093aa6aabd0480089f6dbd76fb4da115660a801e4b2df8a743a0cce38",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "4bf21ccb8d8d4c0aecfc",
+				"KO": "dd54b822029abdeaef89b862cf998764e85cf532"
+			},
+			{
+				"COUNT": 21,
+				"L": 160,
+				"KI": "e50d4925c7602fb7a6d6c97978288e6e25c5fac9fd5b9318836ea2b1dff68bd7",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "1142863ea2f40f4f27119d15d51f87568049fa7ce4a0f9c048a8b556db7896d39dde2d23b6506fbeddc5781f73dabc0ee243",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "b1d6d7f441820061bfb5",
+				"KO": "aab84dbd1e31291a6520de5a5fd50a60241df0b5"
+			},
+			{
+				"COUNT": 22,
+				"L": 160,
+				"KI": "25b90b02dcb75f5bd5e9ffd5af5caa657eb39c7d88f18f4c06d0aacffb4e00ca",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "12fa787efd19335faf3ac53f24328ce5746a9830176fc9a25efd65d8ce7d2b01e0487134663524987924b85290f2248297b7",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "337f8f836002cf4ff0ee",
+				"KO": "e7eb5b1f52e0f1149aae66e51816cc0fb84a71f3"
+			},
+			{
+				"COUNT": 23,
+				"L": 160,
+				"KI": "fdbd1dd1cf896cf3624a39fa6f6952351dd91007680f24c9be45a6abe8bf9286",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "ac9fe2482aed0390aca98f6c9b35ecba553d4cba03590efa5434248a0491e1be12105d174300d31e6856da0abcc00dd9af41",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "ea1bcce9710cdc2d0172",
+				"KO": "7b4b537ea7cfc93a66e44009a53ac70a33d94f5b"
+			},
+			{
+				"COUNT": 24,
+				"L": 160,
+				"KI": "35d4abf7102e3c2a13ada1800e545c7c71ac9125955200d3971f6b1a038c1489",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "891e7b9962da99608c0eb432c9b0c583e47c16f768cca20f5d756de0e7894cbb50776a9cdf7cf7852dd4d7f3ba1d7d681a09",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "316c5ee1bee5220b6ae0",
+				"KO": "833b7e7f9d9908872b1bbb01c9bdc74940ef9a92"
+			},
+			{
+				"COUNT": 25,
+				"L": 160,
+				"KI": "72eadcfa7bb57ec3de476e4d4a628016ac0d77b13718543758ede1876692fe05",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "0e498b2f7ca7b5fc29bc9d967e6f005790d8935576ebeddd662104f047f026ad7e2ed4e1b8dbde0c32572016f4e7d0c08cbe",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "8d1ef23cbcfab84bd800",
+				"KO": "8b5dc883647dbdad85b61c5f396c3bf9203466dc"
+			},
+			{
+				"COUNT": 26,
+				"L": 160,
+				"KI": "c9f12c161d6cd5dce18398694666b9dac1f48f155d899f8beac329812ee7e976",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "b07b3296d32c8663c5fd3b189e75bbc9af031fab5fdfaad6f724f3d108b29366bc376ced28747a1e7edfbc68ee01ab0f43b4",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "c14f442083a50f3df978",
+				"KO": "7bda669a2f8f14843b685f2fc6e63fa8a269ae35"
+			},
+			{
+				"COUNT": 27,
+				"L": 160,
+				"KI": "d937775fe412e29e1c9d5f12468e44d3fbf4d2786b78d23fafa061f55691a5b0",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "cd9a930dbe279d8d3be00cf8682a795dc8ddc3c7cdb16505c0fe20fbe9f8c8e9d138af5b46d633c5bddce2fd4d4b76652baa",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "86850db14f46d8ba6b7a",
+				"KO": "06d1d42938191da168d40a00011e91ede22815c8"
+			},
+			{
+				"COUNT": 28,
+				"L": 160,
+				"KI": "f12c16c6253ecb7763cdbbea746eee3c9a46975a700adb0bbc79321320ef711e",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "6918b0cea6f1adb306343045702c631cdcf53491c8b15a7e412dfcdb154548c95aedfbb039c8409a53e6785f138761e8d694",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "5024a057db2e1a406c6d",
+				"KO": "15928fd0143d53c853f04c7944fb7b199ebb35eb"
+			},
+			{
+				"COUNT": 29,
+				"L": 160,
+				"KI": "db9a7480931de64ff80eb0ff6012eabd2b3c80f7cc1d5f4e1fe504354b00b729",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "4b19ba4bc567d1870cb7bfaf4d68cf4269403f0353b47607c92b1b8626f92c94b0737a8ad8a0d7175e81f3ab4ead0336569e",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "31900eda2f50eeae9abd",
+				"KO": "6d95c508e062c82ef9f55331e1a64faf1b503003"
+			},
+			{
+				"COUNT": 30,
+				"L": 320,
+				"KI": "9cc822cbd7b12cf51014090c6461d5ba95cc71fd2880eab667eba37b23505427",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "fe757ed3a0dae0d6bb90affbdd7175396b07099a8310730f667ea639ed5952e720bb12e70adc0575e7e0c7380f2900aec470",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "386eac1db97618fe0ccc",
+				"KO": "90747ad9ae48ba62a002c097c0aada0605fd01bb9bb1604a31d83775b79d0af001d5990cad523fc6"
+			},
+			{
+				"COUNT": 31,
+				"L": 320,
+				"KI": "830fd66a22bf45b8e6eaff694792db246be198840d0c5f1566613a5bf828f86a",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "162932a302b3a1c9be4ff7bcb036b9b8254f9d5370e6fe6826166a18455f1b053904b6f8ad82915b5563f8325527041f279d",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "a6bed4851c30a8ad8db2",
+				"KO": "320a44a5a9795cf12cb4ec8b8754d78c9734f07da685bf97b79d8e87986cea01ee002332ef8834af"
+			},
+			{
+				"COUNT": 32,
+				"L": 320,
+				"KI": "b64eddb92aae2b927924cc33d94e0b7654e6b818bab793783a23e383921459a6",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "614f77f9b8674a93ffcc05ab5e9cf67bce85062e2fb95301d6e8a4f2a3f4d7dc8cd25dc626f7fda788fc1b27a27bdf99cf34",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "8805a86ee977678196e0",
+				"KO": "6d015415225ebfe64b4666bffc34f4862802ed5c1e293259117fae443bf1dd7724a2e67b879629fa"
+			},
+			{
+				"COUNT": 33,
+				"L": 320,
+				"KI": "53cfebf9d2dfe34c231e9926b050f50884a96cf0334b2228643ae20da018cb0b",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "7cde42ba8e936252ca1d05d87cfe60893f3f6e779099ca2892e8464a5b9342dccdb257b998d909292507939385891cb296b5",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "c91d9134ebbf3025c9e7",
+				"KO": "9b95b15b9964ea0c1a5553899670dc133380d1419b4e569e338c0294f86bc5a9b68a724065f014c5"
+			},
+			{
+				"COUNT": 34,
+				"L": 320,
+				"KI": "74308064122878371cb13031a4bdbd9914b10133364c3e9117a92528b6a3866e",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "b8f0561ec5794d3a6c0514ed86f26203c06c34411028c098885d6ac2226efe2dd0535d808cf35c43ce0015996ea33854db29",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "85c0df0b3d35edec903b",
+				"KO": "cada3f840b8f1a2f80a3a514282b49bb80c0672de5f8f878401b70a6b214dcdd299e635d6eeedecc"
+			},
+			{
+				"COUNT": 35,
+				"L": 320,
+				"KI": "631f1051069adf4476dc28406297c6ecfbce861fb72f38177633c1519ade6e98",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "6d44c12e7c699e06f570ef059cb18f8a7be5ea48483a56be2ee0caa5d7a4422d13cc29b975aa8a23750c1201fca024f51bb5",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "629e5cafeb727407e47a",
+				"KO": "88ad38796bdbe2f3015cbca57adbde0d993f6ba65c1a85f5ff9b3dfe1d36b9f76b56b022c26238a4"
+			},
+			{
+				"COUNT": 36,
+				"L": 320,
+				"KI": "388d9cdf546d259cd7de582f14e55c581f4284be4db30ffac71711fc54c0cab8",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "2adf3b09b159ee9c32a3f5e221ed2942bbe1a9b8af9c132f6756a9053514627c9763f5ac7d036658ebd9bbfff0832f3f706f",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "533738bd035d72c60233",
+				"KO": "6afc29e685f3ae8ef683befdf85946613c2dce3f0fce5a1f00c092adeeab32fc6ec34871b894359e"
+			},
+			{
+				"COUNT": 37,
+				"L": 320,
+				"KI": "781b62179e39b48fb614afab23353e0c3b755eb522eb08798a9f0cfcf17b3712",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "2dfd04d87010d07549f90efa9a680ef21a2bb8e10ace0e8c98057503fc6864596e637553d1261a31d397f0b99151dfefe5d4",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "aca7cd68177b53306815",
+				"KO": "4c2304ae65102d7615ff7a3c1606f1a6c775b15609e2b6540ed7ec06399ed63885b1a81b1013edb7"
+			},
+			{
+				"COUNT": 38,
+				"L": 320,
+				"KI": "0ae5a892adbf6c5b53ea3f9b7426fa35c523476e077dab094008777f243e5820",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "a1c0c9340f7a0e4c59cfbef56229e26841a246d65d54ddc065ede48325668f56aa3a3914acee12b98fdfce51927226212ae9",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "f208b0f7c84abf3eed7d",
+				"KO": "3e59db92399264d31eee073af146967a1cf45b660846ae57b9347c0f04a6b7035e9a65aa4e75afc5"
+			},
+			{
+				"COUNT": 39,
+				"L": 320,
+				"KI": "8f821530c10eb443456bdf9594b37c00d9ebb24f6fb1bbf1a6e8a12732ea7e20",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "8849b038afc5fe87725a7900a6344f117b6c29cd6d96def942c51ea058612e2c622676cb1e476879fd686fb9eab8e251fd7d",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "8e8bd80d980f73ab56c2",
+				"KO": "87982b5843cb9f0755ef07836d7492a350da3746236e07ca454d6307a7520905af485af32352cccc"
+			}
+		]
+	},
+	{
+		"prf": "HMAC_SHA256",
+		"counterLocation": "middle-fixed",
+		"rLen": 16,
+		"tests": [
+			{
+				"COUNT": 0,
+				"L": 128,
+				"KI": "e4f6a0b7bc8941f115f9523a050f527687213a4236bb8047d9ec6671be35278c",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "883c38f759847b142a05ba28152a391b826468fda0a269d55248d1c3daf2e66fe91c20b85c57f6b5464903bc93500e5bee04",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "9c52c875593e59580155",
+				"KO": "c9f14ec1dbc676ac650ffcd143bf5c5c"
+			},
+			{
+				"COUNT": 1,
+				"L": 128,
+				"KI": "7b29d37d2cef605e138d1596906e9136b0564780516d138e45da5e0481843697",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "5dd44655456e9b783a96fe97aba3ac41992defc90106eab49f9a320383977c3fc273c8b221c9a417a410febd7512f18dbb53",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "37d545fe2ad3bd4211a3",
+				"KO": "5b17b2f0c643e6f78639628c03efbcaf"
+			},
+			{
+				"COUNT": 2,
+				"L": 128,
+				"KI": "f13c44c2f33a8da23fcb5c203b578065e2d7d0d2d80192d647e0a2d6257fedee",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "e1e932212d653aa4492e33cd48b89888a84a4455084aa547779ae8e6efc61c7599308383817e74d454773cb49d66ef555ccd",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "b407cd46606f1df792e9",
+				"KO": "a6394a99a3b90f554c3749265b0024ec"
+			},
+			{
+				"COUNT": 3,
+				"L": 128,
+				"KI": "d46d4e8e0d2556be3a51384784ca45c6710936d93d51c781ce2613993d644095",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "73f5cfe8eb33fa49af70b87c87eab68a6a42b2faea855e35098d4392ad146a9a83f3c5efbe352fa181023efbdf341a942607",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "859ded136ff1663dfdd1",
+				"KO": "7b65ed2e7726efeb707a004efb8da30d"
+			},
+			{
+				"COUNT": 4,
+				"L": 128,
+				"KI": "9046ee91a7852e6353773523e0a07f6323bcf406202ee76d2caa258ca0ca701a",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "1e68cfc6eade860092c6525dcd67e0db8cefad6866a91091883fa315b37e4b495d4fbc410378c883599a2f32ca5c9d98af95",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "abacd2e82d856d90bacb",
+				"KO": "13076afa9f6d277525ca2972307a67c1"
+			},
+			{
+				"COUNT": 5,
+				"L": 128,
+				"KI": "c3b8fa80e03109a4042a25286c7e02c4fff307498bf396517c6422c33e761f3c",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "43a29d59e159c884e2691aac14a89101237914dec59c4e010b4c660418819e6c80c1000766023ae7d754ce5835cb7f553e79",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "4412d1e81804e1ae3346",
+				"KO": "59a60152eb2282917552b4dec6e35fe4"
+			},
+			{
+				"COUNT": 6,
+				"L": 128,
+				"KI": "a624d63dffe02baed298e6a00bfe01cd2bd9755b0241c3dec22df54f8ecd73f7",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "5f4ead9d6215c04fac0c711c71eb2263cc5fd13d06565aebb3a9721a4ec2ec075422fa3ad66afea556bd514b4dc1c772d412",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "5a6511044e59456997e4",
+				"KO": "2255ccf01b128ad193ad6dae50085647"
+			},
+			{
+				"COUNT": 7,
+				"L": 128,
+				"KI": "75f09dae07518328c5545bce7920b04c6a68392a396dd93ed709dd44399ce75b",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "a63919acb177ff97bbfb6ddd13622742d34b87e961d5db00ec695d7cd75149eac511aa2ea6050cb6c8a9f58893e4503be7dc",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "7359239793a3c61a7828",
+				"KO": "facc0e35069fe9e4bf508565534859cb"
+			},
+			{
+				"COUNT": 8,
+				"L": 128,
+				"KI": "9b59114dc68ccc9c1d9430e2c530f0d4facb7f33fd675a16c3880c01aedab712",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "4cddd6faa14cc50a0a040f7ca560d690c9ea917ae826aeacc90996594692ba55dd75b93311a5cc9085e7c81e1700b107c792",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "be519f305ba2bc7d07ad",
+				"KO": "db8c75023311f8c2259e346e3cfc848a"
+			},
+			{
+				"COUNT": 9,
+				"L": 128,
+				"KI": "470f43f541663955a170ea5c205a0f91fc937fde50931d8d105328c4f7f6f564",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "66a13326aa87654217066d599dee6dc4bdebe1a682cd6a8356d6af465f7ba9003fdafcad9b486eb426a187b3454530a6421f",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "c9d7ce1d915327b65aae",
+				"KO": "99ddb80a52eb71a0b8b850c9bb40f9d7"
+			},
+			{
+				"COUNT": 10,
+				"L": 256,
+				"KI": "154bbe6138e2c9e73c9455dbb9cd775b34fa81f47abf8d1952ee38622e2a70bd",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "2ea0973273bfa6399a67292ffc6cdc1499cf7cc5bc74d388b1d7ea13baf7db15e8f549f5891874fe95e51356afebc3f2c5cf",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "101fe158ef24f1e870c5",
+				"KO": "6afaa46c381558104e451bfa4eda43be701a506342e8edab2fe8701cf3b89b0c"
+			},
+			{
+				"COUNT": 11,
+				"L": 256,
+				"KI": "eb011272f03a6178e40478cdae2a7a105af94e32ecbf0c74e180d1503485c001",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "b886afa3f8a52446d8cff8d47f040c4d59af40985d7ed9084a81c4567a6a1ea27393bbba7e9208780f48ed70d2fcc78d64fa",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "5eed4bf18431d5c006c1",
+				"KO": "bcaa17862f083a3e3e724d28c14e0f1358bc4fe89801a4238d933893c135f918"
+			},
+			{
+				"COUNT": 12,
+				"L": 256,
+				"KI": "922f532322184e3dd1c3ad6c187ee3ee1e066ebf44c6f7c8b2a1c89d7213fcac",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "7f486b42e675ee0e6dfe68a9a4cbf57c32ec250d0146c6948f67d7c3e1731092362da8ea380fa53429744a35d9c77aa64f82",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "3b8988bafd93e19eeb12",
+				"KO": "262844c79e685ca49b108f1f02932ecbb2d2a5d04e1ee686d3b8186d30461b9f"
+			},
+			{
+				"COUNT": 13,
+				"L": 256,
+				"KI": "7ec575f6832147c4dd5012194f9bd8e0c104eabc110516912b2be2052039861a",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "bd48d80bc7b7dc22893eef903f6852fa4c9e607588d6b170f5636b9d7616489dfd35f13d0c37954a5c1c276cd7841a7599e4",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "d171cf39bb202e1fde30",
+				"KO": "bb3b80df3d30de53a02cd01a72ba74e6749cb127182003a6b208a724507799b2"
+			},
+			{
+				"COUNT": 14,
+				"L": 256,
+				"KI": "8e1622b7d828afc55a92138e668820a37a174c07f7589ddbb85db4014ef3139e",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "6effb366202febeefc053a918870c01e6a96188b0181836b8baec3947fb4725f1304c58ab472b7f701092f61fc0715ecce7c",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "dfdc090b902a75483594",
+				"KO": "f194135061b28e4e5b2908685f0043330698322c239513aaba1c80a91d9b897b"
+			},
+			{
+				"COUNT": 15,
+				"L": 256,
+				"KI": "34d0e43eee1e62b2f5e84db617934a6589d3a4becf955575f9e94ba1593ce7bf",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "609606806b81db763b0329fd77d73a19f1f13579821079c538f57b300f034fbd9744f105c696a817cec80cab16ab441abdcc",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "72be8ded83241ee746eb",
+				"KO": "f28a2fbe95cd79bfd60863da8e67540e878509fc2f9e34db742078977a056f42"
+			},
+			{
+				"COUNT": 16,
+				"L": 256,
+				"KI": "a6e6b17b48d477a82b06dea993cbb6f28d94a3ec7ea8a9382dd32baf8167fcb3",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "1721c1ad83899fb4881de5f7cc567a6ca9329b79b5c7a05d7f09e84bd33c22cd7d1d67e210c6686662a173c9748a42e672ca",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "7840fc59ea6b21096ce4",
+				"KO": "c6c07f8f656edded85c7f2bf9167ce395d21b6cb4c7185ac12af62d736c42675"
+			},
+			{
+				"COUNT": 17,
+				"L": 256,
+				"KI": "38d68bf07a4eb5cbf3642aae67c159ead415ffa49e79a4d8992fc0bb42ebe6fa",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "0cb8a559574520ef6bdae79e51f01cf06592fe66fd7d8e8a90f9c107c4c14d954ae2bd3774dc500732c766ee68cdf46d2254",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "a88d1a2b15c23508fd6b",
+				"KO": "2bd70b102797724aba838f9394250c3a9cd32f20d90d6e12dc3d3c99385ebb7a"
+			},
+			{
+				"COUNT": 18,
+				"L": 256,
+				"KI": "56668d25e267898b541b32bec236144136f10aa002b5229b14b6932da110bbe0",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "f23e14e9889f10acd434655c0293cc345cf5d54b211eba5aa310f0f7cc5e64114166eca2c9f5250b025656ebd10229acdbe9",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "d38265bbe32efcc21ce5",
+				"KO": "fd23df0c2a039e15186e1055d7ee5916a2baea3a33500bea926f26128c560d0f"
+			},
+			{
+				"COUNT": 19,
+				"L": 256,
+				"KI": "7b271b321f21fd35e369bac3423cb4982ea63c1bc2455b13861dbe157cc15016",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "4d29ac9cce8f521f5bcfe496447b98486cb549f246f3fc9bb6eff3b2015d3ab43a4805b1b3cbc494c63e3623f8e8f84608dd",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "8a7a37889c178fa4f95d",
+				"KO": "4bb94dd67c0820abed11cd3de880b31bddab072fe7b2c0a668f5aaee3ca36e8e"
+			},
+			{
+				"COUNT": 20,
+				"L": 160,
+				"KI": "38cebf884c42ff8c5b0bb2a57c3ea9f23e5bfb5044cb4b5bd3128893aa28974e",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "f6f92edd198e91bd36e1f1d1522a10e2b176a1ad6976fc81f5df4b2c4a652081dc87b0c050333224f063e94a5c37e495db02",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "19208c3373e007ab98f4",
+				"KO": "11c78d9c18b369af3bff4b4fa7acd2f7b639d66a"
+			},
+			{
+				"COUNT": 21,
+				"L": 160,
+				"KI": "94138ae979effb7746d1ea4603023dde03c7e635708b931dfdc0a79a3e2cb8c1",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "8d0447c38cac97b21c982fdba17973bec91c1a9013b662ec46718d4df2edb3fd438a873ee3903abaf32b671994607378b1b9",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "cc9e6fb78ceaad0c8647",
+				"KO": "5ff08e372ff73ca9af44ce5be213e8fa12269d15"
+			},
+			{
+				"COUNT": 22,
+				"L": 160,
+				"KI": "b6e77dfec406b33e898ebab088fd18d8001f64669988b308bc3ba5de8dbc11a6",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "26423273a1d26bc289039658674240bddfefb2e51b6cbc1401ccb1217b70b524fdca7ad8959451fea966f916af782c54d203",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "7e005b3b3cd5471bd5e7",
+				"KO": "8cab92e6501733f86bb2bc369de1608095b0f9c8"
+			},
+			{
+				"COUNT": 23,
+				"L": 160,
+				"KI": "781545f6a2c8ef6bc0c330b6c7fd024fc13f5e05ad8e69a8ab2fb99f792fa289",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "bc4de654603d5ffbc6a0fa29e07034d87bd73855559d3dedd8ac37989edd2e7415d54368b451eb4109ac83787a8316353f5a",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "be786174fe6b15f0cb93",
+				"KO": "70d519269603977a5b17d22edaa611a628de96ba"
+			},
+			{
+				"COUNT": 24,
+				"L": 160,
+				"KI": "bedf075580e43f2809185cc36561eb88dd4e7290b4462d1290105bff19726201",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "9f9cc5a70e86ef7acaa0d26a3aafd85d4ae505f026ee2673df1948e2161c3fc59763600a9b92775525f3affe1a9f63cbf5fb",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "a59d8e512f62b2f7e9b7",
+				"KO": "49c9ffe3bb78b05a57e348dea2c181dabbf6a4c0"
+			},
+			{
+				"COUNT": 25,
+				"L": 160,
+				"KI": "bbfcb4a30e0a449b721b79e1a96a52befa3121b4271c0320c53f74b062f0a9fb",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "81de4852e09f08d785cba71f29fc6e9a575fa11ef3265479ce776e4b51ceeff068a1378eaa23349f91ee2d03cb3c5892cbdf",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "a10d265a4b10d443c512",
+				"KO": "1306cc100311af8a5a0f911caff36929252acff3"
+			},
+			{
+				"COUNT": 26,
+				"L": 160,
+				"KI": "0d573bd4d8a6bfae63b1738cfb5c0aa1e30b36b5f7a6e9ad18e52696b5941ef0",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "ae696f2a81c4b56d39d8efde63831397e5394b335b03c58fff90d456fa6736a36076f27c6c5437f69e95a3a9f87da1af35ad",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "2c65ee104cca59a18ac7",
+				"KO": "a84d1e25fba869f9b17eb37fe762ff08fd564473"
+			},
+			{
+				"COUNT": 27,
+				"L": 160,
+				"KI": "37f474877d11d2fa00493889595f589aae4fa323b898e8d02de5b5418e2d82ff",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "8a382707180a68ea229564200843f31808f8c324fd2813cd658183e6ea23720156072299dae916dabe9bbd1ae9782899df4f",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "1ef1d4b60e558dd44a8b",
+				"KO": "9f3af56a164a3bc5650597d1cb6827dfe3b984f8"
+			},
+			{
+				"COUNT": 28,
+				"L": 160,
+				"KI": "00ab0460176390c0bf9962c78253e887007b6635e172fd0e48801381d15f79e9",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "fbdb78ca508c9989e9a8f2237298fda5da51c3b038939795aa6ab82de1c5dec141ba880b40187a5e5833311224caf5b6c005",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "29b635d4c845d2d17d26",
+				"KO": "5d699eef72f0ab32047f895ebb7613beb911fcfc"
+			},
+			{
+				"COUNT": 29,
+				"L": 160,
+				"KI": "e6e29621c41342c61db7cab390aeeedf172abad24010a1b0be7a8df13ddf324b",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "fca23909c940f52bdf0ecd8b84f4d6af4aa85844dc5eec825f6099d16399ed5613b94260f6c98e1f8f53440ee7afcfd3a0d6",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "8df5aedb0cf130fb7b83",
+				"KO": "a99f600b37ea52de0ef331e15a652eaf15e92794"
+			},
+			{
+				"COUNT": 30,
+				"L": 320,
+				"KI": "6cf38c45c91392aa4f7b38135953f6b57db354ae46538139e11feabdfaa54970",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "92a788b5f22bd2c95ae979735943bd4020d71e0fdf778abd8d28645b4706711fb9379652ea48123e5f7d358455df306e0e7f",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "98f47653a9849fbc1bc1",
+				"KO": "7616b588041efbb0d33bd7a6ed9d672a962ded8361ec97c770362f58e7f145d53419529eae86fdf0"
+			},
+			{
+				"COUNT": 31,
+				"L": 320,
+				"KI": "22ab41c98054a31ac9b3caa1d73fb54b50eb206af4265fb9532950a7f3eefc8b",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "fb775bd11d0b5d726ed7b834108c856639987bfd0e4e295a9467a86be069525608d32f97f7fb5b5027a5d643e3133cbfc250",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "678a4d840b1c90cc4795",
+				"KO": "d520fb1bb8a5cdfe89fe08b583fd72b9b1016387e3a997cbee7fe972b9ae9ae8eb07a20b04db4df4"
+			},
+			{
+				"COUNT": 32,
+				"L": 320,
+				"KI": "5713c4e88e68984d531c3e7a99a6abb7c285f4021881477bacd401ef59aeee1d",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "c21ad6f3869c29d87fb32b1fa2898473fd0495eb17851ccd751cb4afa167ceb9c35474a7b98a90fa94935c9a8dc46695e680",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "cfd21d569eb73b82c3c9",
+				"KO": "c71f2d6c88a40dafa7da1fa941eca7e44fd44c62896181bf2cd3688411a3dfd9ebf33a6ce2528962"
+			},
+			{
+				"COUNT": 33,
+				"L": 320,
+				"KI": "3d2f09e74ae5dfbbb45ae05b5ec80f49e7779e71010965739923a3038baee96d",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "5435ef5d6389b915a6529ab3f29a54235fd1e60b5c50ead6654bcb492588febb487f6d708aa13dd6d7227630342441583f3e",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "8e3a0e2932fc124538c7",
+				"KO": "71d9b4434fa50871aea0c061d3c78635853173e5088eb184909b5e4741110161a11bb4676bdbd843"
+			},
+			{
+				"COUNT": 34,
+				"L": 320,
+				"KI": "cbf862e6a005cd4ff90feab2994f6074bb20cfd35a384259c275f485d44f49ef",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "59a05f7b52ef5c87f765161f249004207ce92f613764cfa9f80569977d9155f31d86f15526fe13a8b33ffe3972046b9f63a8",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "16e82d66ca7d9c5b7084",
+				"KO": "957b83aaf941146c5941b53351f6cf426b15dc3335d170a72c561588bddab3e12dfe8286246e8adf"
+			},
+			{
+				"COUNT": 35,
+				"L": 320,
+				"KI": "b6e5578e0ee2d102f7d1ef2be0a9c766753873693cb8f8e67d3533b6fedebb8c",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "ca1dda923bebdb1049d44bff62fd09336fcfb5ae2a0922982318f7b9d060732bca64b7fe045f520882bdad969ba87443d96c",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "913dc8d3585df2dc863f",
+				"KO": "54137d9d2d44a349aed7b100cde8808d8b667c435157c1da4c42a12afc623d0788772218f4dc2194"
+			},
+			{
+				"COUNT": 36,
+				"L": 320,
+				"KI": "55c606a88fae0d410de506d8a2df7a291e1a2d18eafefedd5de0b3e7a8712f90",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "64271212071756d59185a95b62942683410082b5613bc18ab590c591b1659232de07f88fa4010b037b2f90bba8a2509f28e4",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "331f7b8050fbd4a24638",
+				"KO": "d645a5ecbc7afe48465d80bead9e4993d90164525a3d177379af05997e75c7100f7ca3bc91571063"
+			},
+			{
+				"COUNT": 37,
+				"L": 320,
+				"KI": "2cd5a81b9885f91fb8d02c87add8c6ba728d6167a8fc506337129ffa180b2951",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "98258d219025073cf66f46d8e10eb4556c56f5dc8350d8db92dd27db91d1c26f8bdf83f1f2baab1ac6341fb59b4387f39938",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "bce3bad72e9ae83ae810",
+				"KO": "34c6b3423c14979ddeeb5f447f5010fb8cd33a3eb737d495ad72901759dd88c542c0759fb811020b"
+			},
+			{
+				"COUNT": 38,
+				"L": 320,
+				"KI": "a27eca8ffd7e7a4a33c57a6bb64a9db447f59dc70fa1adf7d60eca18556b3895",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "fe52f018f726d2a1c20091decc14171eb63dfc1973f7ba8c3f9abc3ea2937932811abd013451496206aa8e0efccc17499a54",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "9240804934ea87917127",
+				"KO": "dc90f5be90e4218728fa4eb760974e41149b14670c7d627182b88d82f6353bb4dd217eb4c502f55b"
+			},
+			{
+				"COUNT": 39,
+				"L": 320,
+				"KI": "5d3b63d20f498133afbdf9330bed57db0ef2dc841dae6bbbf1b187baa249394e",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "925738cb0d750ae2d5636e29049d7af1408684b2379d4c00eebcbd61b6f6173019c164db9fa37cf10cf32aa49c9a6ae1ca64",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "f65a6431b0e9b6690c96",
+				"KO": "be1941945c89e9a611c3d2e0b5fb303a99fc4e8b418a79cd9e9254db81050c5d0ada7d181a7104b9"
+			}
+		]
+	},
+	{
+		"prf": "HMAC_SHA256",
+		"counterLocation": "middle-fixed",
+		"rLen": 24,
+		"tests": [
+			{
+				"COUNT": 0,
+				"L": 128,
+				"KI": "367fc005cb2565a92cf8b1cfdf4869ccad04c9fdfc8250d027d82a33cd0b36e0",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "f3a71b1465972703773ec0c92681bc27e626587fe683a07fed69c9bb0a1053afa1ec187cf26fa9dd8c690f415af98d442470",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "b9dc98f750c71d74e243",
+				"KO": "67301e0b417c5af335caee31b3e620c3"
+			},
+			{
+				"COUNT": 1,
+				"L": 128,
+				"KI": "1cd97b3881429498246a50db464e1dfbcba03abaf946c9f20b180a3bb22c66e1",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "cfd12e0c0fec41b45c1dbdaffa8227d7dae3854638980036599c972f5c2f6490c1bf1bfa42081ab27887785f3cd9cbd7d1fe",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "06dc854bf22044173eed",
+				"KO": "2e9e1bb2a21b189ddbcd86f349905961"
+			},
+			{
+				"COUNT": 2,
+				"L": 128,
+				"KI": "bca9e3c032d9f07fd90f1b93d60cd9f73d8b4eb287690eeeda545780c1af00c3",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "e9b9b8c1856396ded23041458638be77bdf2818d07e2817790020e37f708e58db1fcc2f683c18232369da764b8abc5e09393",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "b4a48628c345f269678b",
+				"KO": "5a439b6fb359a3f67d0025dbe2aafab4"
+			},
+			{
+				"COUNT": 3,
+				"L": 128,
+				"KI": "de536cd5eab0d4cd2e364b2da92cc4ac8badcc337ce2bfb9461319fc8a09fceb",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "9a8bc6756079304a34256b48b3853dcc02d3fb5047f330217d182f2ec2fa07f1ccfcd80869cb68ddbd2e6ad00c30017fbfd4",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "c047dc4abf07233a5a82",
+				"KO": "355504b056e23df1043ae1b140308322"
+			},
+			{
+				"COUNT": 4,
+				"L": 128,
+				"KI": "41a744a3a15421948261448d5b96645fba39e4bd827c8e34321707800d626bb6",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "09c0728a9c613439df4f636fdfc8624046238db481d23745fe745d37a7085193c2b38f84eb80a237e5c330165d35f4390157",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "1f0a7081e39132d5aa03",
+				"KO": "7a5546dc8f3e2dfc06186dcac911a4cb"
+			},
+			{
+				"COUNT": 5,
+				"L": 128,
+				"KI": "a9b2776daf0c23894b8101f2ecd8b7b54080af5fe736e7d6659f39d9c305f140",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "84a3bff0c28d684c871f84dd9aacf50e4bdc00db4334494e64d3a9a49b6cc11a75031ee1cc77758cdab1559557ba19a743b7",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "05ed62cc3b2d2bf27115",
+				"KO": "097d0891630203c3ec80e6ae52de6543"
+			},
+			{
+				"COUNT": 6,
+				"L": 128,
+				"KI": "ddbff018d10d8e556621602a2b283534f7cdaa45d7c666c21b44294d2bd37d2b",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "8eb60113c24546ab56ad72ccc1dd74d45478b6997a4c8a0e6df0977b1ce60e1f622873d7fa0d75fa7d9b56e7c874cfe138fe",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "244b00d3835b70dcfbe1",
+				"KO": "4fb9a4b4bb34ed1eff8f661501022773"
+			},
+			{
+				"COUNT": 7,
+				"L": 128,
+				"KI": "c76490ce00743a9a863a58caac4cec7d43718277e351784f0955dc57893366f2",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "2f33de09312102c79a4ff128b52b883fd2431b0f387571d79fb749609f6f57730ab556a42600cfe27fc876e44dcbe5d668e7",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "3581c58e3ea8d0f3ce9c",
+				"KO": "dba3fbd1603b5cf4e57d63e15fc7dcb9"
+			},
+			{
+				"COUNT": 8,
+				"L": 128,
+				"KI": "09f89b6e8267cd813ce4f4684503f48505802e3ec48f18f099d7c2bf355658f8",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "070b166e04e962968efbab49a893210649d471831c5e4fc3ac2697d36350717a9595c35e6cf9018e65b6d610a6cebf95b174",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "60cc31ec077c134b8c88",
+				"KO": "f833ef9af1fca8b98572bed7e2ffb8de"
+			},
+			{
+				"COUNT": 9,
+				"L": 128,
+				"KI": "9899d0bce6ad6934bd5f8f323e8dc5f42ef1d3f77fe87faf98b517012f0b9b78",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "5c9ca7b740daddb5bc67ae4bf3b22a73e22dc4a2718b07e7dec03287877c36ee02b68ecbc72cb519aa4a88adaa9917eb5b9c",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "07e5a5fd9ae1b9a1f87c",
+				"KO": "5bbc5f1321fe0b5bd5fc522a0626e119"
+			},
+			{
+				"COUNT": 10,
+				"L": 256,
+				"KI": "4ed5f90abad673de972e7f61e29628a39ca978d1d44115c43ea644d20e083f37",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "0dbbd73266c777933a71f0c4406a20c6291ca079ec2e706c63e8cfeb5a60fa749cd18824bfff2e379d4476347015808bbb8e",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "43d05c0130410ee3dd2e",
+				"KO": "1d32e89f21eef23ae1104af123cacccabfc603f5697c9314958dcca98fef5097"
+			},
+			{
+				"COUNT": 11,
+				"L": 256,
+				"KI": "ff5bd13d4b2a239494403396b81f987adc216c170ea24d3adf76e87cfc21f0dd",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "6df7bcb8315a85837b1ca909263efb19a97fe0871f34fa746e69aad7dbebdacc3beb3915ebbb0c7380f706ae7f91f609d1cc",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "60d7c9b89981df4ac11e",
+				"KO": "c0d0cf24e2fefce89510ac6e7d2af0006a21cb1b3a9b887776964109f7674e75"
+			},
+			{
+				"COUNT": 12,
+				"L": 256,
+				"KI": "ad6876388da0a15b928b4ad0eef5f19a3f51727558d179526f3638b032a553b2",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "e9d0e2646beef08bf9a9bb80eef9d6764aa7648fa1bd35b55e1e17cd4454172ab354b89293cce44594e60132b76ddf065d05",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "29ef76b5a6bb11832a58",
+				"KO": "9c81b03e01df302121f05b3714726bc6d0b834b8c7b0445e5312e33db5ec428c"
+			},
+			{
+				"COUNT": 13,
+				"L": 256,
+				"KI": "d582ad2f2f3c5673917e6a33b47bc5119e81dce5091403cc40d538403c3680d3",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "b34ed0c1a2d8b4ac1884758941ee539581c1808947a4f7a55e988afaece8a9f9c7418a2c0e6a2816945c14baf5914d206314",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "bda555392d846e0c4d0d",
+				"KO": "f0f55b7fa0ada13cd13ce2212d8c5bc85edcd712e071e2e83149262c411f2583"
+			},
+			{
+				"COUNT": 14,
+				"L": 256,
+				"KI": "f98022881fb73696088f3a1e18044e410bd856c9837c443d20e39e847b7c95b5",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "786a073d1f37cc6630b8d024884be30cc463a41db3e1c14bb1125d0a2dcce41db0064785ca70caf12757d24a33c9ef5fdb81",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "60dcd19b975d43a2eb3d",
+				"KO": "af4d472f2c9a577e6a8324ad17364c2d421864bc677810b8ddbf05131fd78b56"
+			},
+			{
+				"COUNT": 15,
+				"L": 256,
+				"KI": "9cb18614c8a8d5b1b28cdf4ca0f03a567c0ae98c51a6a62580df35af2c7523e2",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "6195a3891446ccc077aab4ff4b14d599fbde8658aaaaf2b108193fb6ddbc7a91c1ad2b3634d94db19a4ff7992201ff392199",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "92cc2213f78a1e3ea6f8",
+				"KO": "5a9483eea87b371820dc26832f6c3c4b4bdc7f7e44ff8a41fb9d5df3b7ea2e13"
+			},
+			{
+				"COUNT": 16,
+				"L": 256,
+				"KI": "7180f0adfcc191cc09fba8e6aebb3772a100bf5a294c48eb99bc178d50947342",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "c6a802ec9d0fc61f30d0c29ddab1b37101d9f8d9346178c683acfd3470f2acd1e3983a82862c557aa5b1a49a0210384769dc",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "492c908778f2176f8dd8",
+				"KO": "928acdbf9e31252c3cc5b4a8231200ef96e048dcd145fb8dd92bf9e510f1fa66"
+			},
+			{
+				"COUNT": 17,
+				"L": 256,
+				"KI": "e99c118ad53000872faac1800d7d631ad74266933cffbb25cc95f1a140d67134",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "c8a907462410197993a36ef1d06e12d0aca07350857446cd0de1b13552bc1e8ceea25b1f5e60a5cd3b0a5e89e0c9087a0af4",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "b317896965b9dd2b1f75",
+				"KO": "d755a31c4f1def0472c210509e57c0a19d98b6f100d0c136bb9f6e959ae5ea00"
+			},
+			{
+				"COUNT": 18,
+				"L": 256,
+				"KI": "b3f87f167f203496f9ece64401b67343e97ec9f297b5bd7483c3f0d3254ad6bd",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "c0e72feaa99cdb47148d356da98b7d2d8d18f0943c5942deb8bcd10dd29cd0873481252b1910921050819fc242e5818bf62b",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "ffb4dae37f21c7cf9573",
+				"KO": "9244430b58abef14301532e13e04da503e8620858f485a7e95f8d30c324b5e93"
+			},
+			{
+				"COUNT": 19,
+				"L": 256,
+				"KI": "0b9885af465325dec3c480ad1cbb58f887fe8b52b0609105c1790e57ac70b1ee",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "e6d1396f86b6f44b9de8bbc62c70298ec320b385e0cd9512312f24b899890b69e739b8849f96fd75317b49efd74b17520569",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "8d4e8543eba1670c8911",
+				"KO": "6bcc39cab4d5906a292723023a7acbae7188fc2c48c570cb050ffb7bb9e4a427"
+			},
+			{
+				"COUNT": 20,
+				"L": 160,
+				"KI": "baebd24ba83c551e05758d8666478e1ec840cc34c40bac35efb439d9e390ebc2",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "32f08102739bc08a295bb84ddff9390d454b35f8191242ea6d267567153399b778db849c2557a3fbb93cef1efd8ce4cd16f3",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "a60f470c2802196a363f",
+				"KO": "ce696ca1c05d3ab5e3c14ee7b504794e69d1bca5"
+			},
+			{
+				"COUNT": 21,
+				"L": 160,
+				"KI": "db105a32873044a300aa743d5c370d676d77ea7a9f50f434c881bba23e99c271",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "a1b9aa1a2fded2fc75d3182a472caa0aebb0b5c6c2c3acdd4a9a30476fa84467c342b1cffa4d3b0667a3689207e58aab0b3f",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "c76c0b2058b95b45ae76",
+				"KO": "3220287fb6465f5f850bcaed16db0cce0bcec31e"
+			},
+			{
+				"COUNT": 22,
+				"L": 160,
+				"KI": "02be39ab3dbabb0adc656f0ce714040171dc1bde2cda45d0b65e07bfb30ff4fe",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "682e9f1dbe4f15bb00ad3311d748b87786a496af47489b5165bb42913a63b3abce7e877ce0e777570fe2a700c28fc22cb2d6",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "7e732238ddec3bee75e5",
+				"KO": "a3c81e00c9d692f65487633bcef463af6cead7ab"
+			},
+			{
+				"COUNT": 23,
+				"L": 160,
+				"KI": "a4f6ac3f9363e8f951b9fa7ad01e770c2761fb64e805acd8140f51cd14393dbe",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "ddb56858d5bfc885534e6a1194c5c610a17b0cb9fb0b9825e28a91235b013e8601df2438d621dfd8ef61cd3e6f2efbe7a29b",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "5f689a2ef5174b162531",
+				"KO": "ef0cbab51a558c4d3ea699407e4870f952a03c7d"
+			},
+			{
+				"COUNT": 24,
+				"L": 160,
+				"KI": "7bdfa39e1dcff4c4ba135abe8a6798e1aa6adef6822cbe42358d181d196e83aa",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "c94db6dc28ac61aee48d3eee0748f1e24da8a9e79f1f86bb29fdb10b27af586d26ec180bd0f63bdd1d4aef70d7c60bbdd1c1",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "ce7b8f1e9199696f6f5b",
+				"KO": "6bfd5d20e0dd7c31a7d4725df7b3db4db4c9a79b"
+			},
+			{
+				"COUNT": 25,
+				"L": 160,
+				"KI": "7e824d95e0dda20f3783532fef5bdd6bad3a47e52d230e51081ecb9ddefebcc4",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "6e2ab14023478be1705919ea180b7495559c3b7addafedd738e253d840cbd1571116c92305c27b3b37c6eeb250311eb42659",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "e3b2d7ddd57b0c28d160",
+				"KO": "a72909bf661093bc5c24d68e24c6664a4ee5409b"
+			},
+			{
+				"COUNT": 26,
+				"L": 160,
+				"KI": "25091a0488b4313a28de1fed7b5ba344ac775545291e3153b5931f7af466739e",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "7bbe1cd7b1fc7af14105e8f982b5b82dbcbd8d5311d33c3e579f37f24def76de3bfbae6aadeb94656b4a813b007c1abc17dc",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "353b8196bf7097de3627",
+				"KO": "acb697edf6c963d7cf177655d5755cdf57e89a2d"
+			},
+			{
+				"COUNT": 27,
+				"L": 160,
+				"KI": "cebdd79057dbf189b71a093d86796a18230bfa0a5f232f63ae8a464e69591335",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "8eee43ac1a992c50f86e487acaa3de58899eb4067acd5f86541de96bacbcfcf59cc7e4e105f9cadffc72ed54d516b3a697a4",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "f16fe89abe4d9e6ed764",
+				"KO": "105846c2e5b8905155d9e82255859ac61567b704"
+			},
+			{
+				"COUNT": 28,
+				"L": 160,
+				"KI": "ca74a8189ef1419861f591005b68fd37e5e80b35c796d50fe4b091c5a2dd0e0f",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "863261dcd00b624e84b63bc08d88cbc77c241610ce174491bcd936f512cf3f772d5452284a025107c55a3892aa041495e558",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "85d5c1ac7fc70418c416",
+				"KO": "42b6063ab31e36217b24c21929ba452e734a9232"
+			},
+			{
+				"COUNT": 29,
+				"L": 160,
+				"KI": "c1baf573422505622f8f4c7c1130dbd61617769a3f11802996819fab610b05d7",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "b84988027c2c558397bd88408bd7c5eb67d15aca2313de7f04300aebf5042e62d552aac829cb1d0f8f6974de1d90403aeba2",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "80c9c6ba2344516ec33f",
+				"KO": "d4b25e9440d1d2ff295a9ebacde40ee4de2ffe50"
+			},
+			{
+				"COUNT": 30,
+				"L": 320,
+				"KI": "96e17ae1275cb65e1c74d2b50fdd6a2a70b02cb7e1086270a79966661001cee1",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "5fad02cf5d1102ae0598cbe7e07e5792166786729ae1a2ec04bd589332eaba54434e4b43547d76c6642cc1ad6395b97e654f",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "1e23eea7d64b315857cb",
+				"KO": "6527f77a1f1d0c34059912fd459e51a8d41f7258e6ad0da52954ff2c35400eee37ed5fa92272f8e7"
+			},
+			{
+				"COUNT": 31,
+				"L": 320,
+				"KI": "b224c6f65264b953de6cad9bc69b0b364231c40a17d586ccc1e2befc8b4be14d",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "f5e62a19d6db7d2301617d1fe4a45db78fc3bdc9d45c24fe3dbd5b968b7845950503b0ae500ce3d38b0d39a53437c3a24455",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "ea22e06e4d7704e9f0fa",
+				"KO": "4db1b024432ad7d61cb2af2d2ee2a9d08700e375b023710648a4fbd3196c9b281de1d3b630a6b4ac"
+			},
+			{
+				"COUNT": 32,
+				"L": 320,
+				"KI": "6d79b3e03e9b931967bf9182a5d9a568f8e674964ba918be825bedf922cf3b14",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "dc3dd8a99cbc9890f8824854ff4dc851803f13d7e26a00b5767ea88851fdcb29df14527f3c36d005c458b5ce4d60b6798c61",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "3aedd3ef89b2ad30da2d",
+				"KO": "4b7449ed43a18846c8dc5c481b0f7ecb174a3332440641e10b6a91f3565ca509fb09b0dd59b20c5a"
+			},
+			{
+				"COUNT": 33,
+				"L": 320,
+				"KI": "bb6182257f370e0c6d6332c7f7c25cb0afddfaa85c7c8e511ed8a432bce2b97d",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "92bf2632e85c2a05308bd9002c0e7a484d2582e1e5a1edc7b3908fd89374945197fe11f8ac9099541b9b694a2b9c551dcf3c",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "a3eb08f6a6d1677e8d3a",
+				"KO": "4d414bc51353d31070a5f70986c951a98f231b3b9acd91595cefe8c67d98eac2f422a77921a85a93"
+			},
+			{
+				"COUNT": 34,
+				"L": 320,
+				"KI": "17f66255b59d5c957d5278cd84f9776b70d2589cff68db6ad7699af25cc5785d",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "63aca3f51b15e7530c23eebdbb13c132fe392e48f68165cac78b62cba5a24a7a02e4465905559e668c7bab540a8445ca02fc",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "00e3361146f4806e411e",
+				"KO": "e7b5a85274c9f4fb1d0b5d8534be3c837e20178d30e3f5efb6bbe4b5dd9582a1aac835e261edcf70"
+			},
+			{
+				"COUNT": 35,
+				"L": 320,
+				"KI": "b49a0f0be968eadb17bb5c6497c16f2b687895cfb77a752a64bd92099461dd37",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "237536a200d3d52f7d1e98a65a453f160a2292569d9bc729d250f6a298b509b24315ab73c57c960b8ce0cbc616c80344d7c9",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "2a01510088ea6615af2b",
+				"KO": "cb56e75b2e06167c0ded9a6c3ab25a6188fe8576ec67902ef96771727db23b67c16d5c04714bafba"
+			},
+			{
+				"COUNT": 36,
+				"L": 320,
+				"KI": "0f1034d1b36ed710a821c3d8c8a55dad2e0065bbe8077194e48b77ce1d1275bb",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "a7d26825706582f12dc2161056da420ebf32cec6276997062991fd991bd0ada1715588685be6dde7b1fec1be10c2db385bc7",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "be9c130894758a1fe216",
+				"KO": "d40dba2ec84b2ba065ffb54bb1df6a05abc7d6990257f719dbdc49c9adab2c646ed2ffe2a50e7407"
+			},
+			{
+				"COUNT": 37,
+				"L": 320,
+				"KI": "422ff9a09948a4af30aedfb20226ac2c86bbfaa07021b3390358f9ddc2bbfc49",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "97d41984fa11c118e580d32d9410b01ac08464f3c5b0234fb278c5989d5cc2aae3b02a20ff80169167f7c7cd7b1e864d2fbf",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "8b2bc92d8091150ced55",
+				"KO": "0dca8cdbe7d9a988bc30c9fd145458be41b4aa3e54f35cafe13d4b2e237adc84d6de0eb899f29839"
+			},
+			{
+				"COUNT": 38,
+				"L": 320,
+				"KI": "4cc3f993d9ed697aa29d2520f7596009506ab95547c574ee98d200bc116ea7a2",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "28350a8ae6e7dbe25fb4b393933db95cc29cc6b81f76a829cac6a953efd85b89a31526268cb1df2856ae32778382fa41069e",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "8397a1a5420548b67cad",
+				"KO": "bb8b71d0c1892044232df3b04b7bd10a37d6a1d5bcedbc53d31b797c813a511fca7688add20b637c"
+			},
+			{
+				"COUNT": 39,
+				"L": 320,
+				"KI": "62527e46c181f1e7aee5613b59483dc1550bf08016f25897220692fa59d2e7bb",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "13aeaa9bbd3ae4917ea096432bad42ede71bd68ae7ee1aa8b76f45227f9ba357e0f9ed64681c4b0394a21e04ad90421b7e25",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "cfe96e90d36425e4ffc5",
+				"KO": "1e8cb67eda4d99083ff2d82bab17be50a4c6d314899e1ca07a1a3a1d30ebbe8c652c331ada7e417e"
+			}
+		]
+	},
+	{
+		"prf": "HMAC_SHA256",
+		"counterLocation": "middle-fixed",
+		"rLen": 32,
+		"tests": [
+			{
+				"COUNT": 0,
+				"L": 128,
+				"KI": "60e118235b5fca0b15f8dbe6109b6a1a2f9d0d6f69cecfb5f65d4eb5a1c00a36",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "3c04bf77b146ef5842daafe19edb9530b7d19b3519aa5c7e797ca5cea0d82ddea484d87d735e3541cf0ba1505cf5c45d8067",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "9803f3f48ea0a23e2856",
+				"KO": "d296bb7b1707c9109d19abf026c141f8"
+			},
+			{
+				"COUNT": 1,
+				"L": 128,
+				"KI": "d6e27f6a0028beb3f71cbc6b04fa7cb31b5fbd68dbeccab8c8f771c376b3aba7",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "336c2c9284e8f26a1db02399f18dc689f0140ea122a308ccb05706c6c5268274e4dcd4a3b0658ce153bbe905a5e7d18e7140",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "3dbbbede5245f3240954",
+				"KO": "b943803f076f83d1b0f034042e849590"
+			},
+			{
+				"COUNT": 2,
+				"L": 128,
+				"KI": "a3263ff7bd3d90959b7139e0376049cc32bd5480329fbc36129b8782c98e2423",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "e908bfa24a96608c6d55af1882f9492c0ec5b18e9ec99991bcb5afa89ff7027afbd9eabf97ec4bd3b45211084f0390bd95dd",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "059a3c60afce96a11fb3",
+				"KO": "02deb8539b2af5ea783c66d0e77adfc5"
+			},
+			{
+				"COUNT": 3,
+				"L": 128,
+				"KI": "e19755a5be3d32d1f7f244996a6549625d2fc9f15b1566aa3e7b65dc20c38b64",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "369cd4a0a3134ad2e318489a789127690b73a971eba75d0e8ffe1b5f3f95993810eb6088324f900db8615f8242ac53cdfd5b",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "b94aa5e81730c15c2167",
+				"KO": "6bb3856ea1f24b0019d191e1563c9a3b"
+			},
+			{
+				"COUNT": 4,
+				"L": 128,
+				"KI": "4836ad323aa306f565f037a405845d0b4908ee3e9c3f2f00e78e63699379c091",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "9823776dd887dc9fb82bcd8af1961e613e8e72ee5c60cce088a18958492e0abc15b710c32c3d015112d5b1a59a610df74982",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "97f81a7802e1286240f0",
+				"KO": "15dbd58de7106e770c427eb6b2135c7c"
+			},
+			{
+				"COUNT": 5,
+				"L": 128,
+				"KI": "02a03a798b4ad07ecbb5c3530e1e090b8d8ae63f37397787277caa695f133d68",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "75202ddb63cc14484069eb3ec89036c6d6d036f1a80f86a40a4c65b73036d0cf0cd9ee719824d43af0f155c7ed5800f67583",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "0336f698bd4a507001b4",
+				"KO": "80eed1d4c55a520c641233e8974aedd7"
+			},
+			{
+				"COUNT": 6,
+				"L": 128,
+				"KI": "511f554e8f3199ab6b2c3ab058a1d34b57d9400528ded1723feb11339ae28845",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "0bcb61f0ec7e589204a703ca9ff7a927a805fca9cc41194a374a617bc7707627efb18ca697f51b278229d8f1d1982d7410f0",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "d4783b6105c095f9a5c8",
+				"KO": "345bdbd46dc156eefe38fe15f5b91738"
+			},
+			{
+				"COUNT": 7,
+				"L": 128,
+				"KI": "0b89e139912140bbc29dabb1b474d4677650783f546a5b72ee964f4c4dd0f7f6",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "92daf291736868a8c79a95053732dee671750bf2862c2bd54834783e8f94149adf0760777fb03cf9a43a10b4194e7378d6e1",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "5bb407d5d9534042f85f",
+				"KO": "339b65f7817c0762aad6e263231af3a3"
+			},
+			{
+				"COUNT": 8,
+				"L": 128,
+				"KI": "e5c7e6dd9def4894f3f072a8614d798ccec2fff15d15f4eec3807efe5a5e77c4",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "54b5b86d3c7a46665a0afeb1a74e11ed6f78262c5a3e02cafbfe4b8c5601010dd04339cdd0e5d074a2cf6f8361f42a9a5ce0",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "1920288bf4a68c05f2b5",
+				"KO": "b103e3ea6c1bbd8693e054c32aa0afcd"
+			},
+			{
+				"COUNT": 9,
+				"L": 128,
+				"KI": "c0f96e6e5f68b2d124d1db4793aa6c4d9d3167ee2d695b349cd2b8d4116a7bb7",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "2aa89b02659dee25f3d0955aa01b9df4eb5918565dd2238f0aff7079cf5c11ff240b0865328c92be2f68d8657e5f4f74af1c",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "edb5ff9cfcae868712fc",
+				"KO": "e4f84afa601734818726ecfa39a64e7d"
+			},
+			{
+				"COUNT": 10,
+				"L": 256,
+				"KI": "6f46aa299e6d258b2c839ce0ac7345765a8be915c861f36ee59367e40435f572",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "c28c15632788cc88f00dddc6dbb014c5c492fb56746b59e61f206cd9e4389a954c74bf01aa26af758b9e92287ccfe59a980a",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "db58244c38e9c1e8f66c",
+				"KO": "25186585b2069fd280b098abe1d22dc80b12925daa36878514dc0c9aae24c285"
+			},
+			{
+				"COUNT": 11,
+				"L": 256,
+				"KI": "6c90707dae024c08c3b54c016e8dc2b116c78c763ac3f5bbb284b263928918fb",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "0cfd62c4144aa6a42b0983dbbcc0ca8c30b585edecf7ca02934e936ffa4b7bce28e61e5c9c6d5a396fb90da422054ebdab05",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "504c3f9a3a145097eaaa",
+				"KO": "c59dc69b1c5de75ae6dbc31d5965f6a510d3a1d373adabcc0319015e9ed0060e"
+			},
+			{
+				"COUNT": 12,
+				"L": 256,
+				"KI": "e629053a0c70492907f894210a423b656d5fb1b36099bfdea30f0538c8304357",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "5992db47f7cf9d61af881ae535998b1520ee2bbf3f2fb5f9918b84245a901b7b62b5f0216f85953a7f2a4348534ae2d62163",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "e97b50a28e19940a8adf",
+				"KO": "5db94e7fd6d105d201761758991ba7314a64fcb379cf556600b1c5cecafaed09"
+			},
+			{
+				"COUNT": 13,
+				"L": 256,
+				"KI": "9ff2da015a03b263790a3d2b60fb908dbfbd14605752f306e9583d93a9b406a7",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "c0ba64918661ef4a203d49697ee051f775d11a6ecfc7e824e9b4d35258ab3eb825e494b0bdcd27f0a5046da10c1601ec7402",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "6574654f1eeaa0fd6186",
+				"KO": "e065d45b1ef103d50d438e4474cfc825715e702dd9bd10140e6494688cbf9a5a"
+			},
+			{
+				"COUNT": 14,
+				"L": 256,
+				"KI": "a60eb81ccf20b13538735abf92d2e602508f064a3f3544573b67ccf7e958aa8b",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "b14e1f36a7e7f929f753638ce04a9d834d6ae8b5ec3f8c79af6a12f145449722df4677f5d92a661cbaed57716bc864e53791",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "071b5874969d4ce0c1f3",
+				"KO": "69cf0d676f887de6a0a96bce1655a3804cce70389b00cd0115d0294e13860eba"
+			},
+			{
+				"COUNT": 15,
+				"L": 256,
+				"KI": "810ae7c74db2c4de925ea9167df9a3f9ef2bfc2dbfbcb6ba7dcb4cb2eb41efba",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "da72f518f2b10dbb3dee2aef465a0dd31305a53be5536b2c9db7a31045b28a2b1333d9e5561bdae96f96ac73be91e89f0af2",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "e7aacc1354520c5f0e0e",
+				"KO": "138b780c6b05532f337e7201adadac6ef259461ea3ba4f7be23ec843142a99d8"
+			},
+			{
+				"COUNT": 16,
+				"L": 256,
+				"KI": "851b53e1ca6d0f689cb2ec3caa0b4c1a9b35c3be1a280895b734a5b2f6428ec4",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "f1477e8aacd5802dc4411ab759864cefb29ef6072ee6defb54e2ce88eb0a30e8f6e0dfdd8a2cf57d5b72080976205ce880d5",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "3f6028f9d1071d794d03",
+				"KO": "bd50a74091d09b503b0e571ac992de5adcf6b710b2d83f17f3876d1ecb1d0f7f"
+			},
+			{
+				"COUNT": 17,
+				"L": 256,
+				"KI": "7f5f2539735d00894ec6656d0a73d71639e8b2462e2ae941401540a36df67a11",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "0c9e7d2772012b99ba465bfef63706a6bcee887ec772be6e6d1d65add0f2976bde9ddad11b912a6c609b65e5ea7ee83e0fb5",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "5b5fb55781f82964d0b2",
+				"KO": "9b35230bfebe556bb0b747dda4f7b7ab499c895e04451f9caac68b663e2580a5"
+			},
+			{
+				"COUNT": 18,
+				"L": 256,
+				"KI": "43538b8b1abcbccf8b067f2cc7d0e2e37a2f274d30e5ad153a4af8c7aa7982ad",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "30da355765986b7114dee2547677da95a4b60d9557cb27c423a933c64358ee2414a054e9b8d6eaf3129623511b4fa1012093",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "96b0fb243aa72c4d17f8",
+				"KO": "4ada2c27a9c5d9195807bce5a1af81402d4da3c35ef090c3559f07c2fb4f2b4f"
+			},
+			{
+				"COUNT": 19,
+				"L": 256,
+				"KI": "f526e8d9b69da5227cca11eb20fcfacb6b6a03201a80f6c02349e5a6f3a712e4",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "4b78bfee1440ce5e7e6eccf9c8e93eb37ee718e4c3e8b8b3f6fb20f60ff6991295d0e8c89c3d753ac3c654b14933250ddb61",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "bed69dc244dd5291b1cb",
+				"KO": "0be3d69f5cc3c01abe35d3cc799c7e30997a3b0ca581859f059daf082c6cc1d1"
+			},
+			{
+				"COUNT": 20,
+				"L": 160,
+				"KI": "6b3668b40c0030a50bb5fd305d0d604fc629f77060cbc1fdcba598f147acf5d5",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "e276e842faee7ef88d57015f09c1a346a44f83b81fa2db10e2815c820f0302e893b98829ef71940ecdf0a39a3c33cfb1c25f",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "44aef70d24cde3d094a1",
+				"KO": "dc66601e2e4117e21c791d1d74711d263cd4260d"
+			},
+			{
+				"COUNT": 21,
+				"L": 160,
+				"KI": "4f45d1a99ad8f1443c6a17340fd261f65426501a9ab6371f6f7f7eca6362625a",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "3c886324b841abbc66de725b9ba94c18307740d5dec78820869a4b263238b21e63c7d7433f23fb2a62ba8ba28fd74582511e",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "0305a0f78ce47179e32b",
+				"KO": "5a7363e9b13c1de3ff2d670d95c1f276ce4737a1"
+			},
+			{
+				"COUNT": 22,
+				"L": 160,
+				"KI": "95c3ae039c5ac5b956fe58915349c587003929d8fce1e08ebc76d87d7edc65fd",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "6b2e4eda85fd1f71b4e465b04a5008cd364ecbc538146996d39c823a538e62cfe82dbedaaa432984ab9105ecc2df66944ff7",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "654424a81184cfba0577",
+				"KO": "7ec472a42c69b2c96ed9b95ccbc14ef664fab0fe"
+			},
+			{
+				"COUNT": 23,
+				"L": 160,
+				"KI": "523c2a95e6e47f6be8960acbf55c472631f65298b1b08649673f97c909f117ca",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "983dc1f962664a7ad35ea315166d95021c65d07982af90ade0989d05bdaffa21944310b476a3791980b54d37877aec4eb1f3",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "19d4eb5353240dd90e46",
+				"KO": "db31b2bcf017e5ee6c9a459dbe38683994543a4d"
+			},
+			{
+				"COUNT": 24,
+				"L": 160,
+				"KI": "e30c296ee6ffa0a34d1584be4c8908253309812642fee732da333e4dbae2db25",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "747d04f84983ef277d902a55b197ce1a1a4379fd0ad07bfbed4a640b9412261b4f1e99c704c5c73d766c210f8406f2b17348",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "55847a36ef5142393c65",
+				"KO": "b7001a724caa5e38b6ba472b43a22401b11f79f3"
+			},
+			{
+				"COUNT": 25,
+				"L": 160,
+				"KI": "bf933d134e69db704fa9989673d5fedf52058c2e0b3da30b19aff09c466dab1d",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "755c8431a26d71700aef54285a2e433e063c5c23399875e90e0f5e178b1a9a5729d9bcebc89471aeae21e8f2c4d4edd5fe8f",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "52ddac08fc7686ec1dbe",
+				"KO": "bbb112c170f104230c3808ff3e9744eb1452dfb2"
+			},
+			{
+				"COUNT": 26,
+				"L": 160,
+				"KI": "067bd4538b5a2bea308d1cc553b0f5b16c4a6761d0e24da4a641800f285decf5",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "ab726d77472719d5923bf9fe7b1975a3f47f55dab38e4da06d365a0a911eddb2942372f410b432bdbb8fbc232b17c98e4e38",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "0c61a9a4cdb0a4920a41",
+				"KO": "7963e6897807f7aae2c9c028316e0e06d1645b65"
+			},
+			{
+				"COUNT": 27,
+				"L": 160,
+				"KI": "eff0722ed6f6bf15f48928520124effcc0ad147a40561179c534aaf7f757966e",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "bb1e0a4dd89e7611e5b0e2206bd54932251cf45e27fdbe4afc3079d24cca563d08dac44f8f5f83115eed0092b389994c62f8",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "85197e4224b5a01fc599",
+				"KO": "d57d3b896247b679da864e3d95ca6519066126c2"
+			},
+			{
+				"COUNT": 28,
+				"L": 160,
+				"KI": "5a9002952346eb51b9a8a90807e72a3da45b9e492246fdf640051269d7379882",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "bd1c466f20c7298d6c698a06386ca984a601be8c8676cf8e1cc1e51956d19cb89896002f0ac74160fe9106f109fac5215bc9",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "09f3ceb28a0c3829cdcf",
+				"KO": "13e2199ca8d4153037b461ef80dd6166abd957cd"
+			},
+			{
+				"COUNT": 29,
+				"L": 160,
+				"KI": "35139551eb4cf6eb090f5fe3be0609d2f63f44122a9594a184ae67154ae921c5",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "64c9ec777b99ac68c615110c4db522e5eba0f75d1b1d62ccbbb0c80eeb15ed1a18531e22d467f446e3b00865a9ee36346402",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "78fe72f8605b5d7fcb68",
+				"KO": "7467fdaabb91fa27170b9fbd82334a8bf1f9680c"
+			},
+			{
+				"COUNT": 30,
+				"L": 320,
+				"KI": "83942cf6cfcc3e5fac045eef7c8e97254bec62db3847a9c212a459c41047c2ba",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "57080e10650d313708c3e83ba761cf98bc2ca79187da9540424ee8414e5c617cc7ccccd53df1b75060eb7237be4bbb02bbd0",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "2ffb3af2c53f4518dfec",
+				"KO": "79adfda2e7abe1519f1be8d3500db5e4ea8c96ec9eef3de1abf76eaa3c0cb7b487603c6974da04ff"
+			},
+			{
+				"COUNT": 31,
+				"L": 320,
+				"KI": "f6adaeb7175783eea59959cfc92b5162586a1a29d2e0baa3db58e3b9a3e5fef8",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "2154facd748bf5c72b0bc655f398b6657e8d7730df8eee8c11b2e909aaf2871cbcf49f0de3958829beaedf68e4f317d71f96",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "0162f5eae258d39c6221",
+				"KO": "ab5151837f48fc4145c9e14492689dcfe5cde883b89898b6b6d7d6638d25dbc83fd88055f12901b4"
+			},
+			{
+				"COUNT": 32,
+				"L": 320,
+				"KI": "3cd983df44c0397db2014533e0646a02ce0904b0ab2810ea2846bad74123f932",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "63a5b6be0e7a1fa2d91b2ec2afa91a1a1b6ba456acfcecd9ddaec8e7bb77539d53f65cf4293d6e1b1e7969c835da7285e0bc",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "fee171545deabe44658a",
+				"KO": "57094984c4f322a7ef75bd4eb1afce8fb9fef3b9821cb6d5d57f66be418e7741a195f24a68d5f41e"
+			},
+			{
+				"COUNT": 33,
+				"L": 320,
+				"KI": "e846603ed8af2f653492cf56849e90b680a3767a082ae27c302b0565e4a3e790",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "f97fc260f46c7775edf0d7d5ee1c66dedb850a0d711e773d710a90a0fa71a39b22494e9ce275ce0ef809b3e0f25f9ebc492e",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "2b8b992ef38b834e0577",
+				"KO": "af76365cc82780e25fc434a32670ba9ad07acae65de49bb896867c576282575039ee476504302513"
+			},
+			{
+				"COUNT": 34,
+				"L": 320,
+				"KI": "0359ec1b15c601b3ceff6c70b79ee4f6ec511f4defc26cbb4d247615f3fac05a",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "d2767feab0df9bb7dbb4a61d2f04bbc8114fc31d152ebf8b774adc2e3ef7e6ba730efc8104a35b0db284e4dd0fd84191f054",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "d2fa029ee274b66d5c97",
+				"KO": "8078f15a883317d7ad25c43f80a9873d230a18d94e93a425b4c8d76ccebd8e6cde74ace2494dba28"
+			},
+			{
+				"COUNT": 35,
+				"L": 320,
+				"KI": "88012187f04b9704a345e94debda566f4bcdd77f91fdf51e490a894b3151cbbd",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "8531723b6f1d5c552ac7b37888a2b767c09ccc61962e7e3902782022f016fdff33a48e165c18934df60adb1a7c1e2b5d2bca",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "7666b0f6ea9ec69d187b",
+				"KO": "9bc35e5b5c3e79fefffd111bacdfffb5e691ceb9593f410e3fc40de18b0ba82c4d65e6678c500c15"
+			},
+			{
+				"COUNT": 36,
+				"L": 320,
+				"KI": "9a78a434ff041a7290e6a797a8d920358cf1d83a9662efa0443f28ade477941b",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "64bee05d4442fee8ca722e1b3472e1985cfb1f3b47783c3cbf2f7337e2e9c3d15e642b6c383a0b7ddbac13b8afbf01e602ce",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "9448609f3996cb1e1252",
+				"KO": "1f5e2108394335aca0d2c0b949a0dc13110cfe2afe4d198a74ac6834eecaaecb1876f54bd249237f"
+			},
+			{
+				"COUNT": 37,
+				"L": 320,
+				"KI": "ef83c99fc4ba4725e73e84e42a17ec8fa4f64e433592df83dd2c3bd22cd28204",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "903d0cd984671773042bf415d3f00c314d65e5490f8bca257b6f14752eb453aa37b0c66a32aecdd12657400aa48c6816ffa5",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "b71d6eff27eb4e35a698",
+				"KO": "507a0d355761e00fd576306513017dbcc284938c35c05d4e6ec87dfa04d0ff3d23c319d6fa54ba9a"
+			},
+			{
+				"COUNT": 38,
+				"L": 320,
+				"KI": "10f4779ca9aea5c10ecdae615c9eb3008a7563359f189ee37a7096ff9301c0db",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "0f46d55a68914594d997bd1b123b7920edddae73b3e27efee95df30a1b539cd097f6a9bc8c0bb94cc557df4b24eaabd79599",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "bca6f9a8a752780f9eae",
+				"KO": "4a9945e54cbde42ca2cfcd9ddc7b7be804ab22afefc2303c8a0454068af6bbf5da15bfe6d8dc1ce3"
+			},
+			{
+				"COUNT": 39,
+				"L": 320,
+				"KI": "490f0837cf3be0781a8c6237444f476d5f3112ef59ce8fd617929759cd911d61",
+				"DataBeforeCtrLen": 50,
+				"DataBeforeCtrData": "2a96f732a9b58d0a1895015312baac953a0c0b8757cb4e1c2aeff6f544402265e1951f4be45a7ebbf369bf935a7f98e50715",
+				"DataAfterCtrLen": 10,
+				"DataAfterCtrData": "74aeb4737d0966cd0760",
+				"KO": "248089c63c58603b7ae7f3a5b6163ebdaab390affc9c83f9007f83bc26e0d5ee0338e1c500d67d80"
+			}
+		]
+	}
+]
