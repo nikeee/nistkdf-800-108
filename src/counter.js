@@ -56,3 +56,43 @@ export function counterKbkdfBeforeFixedCounter(
 	}
 	return resultBuffer.subarray(0, keyOutSizeInBytes);
 }
+
+/**
+ * @param {import("./index.js").SupportedHashAlgorithm} hashAlgorithm
+ * @param {Buffer} keyIn
+ * @param {Buffer} fixedInputData
+ * @param {number} keyOutSizeInBytes
+ * @param {8|16|24|32} counterWidth
+ * @param {number} n
+ *
+ * @internal Only exported for testing purposes
+ */
+export function counterKbkdfAfterFixedCounter(
+	hashAlgorithm,
+	keyIn,
+	fixedInputData,
+	keyOutSizeInBytes,
+	counterWidth,
+	n,
+) {
+	let resultBuffer = Buffer.alloc(0);
+
+	const counterGenerator = counterSizes[counterWidth];
+	if (!counterGenerator) {
+		throw new Error(`Unsupported counterWidth: ${counterWidth}`);
+	}
+
+	if (n > 2 ** counterWidth - 1) {
+		throw new Error("Iteration count is too high");
+	}
+
+	for (let i = 1; i <= n; ++i) {
+		const mac = createHmac(hashAlgorithm, keyIn);
+
+		mac.update(fixedInputData);
+		mac.update(counterGenerator(i));
+
+		resultBuffer = Buffer.concat([resultBuffer, mac.digest()]);
+	}
+	return resultBuffer.subarray(0, keyOutSizeInBytes);
+}

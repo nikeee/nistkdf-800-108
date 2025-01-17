@@ -1309,7 +1309,7 @@
 	},
 	{
 		"prf": "HMAC_SHA256",
-		"counterLocation": "after-fixed",
+		"counterLocation": "AFTER_FIXED",
 		"rLen": 8,
 		"tests": [
 			{
@@ -1636,7 +1636,7 @@
 	},
 	{
 		"prf": "HMAC_SHA256",
-		"counterLocation": "after-fixed",
+		"counterLocation": "AFTER_FIXED",
 		"rLen": 16,
 		"tests": [
 			{
@@ -1963,7 +1963,7 @@
 	},
 	{
 		"prf": "HMAC_SHA256",
-		"counterLocation": "after-fixed",
+		"counterLocation": "AFTER_FIXED",
 		"rLen": 24,
 		"tests": [
 			{
@@ -2290,7 +2290,7 @@
 	},
 	{
 		"prf": "HMAC_SHA256",
-		"counterLocation": "after-fixed",
+		"counterLocation": "AFTER_FIXED",
 		"rLen": 32,
 		"tests": [
 			{
