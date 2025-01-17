@@ -2,7 +2,7 @@
 import { createHmac } from "node:crypto";
 
 /**
- * @type {Record<number, (i: number) => import("node:crypto").BinaryLike>}
+ * @type {Record<number, (i: number) => Buffer>}
  */
 const counterSizes = {
 	8: i => Buffer.from([0xff & i]),
@@ -22,7 +22,7 @@ const counterSizes = {
  * @param {Buffer} keyIn
  * @param {Buffer} fixedInputData
  * @param {number} keyOutSizeInBytes
- * @param {8|16|24|32} counterWidth
+ * @param {import("./index.js").CounterBitWidth} counterWidth
  * @param {number} n
  *
  * @internal Only exported for testing purposes
@@ -61,7 +61,7 @@ export function counterKbkdfBeforeFixedCounter(
  * @param {Buffer} keyIn
  * @param {Buffer} fixedInputData
  * @param {number} keyOutSizeInBytes
- * @param {8|16|24|32} counterWidth
+ * @param {import("./index.js").CounterBitWidth} counterWidth
  * @param {number} n
  *
  * @internal Only exported for testing purposes
@@ -101,7 +101,7 @@ export function counterKbkdfAfterFixedCounter(
  * @param {Buffer} fixedInputBeforeCounter
  * @param {Buffer} fixedInputAfterCounter
  * @param {number} keyOutSizeInBytes
- * @param {8|16|24|32} counterWidth
+ * @param {import("./index.js").CounterBitWidth} counterWidth
  * @param {number} n
  *
  * @internal Only exported for testing purposes

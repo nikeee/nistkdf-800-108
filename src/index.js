@@ -10,11 +10,6 @@ const availableHashes = {
 		lenBits: 384,
 	},
 };
-
-/**
- * @typedef {keyof typeof availableHashes} SupportedHashAlgorithm
- */
-
 const emptyBuffer = Buffer.alloc(0);
 
 /**
@@ -24,12 +19,14 @@ const emptyBuffer = Buffer.alloc(0);
  * @remarks uses HMAC as PRF and BEFORE_FIXED as counter location.
  *
  * @param {number} sizeBytes Required size of the output
- * @param {SupportedHashAlgorithm} hashAlgorithm Hashing algorithm for HMac
+ * @param {import("./index.js").SupportedHashAlgorithm} hashAlgorithm Hashing algorithm for HMac
  * @param {Buffer} key HMac Key
  * @param {Buffer} label KDF label string. E.g. FDO uses "FDO-KDF" as label
  * @param {Buffer} context KDF context string. E.g. FDO uses "AutomaticOnboardTunnel" as TO2
  * @param {Buffer} [contextRand] Context additional random bytes. Defaults to an empty buffer.
- * @param {8|16|24|32} [counterWidth] `rLen`. The width of the counter field in bits.
+ * @param {import("./index.js").CounterBitWidth} [counterWidth] `rLen`. The width of the counter field in bits.
+ *
+ * @returns {Buffer}
  */
 export function counterKdf(
 	sizeBytes,
