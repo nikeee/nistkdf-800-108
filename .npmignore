@@ -3,4 +3,5 @@ node_modules
 .vscode
 biome.json
 *.test.js
+*.test.json
 *.md
