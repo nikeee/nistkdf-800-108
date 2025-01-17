@@ -19,14 +19,14 @@ describe("counting KBKDF", async () => {
 
 	describe("hmac-sha256", async () => {
 		const byCounterLocation = Object.groupBy(
-			// @ts-ignore
+			// @ts-expect-error
 			byPrf.HMAC_SHA256,
 			e => e.counterLocation,
 		);
 
 		describe("counter before fixed data", async () => {
 			const byRLen = Object.groupBy(
-				// @ts-ignore
+				// @ts-expect-error
 				byCounterLocation.BEFORE_FIXED,
 				e => e.rLen,
 			);
@@ -36,13 +36,13 @@ describe("counting KBKDF", async () => {
 
 			for (const [counterWidth, suites] of Object.entries(byRLen)) {
 				it(`${counterWidth} bit r length`, async () => {
-					// @ts-ignore
+					// @ts-expect-error
 					for (const suite of suites) {
 						for (const test of suite.tests) {
 							const n = test.COUNT + 1;
 
 							const ki = Buffer.from(test.KI, "hex");
-							// @ts-ignore
+							// @ts-expect-error
 							const fixedInputData = Buffer.from(test.FixedInputData, "hex");
 							const koExpected = Buffer.from(test.KO, "hex");
 
@@ -52,7 +52,7 @@ describe("counting KBKDF", async () => {
 								ki,
 								fixedInputData,
 								keyOutSize,
-								// @ts-ignore
+								// @ts-expect-error
 								/** @type {8|16|24|32} */ Number(counterWidth),
 								n,
 							);
@@ -66,7 +66,7 @@ describe("counting KBKDF", async () => {
 
 		describe("counter after fixed data", async () => {
 			const byRLen = Object.groupBy(
-				// @ts-ignore
+				// @ts-expect-error
 				byCounterLocation.AFTER_FIXED,
 				e => e.rLen,
 			);
@@ -76,13 +76,13 @@ describe("counting KBKDF", async () => {
 
 			for (const [counterWidth, suites] of Object.entries(byRLen)) {
 				it(`${counterWidth} bit r length`, async () => {
-					// @ts-ignore
+					// @ts-expect-error
 					for (const suite of suites) {
 						for (const test of suite.tests) {
 							const n = test.COUNT + 1;
 
 							const ki = Buffer.from(test.KI, "hex");
-							// @ts-ignore
+							// @ts-expect-error
 							const fixedInputData = Buffer.from(test.FixedInputData, "hex");
 							const koExpected = Buffer.from(test.KO, "hex");
 
@@ -92,7 +92,7 @@ describe("counting KBKDF", async () => {
 								ki,
 								fixedInputData,
 								keyOutSize,
-								// @ts-ignore
+								// @ts-expect-error
 								/** @type {8|16|24|32} */ Number(counterWidth),
 								n,
 							);
@@ -106,7 +106,7 @@ describe("counting KBKDF", async () => {
 
 		describe("counter middle fixed data", async () => {
 			const byRLen = Object.groupBy(
-				// @ts-ignore
+				// @ts-expect-error
 				byCounterLocation.MIDDLE_FIXED,
 				e => e.rLen,
 			);
@@ -116,18 +116,18 @@ describe("counting KBKDF", async () => {
 
 			for (const [counterWidth, suites] of Object.entries(byRLen)) {
 				it(`${counterWidth} bit r length`, async () => {
-					// @ts-ignore
+					// @ts-expect-error
 					for (const suite of suites) {
 						for (const test of suite.tests) {
 							const n = test.COUNT + 1;
 
 							const ki = Buffer.from(test.KI, "hex");
 							const fixedInputBefore = Buffer.from(
-								// @ts-ignore
+								// @ts-expect-error
 								test.DataBeforeCtrData,
 								"hex",
 							);
-							// @ts-ignore
+							// @ts-expect-error
 							const fixedInputAfter = Buffer.from(test.DataAfterCtrData, "hex");
 							const koExpected = Buffer.from(test.KO, "hex");
 
@@ -138,7 +138,7 @@ describe("counting KBKDF", async () => {
 								fixedInputBefore,
 								fixedInputAfter,
 								keyOutSize,
-								// @ts-ignore
+								// @ts-expect-error
 								/** @type {8|16|24|32} */ Number(counterWidth),
 								n,
 							);
