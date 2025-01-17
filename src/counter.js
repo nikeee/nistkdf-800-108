@@ -35,8 +35,6 @@ export function counterKbkdfBeforeFixedCounter(
 	counterWidth,
 	n,
 ) {
-	let resultBuffer = Buffer.alloc(0);
-
 	const counterGenerator = counterSizes[counterWidth];
 	if (!counterGenerator) {
 		throw new Error(`Unsupported counterWidth: ${counterWidth}`);
@@ -46,6 +44,7 @@ export function counterKbkdfBeforeFixedCounter(
 		throw new Error("Iteration count is too high");
 	}
 
+	let resultBuffer = Buffer.alloc(0);
 	for (let i = 1; i <= n; ++i) {
 		const mac = createHmac(hashAlgorithm, keyIn);
 
@@ -75,8 +74,6 @@ export function counterKbkdfAfterFixedCounter(
 	counterWidth,
 	n,
 ) {
-	let resultBuffer = Buffer.alloc(0);
-
 	const counterGenerator = counterSizes[counterWidth];
 	if (!counterGenerator) {
 		throw new Error(`Unsupported counterWidth: ${counterWidth}`);
@@ -86,6 +83,7 @@ export function counterKbkdfAfterFixedCounter(
 		throw new Error("Iteration count is too high");
 	}
 
+	let resultBuffer = Buffer.alloc(0);
 	for (let i = 1; i <= n; ++i) {
 		const mac = createHmac(hashAlgorithm, keyIn);
 
