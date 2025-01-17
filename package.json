@@ -29,5 +29,8 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "expect": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }
