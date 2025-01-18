@@ -1,5 +1,4 @@
 // @ts-check
-/// <reference lib="es2024" />
 
 import { describe, it } from "node:test";
 import { expect } from "expect";
