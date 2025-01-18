@@ -302,4 +302,183 @@ describe("counting KBKDF", async () => {
 			}
 		});
 	});
+
+	describe("parameter validation", async () => {
+		const empty = Buffer.alloc(0);
+
+		it("should disallow invalid hash names", async () => {
+			expect(() =>
+				counterKbkdfBeforeFixedCounter(
+					// @ts-expect-error
+					"sha1",
+					empty,
+					empty,
+					16,
+					8,
+					1,
+				),
+			).toThrowError(new Error(`Unsupported hashAlgorithm: "sha1"`));
+			expect(() =>
+				counterKbkdfAfterFixedCounter(
+					// @ts-expect-error
+					"sha1",
+					empty,
+					empty,
+					16,
+					8,
+					1,
+				),
+			).toThrowError(new Error(`Unsupported hashAlgorithm: "sha1"`));
+			expect(() =>
+				counterKbkdfMiddleFixedCounter(
+					// @ts-expect-error
+					"sha1",
+					empty,
+					empty,
+					empty,
+					16,
+					8,
+					1,
+				),
+			).toThrowError(new Error(`Unsupported hashAlgorithm: "sha1"`));
+		});
+
+		it("should disallow invalid counter widths", async () => {
+			expect(() =>
+				counterKbkdfBeforeFixedCounter(
+					"sha256",
+					empty,
+					empty,
+					16,
+					// @ts-expect-error
+					23,
+					1,
+				),
+			).toThrowError(new Error("Unsupported counterWidth: 23"));
+			expect(() =>
+				counterKbkdfAfterFixedCounter(
+					"sha256",
+					empty,
+					empty,
+					16,
+					// @ts-expect-error
+					23,
+					1,
+				),
+			).toThrowError(new Error("Unsupported counterWidth: 23"));
+			expect(() =>
+				counterKbkdfMiddleFixedCounter(
+					"sha256",
+					empty,
+					empty,
+					empty,
+					16,
+					// @ts-expect-error
+					23,
+					1,
+				),
+			).toThrowError(new Error("Unsupported counterWidth: 23"));
+		});
+
+		it("should disallow large iterations for 8 bits", async () => {
+			expect(() =>
+				counterKbkdfBeforeFixedCounter("sha256", empty, empty, 16, 8, 65536),
+			).toThrowError(new Error("Iteration count is too high"));
+			expect(() =>
+				counterKbkdfAfterFixedCounter("sha256", empty, empty, 16, 8, 256),
+			).toThrowError(new Error("Iteration count is too high"));
+			expect(() =>
+				counterKbkdfMiddleFixedCounter(
+					"sha256",
+					empty,
+					empty,
+					empty,
+					16,
+					8,
+					256,
+				),
+			).toThrowError(new Error("Iteration count is too high"));
+		});
+
+		it("should disallow large iterations for 16 bits", async () => {
+			expect(() =>
+				counterKbkdfBeforeFixedCounter("sha256", empty, empty, 16, 16, 65536),
+			).toThrowError(new Error("Iteration count is too high"));
+			expect(() =>
+				counterKbkdfAfterFixedCounter("sha256", empty, empty, 16, 16, 65536),
+			).toThrowError(new Error("Iteration count is too high"));
+			expect(() =>
+				counterKbkdfMiddleFixedCounter(
+					"sha256",
+					empty,
+					empty,
+					empty,
+					16,
+					16,
+					65536,
+				),
+			).toThrowError(new Error("Iteration count is too high"));
+		});
+
+		it("should disallow large iterations for 24 bits", async () => {
+			expect(() =>
+				counterKbkdfBeforeFixedCounter(
+					"sha256",
+					empty,
+					empty,
+					16,
+					24,
+					16777216,
+				),
+			).toThrowError(new Error("Iteration count is too high"));
+			expect(() =>
+				counterKbkdfAfterFixedCounter("sha256", empty, empty, 16, 24, 16777216),
+			).toThrowError(new Error("Iteration count is too high"));
+			expect(() =>
+				counterKbkdfMiddleFixedCounter(
+					"sha256",
+					empty,
+					empty,
+					empty,
+					16,
+					24,
+					16777216,
+				),
+			).toThrowError(new Error("Iteration count is too high"));
+		});
+
+		it("should disallow large iterations for 32 bits", async () => {
+			expect(() =>
+				counterKbkdfBeforeFixedCounter(
+					"sha256",
+					empty,
+					empty,
+					16,
+					32,
+					4294967296,
+				),
+			).toThrowError(new Error("Iteration count is too high"));
+			expect(() =>
+				counterKbkdfAfterFixedCounter(
+					"sha256",
+					empty,
+					empty,
+					16,
+					32,
+					4294967296,
+				),
+			).toThrowError(new Error("Iteration count is too high"));
+			expect(() =>
+				counterKbkdfMiddleFixedCounter(
+					"sha256",
+					empty,
+					empty,
+					empty,
+					16,
+					32,
+					4294967296,
+				),
+			).toThrowError(new Error("Iteration count is too high"));
+		});
+	});
 });

@@ -1,5 +1,11 @@
 // @ts-check
-import { createHmac } from "node:crypto";
+import { createHmac, hash } from "node:crypto";
+
+// Methods are duplicated because:
+// - We want to avoid branching inside them
+// - We want to avoid logic + indirection to support multiple methods in the same function body
+// - Bundlers could tree-shake the unused ones away
+// - Node.js doesn't care
 
 /**
  * @type {Record<number, (i: number) => Buffer>}
@@ -35,8 +41,12 @@ export function counterKbkdfBeforeFixedCounter(
 	counterWidth,
 	n,
 ) {
+	if (hashAlgorithm !== "sha256" && hashAlgorithm !== "sha384") {
+		throw new Error(`Unsupported hashAlgorithm: "${hashAlgorithm}"`);
+	}
+
 	const counterGenerator = counterSizes[counterWidth];
-	if (!counterGenerator) {
+	if (typeof counterWidth !== "number" || !counterGenerator) {
 		throw new Error(`Unsupported counterWidth: ${counterWidth}`);
 	}
 
@@ -74,8 +84,12 @@ export function counterKbkdfAfterFixedCounter(
 	counterWidth,
 	n,
 ) {
+	if (hashAlgorithm !== "sha256" && hashAlgorithm !== "sha384") {
+		throw new Error(`Unsupported hashAlgorithm: "${hashAlgorithm}"`);
+	}
+
 	const counterGenerator = counterSizes[counterWidth];
-	if (!counterGenerator) {
+	if (typeof counterWidth !== "number" || !counterGenerator) {
 		throw new Error(`Unsupported counterWidth: ${counterWidth}`);
 	}
 
@@ -115,8 +129,12 @@ export function counterKbkdfMiddleFixedCounter(
 	counterWidth,
 	n,
 ) {
+	if (hashAlgorithm !== "sha256" && hashAlgorithm !== "sha384") {
+		throw new Error(`Unsupported hashAlgorithm: "${hashAlgorithm}"`);
+	}
+
 	const counterGenerator = counterSizes[counterWidth];
-	if (!counterGenerator) {
+	if (typeof counterWidth !== "number" || !counterGenerator) {
 		throw new Error(`Unsupported counterWidth: ${counterWidth}`);
 	}
 
