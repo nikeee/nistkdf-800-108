@@ -14,7 +14,7 @@ const emptyBuffer = Buffer.alloc(0);
 
 /**
  * NIST SP800-108 KDF Counter implementation
- * See section 5.1 in https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-108.pdf
+ * See section 5.1 in https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-108r1-upd1.pdf
  *
  * @remarks uses HMAC as PRF and BEFORE_FIXED as counter location.
  *
