@@ -1,6 +1,6 @@
 {
   "name": "nistkdf-800-108",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A pure Node.js implementation of the NISTKDF-800-108.",
   "main": "src/index.js",
   "types": "src/index.d.ts",
