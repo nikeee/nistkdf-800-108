@@ -252,5 +252,54 @@ describe("counting KBKDF", async () => {
 				});
 			}
 		});
+
+		describe("counter middle fixed data", async () => {
+			const byRLen = Object.groupBy(
+				// @ts-expect-error
+				byCounterLocation.MIDDLE_FIXED,
+				e => e.rLen,
+			);
+
+			expect(byCounterLocation.MIDDLE_FIXED?.length).toBeGreaterThan(0);
+			expect(Object.keys(byRLen)).toStrictEqual(["8", "16", "24", "32"]);
+
+			expect(Object.keys(byRLen).length).toBe(4);
+			for (const [counterWidth, suites] of Object.entries(byRLen)) {
+				it(`${counterWidth} bit r length`, async () => {
+					expect(suites?.length).toBe(1);
+					// @ts-expect-error
+					for (const suite of suites) {
+						expect(suite.tests.length).toBe(40);
+						for (const test of suite.tests) {
+							const n = test.COUNT + 1;
+
+							const ki = Buffer.from(test.KI, "hex");
+							const fixedInputBefore = Buffer.from(
+								// @ts-expect-error
+								test.DataBeforeCtrData,
+								"hex",
+							);
+							// @ts-expect-error
+							const fixedInputAfter = Buffer.from(test.DataAfterCtrData, "hex");
+							const koExpected = Buffer.from(test.KO, "hex");
+
+							const keyOutSize = koExpected.length;
+							const ko = counterKbkdfMiddleFixedCounter(
+								"sha384",
+								ki,
+								fixedInputBefore,
+								fixedInputAfter,
+								keyOutSize,
+								// @ts-expect-error
+								/** @type {8|16|24|32} */ Number(counterWidth),
+								n,
+							);
+
+							expect(ko).toStrictEqual(koExpected);
+						}
+					}
+				});
+			}
+		});
 	});
 });
