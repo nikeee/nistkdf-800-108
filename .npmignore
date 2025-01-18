@@ -6,3 +6,4 @@ biome.json
 *.test.json
 *.md
 .editorconfig
+*.json
