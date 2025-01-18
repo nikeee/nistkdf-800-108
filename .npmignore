@@ -5,3 +5,4 @@ biome.json
 *.test.js
 *.test.json
 *.md
+.editorconfig
