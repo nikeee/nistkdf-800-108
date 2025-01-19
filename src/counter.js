@@ -12,7 +12,7 @@ import { availableHashes } from "./hashes.js";
 /**
  * @type {Record<number, (i: number) => Buffer>}
  */
-const counterSizes = {
+const counterSizes = /* @__PURE__ */ {
 	8: i => Buffer.from([0xff & i]),
 	16: i => Buffer.from([(i >> 8) & 0xff, (i >> 0) & 0xff]),
 	24: i => Buffer.from([(i >> 16) & 0xff, (i >> 8) & 0xff, (i >> 0) & 0xff]),
@@ -34,6 +34,8 @@ const counterSizes = {
  * @param {number} n
  *
  * @internal Only exported for testing purposes
+ *
+ * @__PURE__
  */
 export function counterKbkdfBeforeFixedCounter(
 	hashAlgorithm,
@@ -80,6 +82,8 @@ export function counterKbkdfBeforeFixedCounter(
  * @param {number} n
  *
  * @internal Only exported for testing purposes
+ *
+ * @__PURE__
  */
 export function counterKbkdfAfterFixedCounter(
 	hashAlgorithm,
@@ -127,6 +131,8 @@ export function counterKbkdfAfterFixedCounter(
  * @param {number} n
  *
  * @internal Only exported for testing purposes
+ *
+ * @__PURE__
  */
 export function counterKbkdfMiddleFixedCounter(
 	hashAlgorithm,

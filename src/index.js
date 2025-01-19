@@ -20,6 +20,8 @@ const emptyBuffer = Buffer.alloc(0);
  * @param {import("./index.js").CounterBitWidth} [counterWidth] `rLen`. The width of the counter field in bits.
  *
  * @returns {Buffer}
+ *
+ * @__PURE__
  */
 export function counterKdf(
 	sizeBytes,
