@@ -26,4 +26,4 @@ export function counterKdf(
 
 export type CounterBitWidth = 8 | 16 | 24 | 32;
 
-export type SupportedHashAlgorithm = "sha256" | "sha384";
+export type SupportedHashAlgorithm = "sha256" | "sha384" | "sha512";

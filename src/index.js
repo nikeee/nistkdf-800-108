@@ -1,15 +1,8 @@
 // @ts-check
 
 import { counterKbkdfBeforeFixedCounter } from "./counter.js";
+import { availableHashes } from "./hashes.js";
 
-const availableHashes = {
-	sha256: {
-		lenBits: 256,
-	},
-	sha384: {
-		lenBits: 384,
-	},
-};
 const emptyBuffer = Buffer.alloc(0);
 
 /**
@@ -39,7 +32,7 @@ export function counterKdf(
 ) {
 	const hashInfo = availableHashes[hashAlgorithm];
 	if (!hashInfo) {
-		throw new Error(`"${hashAlgorithm}" is an unknown hash algorithm!`);
+		throw new Error(`Unsupported hashAlgorithm: "${hashAlgorithm}"`);
 	}
 
 	const h = hashInfo.lenBits;

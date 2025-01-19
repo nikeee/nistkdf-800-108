@@ -1,5 +1,7 @@
 // @ts-check
-import { createHmac, hash } from "node:crypto";
+import { createHmac } from "node:crypto";
+
+import { availableHashes } from "./hashes.js";
 
 // Methods are duplicated because:
 // - We want to avoid branching inside them
@@ -41,7 +43,10 @@ export function counterKbkdfBeforeFixedCounter(
 	counterWidth,
 	n,
 ) {
-	if (hashAlgorithm !== "sha256" && hashAlgorithm !== "sha384") {
+	if (
+		typeof hashAlgorithm !== "string" ||
+		!Object.hasOwn(availableHashes, hashAlgorithm)
+	) {
 		throw new Error(`Unsupported hashAlgorithm: "${hashAlgorithm}"`);
 	}
 
@@ -84,7 +89,10 @@ export function counterKbkdfAfterFixedCounter(
 	counterWidth,
 	n,
 ) {
-	if (hashAlgorithm !== "sha256" && hashAlgorithm !== "sha384") {
+	if (
+		typeof hashAlgorithm !== "string" ||
+		!Object.hasOwn(availableHashes, hashAlgorithm)
+	) {
 		throw new Error(`Unsupported hashAlgorithm: "${hashAlgorithm}"`);
 	}
 
@@ -129,7 +137,10 @@ export function counterKbkdfMiddleFixedCounter(
 	counterWidth,
 	n,
 ) {
-	if (hashAlgorithm !== "sha256" && hashAlgorithm !== "sha384") {
+	if (
+		typeof hashAlgorithm !== "string" ||
+		!Object.hasOwn(availableHashes, hashAlgorithm)
+	) {
 		throw new Error(`Unsupported hashAlgorithm: "${hashAlgorithm}"`);
 	}
 
