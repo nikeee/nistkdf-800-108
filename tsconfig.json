@@ -8,6 +8,8 @@
 
         "resolveJsonModule": true,
 
+        "erasableSyntaxOnly": true,
+
         "noEmit": true,
         "allowJs": true,
 
