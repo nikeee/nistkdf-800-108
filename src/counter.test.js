@@ -316,7 +316,7 @@ describe("counting KBKDF", async () => {
 					8,
 					1,
 				),
-			).toThrowError(new Error(`Unsupported hashAlgorithm: "sha1"`));
+			).toThrow(new Error(`Unsupported hashAlgorithm: "sha1"`));
 			expect(() =>
 				counterKbkdfAfterFixedCounter(
 					// @ts-expect-error
@@ -327,7 +327,7 @@ describe("counting KBKDF", async () => {
 					8,
 					1,
 				),
-			).toThrowError(new Error(`Unsupported hashAlgorithm: "sha1"`));
+			).toThrow(new Error(`Unsupported hashAlgorithm: "sha1"`));
 			expect(() =>
 				counterKbkdfMiddleFixedCounter(
 					// @ts-expect-error
@@ -339,7 +339,7 @@ describe("counting KBKDF", async () => {
 					8,
 					1,
 				),
-			).toThrowError(new Error(`Unsupported hashAlgorithm: "sha1"`));
+			).toThrow(new Error(`Unsupported hashAlgorithm: "sha1"`));
 		});
 
 		it("should disallow invalid counter widths", async () => {
@@ -353,7 +353,7 @@ describe("counting KBKDF", async () => {
 					23,
 					1,
 				),
-			).toThrowError(new Error("Unsupported counterWidth: 23"));
+			).toThrow(new Error("Unsupported counterWidth: 23"));
 			expect(() =>
 				counterKbkdfAfterFixedCounter(
 					"sha256",
@@ -364,7 +364,7 @@ describe("counting KBKDF", async () => {
 					23,
 					1,
 				),
-			).toThrowError(new Error("Unsupported counterWidth: 23"));
+			).toThrow(new Error("Unsupported counterWidth: 23"));
 			expect(() =>
 				counterKbkdfMiddleFixedCounter(
 					"sha256",
@@ -376,16 +376,16 @@ describe("counting KBKDF", async () => {
 					23,
 					1,
 				),
-			).toThrowError(new Error("Unsupported counterWidth: 23"));
+			).toThrow(new Error("Unsupported counterWidth: 23"));
 		});
 
 		it("should disallow large iterations for 8 bits", async () => {
 			expect(() =>
 				counterKbkdfBeforeFixedCounter("sha256", empty, empty, 16, 8, 65536),
-			).toThrowError(new Error("Iteration count is too high"));
+			).toThrow(new Error("Iteration count is too high"));
 			expect(() =>
 				counterKbkdfAfterFixedCounter("sha256", empty, empty, 16, 8, 256),
-			).toThrowError(new Error("Iteration count is too high"));
+			).toThrow(new Error("Iteration count is too high"));
 			expect(() =>
 				counterKbkdfMiddleFixedCounter(
 					"sha256",
@@ -396,16 +396,16 @@ describe("counting KBKDF", async () => {
 					8,
 					256,
 				),
-			).toThrowError(new Error("Iteration count is too high"));
+			).toThrow(new Error("Iteration count is too high"));
 		});
 
 		it("should disallow large iterations for 16 bits", async () => {
 			expect(() =>
 				counterKbkdfBeforeFixedCounter("sha256", empty, empty, 16, 16, 65536),
-			).toThrowError(new Error("Iteration count is too high"));
+			).toThrow(new Error("Iteration count is too high"));
 			expect(() =>
 				counterKbkdfAfterFixedCounter("sha256", empty, empty, 16, 16, 65536),
-			).toThrowError(new Error("Iteration count is too high"));
+			).toThrow(new Error("Iteration count is too high"));
 			expect(() =>
 				counterKbkdfMiddleFixedCounter(
 					"sha256",
@@ -416,7 +416,7 @@ describe("counting KBKDF", async () => {
 					16,
 					65536,
 				),
-			).toThrowError(new Error("Iteration count is too high"));
+			).toThrow(new Error("Iteration count is too high"));
 		});
 
 		it("should disallow large iterations for 24 bits", async () => {
@@ -429,10 +429,10 @@ describe("counting KBKDF", async () => {
 					24,
 					16777216,
 				),
-			).toThrowError(new Error("Iteration count is too high"));
+			).toThrow(new Error("Iteration count is too high"));
 			expect(() =>
 				counterKbkdfAfterFixedCounter("sha256", empty, empty, 16, 24, 16777216),
-			).toThrowError(new Error("Iteration count is too high"));
+			).toThrow(new Error("Iteration count is too high"));
 			expect(() =>
 				counterKbkdfMiddleFixedCounter(
 					"sha256",
@@ -443,7 +443,7 @@ describe("counting KBKDF", async () => {
 					24,
 					16777216,
 				),
-			).toThrowError(new Error("Iteration count is too high"));
+			).toThrow(new Error("Iteration count is too high"));
 		});
 
 		it("should disallow large iterations for 32 bits", async () => {
@@ -456,7 +456,7 @@ describe("counting KBKDF", async () => {
 					32,
 					4294967296,
 				),
-			).toThrowError(new Error("Iteration count is too high"));
+			).toThrow(new Error("Iteration count is too high"));
 			expect(() =>
 				counterKbkdfAfterFixedCounter(
 					"sha256",
@@ -466,7 +466,7 @@ describe("counting KBKDF", async () => {
 					32,
 					4294967296,
 				),
-			).toThrowError(new Error("Iteration count is too high"));
+			).toThrow(new Error("Iteration count is too high"));
 			expect(() =>
 				counterKbkdfMiddleFixedCounter(
 					"sha256",
@@ -477,7 +477,7 @@ describe("counting KBKDF", async () => {
 					32,
 					4294967296,
 				),
-			).toThrowError(new Error("Iteration count is too high"));
+			).toThrow(new Error("Iteration count is too high"));
 		});
 	});
 });

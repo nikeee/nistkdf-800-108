@@ -28,7 +28,7 @@
   "license": "MIT",
   "devDependencies": {
     "@biomejs/biome": "^2.0.6",
-    "expect": "^29.7.0",
+    "expect": "^30.0.4",
     "typescript": "^5.8.3"
   },
   "engines": {
