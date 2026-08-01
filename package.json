@@ -30,7 +30,7 @@
     "@biomejs/biome": "^2.4.14",
     "@types/node": "^26.1.0",
     "expect": "^30.3.0",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   },
   "engines": {
     "node": ">=22"
